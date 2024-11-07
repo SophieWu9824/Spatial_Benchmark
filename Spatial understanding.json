@@ -1,0 +1,664 @@
+{
+    "short-answer_question": {
+        "1": {
+            "Question": "You have been given a 2 by 2 square grid. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the bottom left corner of the grid, where you find a box turtle. You move right by one step, where you find a table lamp. You move up by one step, where you find anAmerican black bear. You move left by one step, where you find a hand plane. You move down by one step. What will you find?",
+            "Answer": "box turtle"
+        },
+        "2": {
+            "Question": "You have been given an equilateral triangular tile map consisting of 2 rows, where the first row has one tile and the second row has three tiles. Starting from a vertex, you will move along the edges of these tiles. Initially, you are positioned at the bottom left corner of the map, where you find a box turtle. You move right by one step, where you find a hand plane. You move up-right by one step, where you find a guacamole. You move down-right by one step, where you find a table lamp. You move left by one step. What will you find?",
+            "Answer": "hand plane"
+        },
+        "3": {
+            "Question": "You have been given a pointy-topped regular hexagonal tile map consisting of 1 tile. Starting from a vertex, you will move along the edges of the tile. Initially, you are positioned at the top corner of the map, where you find an ice pop. You move downright by one step, where you find a Boxer. You move down by one step, where you find a poke bonnet. You move down-left by one step, where you find a combination lock. You move up-left by one step, where you find a spotlight. You move up by one step, where you find a gibbon. You move up-right by one step. What will you find?",
+            "Answer": "ice pop"
+        },
+        "4": {
+            "Question": "You have been given a circular grid consisting of 4 connected dots. Starting from a vertex, you will move along the edges of the circular grid. Initially, you are positioned on the dot that's located at the top of the grid, where you find a palace. You move around the ring by 1 step in a clockwise direction, where you find a gong. You move around the ring by 2 steps in a clockwise direction, where you find a shopping basket. You move around the ring by 2 steps in a clockwise direction. What will you find?",
+            "Answer": "gong"
+        },
+        "5": {
+            "Question": "You have been given a 3 by 3 square grid with various items located at different indices: a restaurant is at index (1, 2), a half-track is at index (2, 2), a sleeping bag is at index (2, 3), a Scottish Terrier is at index (2, 1), a wok is at index (1, 3), a balance beam is at index (3, 3), a military uniform is at index (3, 1), a marimba is at index (1, 1), and a radio telescope is at index (3, 2). You start at the position where the half-track is located, then you go left by one step, then you go up by one step, then you go right by one step, then you go right by one step, then you go down by one step, then you go down by one step, then you go left by one step, and then you go up by one step. What will you find?",
+            "Answer": "half-track."
+        },
+        "6": {
+            "Question": "You have been given a 3 by 3 square grid. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the bottom-left corner of the grid, where you will find a toilet paper, then you go right, where you will find a stethoscope, then you go right, where you will find a screw. Then you go up, where you will find a modem, then you go left, where you will find a pretzel, then you go left, where you will find an Otterhound. Then you go up, where you will find an Asian elephant, then you go right, where you will find a tile roof, then you go right, where you will find a slip-on shoe. Now you have all the information on the map. You start at the position where the pretzel is located, then you go right by one step, then you go down by one step, and then you go up by one step. What will you find?",
+            "Answer": "modem."
+        },
+        "7": {
+            "Question": "You have been given a tree structure with 9 nodes. The root node is a great white shark. The great white shark has 2 children: a garter snake and a Gila monster. The garter snake has 2 children: a jigsaw puzzle and a moped. The jigsaw puzzle has a child: a Tibetan Terrier. The Tibetan Terrier has no children. The moped has a child: an umbrella. The umbrella has no children. The Gila monster has 2 children: a Christmas stocking and a horse-drawn vehicle. The Christmas stocking has no children. The horse-drawn vehicle has no children. What is the cousin of the moped?",
+            "Answer": "Christmas stocking, horse-drawn vehicle"
+        },
+        "8": {
+            "Question": "You have been given a 3 by 3 square grid. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the top right corner of the grid, where you find a breastplate. You move down by one step, where you find a hummingbird. You move down by one step, where you find an eastern diamondback rattlesnake. You move left by one step, where you find a basketball. You move up by one step, where you find a pulled rickshaw. You move left by one step, where you find a Black and Tan Coonhound. You move up by one step, where you find a breakwater. You move right by one step, where you find a sea cucumber. You move right by one step.What will you find?",
+            "Answer": "breastplate"
+        },
+        "9": {
+            "Question": "You have been given a 3 by 3 square grid. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the top left corner of the grid, where you find a cock. You move down by one step, where you find a geyser. You move right by one step, where you find a jellyfish.You move up by one step, where you find an impala. You move right by one step, where you find a box turtle. You move down by one step, where you find an espresso machine. You move down by one step, where you find a bib. You move left by one step, where you find a megalith. You move up by one step. What will you find?",
+            "Answer": "jellyfish"
+        },
+        "10": {
+            "Question": "You have been given an equilateral triangular tile map consisting of 3 rows, where the first row has one tile, the second row has three tiles, and so on, so that the i th row has 2*i-1 tiles. Starting from a vertex, you will move along the edges of these tiles. Initially, you are positioned at the top corner of the map, where you find an ear. You move down-left by one step, where you find a sundial. You move down-left by one step, where you find a flagpole. You move down-right by one step, where you find a West Highland White Terrier. You move right by one step, where you find a Sussex Spaniel. You move up-right by one step, where you find a howler monkey. You move left by one step, where you find a Basset Hound. You move up-right by one step, where you find an ice pop. You move up-left by one step. What will you find?",
+            "Answer": "ear"
+        },
+        "11": {
+            "Question": "You have been given an equilateral triangular tile map consisting of 3 rows, where the first row has one tile, the second row has three tiles, and so on, so that the i th row has 2*i-1 tiles. Starting from a vertex, you will move along the edges of these tiles. Initially, you are positioned at the bottom right corner of the map, where you find a measuring cup. You move left by one step, where you find a binoculars. You move left by one step, where you find a rotary dial telephone. You move left by one step, where you find a space heater. You move up-right by one step, where you find a bolo tie. You move right by one step, where you find an African bush elephant. You move up-right by one step, where you find a ladle. You move left by one step, where you find an English Setter. You move down-left by one step. What will you find?",
+            "Answer": "bolo tie"
+        },
+        "12": {
+            "Question": "You have been given a pointy-topped regular hexagonal tile map consisting of 2 rows, where the first row has one tile and the second row has two tiles. Starting from a vertex, you will move along the edges of these tiles. Initially, you are positioned at the bottom left corner of the map, where you find a drilling rig. You move up by one step, where you find a carousel. You move upright by one step, where you find a loupe. You move up by one step, where you find a gown. You move up-right by one step, where you find a printer. You move down-right by one step, where you find a black-footed ferret. You move down by one step, where you find a station wagon. You move down-left by one step, where you find a bath towel. You move up-left by one step. What will you find?",
+            "Answer": "loupe"
+        },
+        "13": {
+            "Question": "You have been given a pointy-topped regular hexagonal tile map consisting of 2 rows, where the first row has one tile and the second row has two tiles. Starting from a vertex, you will move along the edges of these tiles. Initially, you are positioned at the top corner of the map, where you find a bucket. You move down-left by one step, where you find a gown. You move down by one step, where you find a racket. You move down-right by one step, where you find an amphibious vehicle. You move down by one step, where you find a CD player. You move down-left by one step, where you find a T-shirt. You move up-left by one step, where you find a library. You move up by one step, where you find a moped. You move up-right by one step. What will you find?",
+            "Answer": "racket"
+        },
+        "14": {
+            "Question": "You have been given a circular grid consisting of 12 connected dots. Starting from a vertex, you will move along the edges of the circular grid. Initially, you are positioned on the dot that's located at the top of the grid, where you find a milk can. You move around the ring by 4 steps in a counter-clockwise direction, where you find a mushroom. You move around the ring by 9 steps in a counter-clockwise direction, where you find a spotlight. You move around the ring by 1 step in a counter-clockwise direction, where you find a shopping basket. You move around the ring by 5 steps in a counter-clockwise direction, where you find a safety pin. You move around the ring by 8 steps in a counterclockwise direction, where you find a poke bonnet. You move around the ring by 10 steps in a clockwise direction, where you find a Standard Schnauzer. You move around the ring by 6 steps in a counter-clockwise direction, where you find a shovel. You move around the ring by 4 steps in a clockwise direction. What will you find?",
+            "Answer": "safety pin"
+        },
+        "15": {
+            "Question": "You have been given a circular grid consisting of 12 connected dots. Starting from a vertex, you will move along the edges of the circular grid. Initially, you are positioned on the dot that's located at the top of the grid, where you find a giant panda. You move around the ring by 9 steps in a clockwise direction, where you find a pickup truck. You move around the ring by 6 steps in a counterclockwise direction, where you find a car wheel. You move around the ring by 5 steps in a clockwise direction, where you find a vulture. You move around the ring by 3 steps in a clockwise direction, where you find a quill. You move around the ring by 5 steps in a counter-clockwise direction, where you find a fountain pen. You move around the ring by 11 steps in a counter-clockwise direction, where you find a snoek. You move around the ring by 6 steps in a counter-clockwise direction, where you find a military uniform. You move around the ring by 7 steps in a clockwise direction. What will you find?",
+            "Answer": "vulture"
+        },
+        "16": {
+            "Question": "You have been given a pointy-topped regular hexagonal tile map consisting of 1 tile. Starting from a vertex, you will move along the edges of the tile. Initially, you are positioned at the top corner of the map, where you find an ice pop. You move down-right by one step, where you find a Boxer. You move down by one step, where you find a poke bonnet. You move down-left by one step, where you find a combination lock. You move up-left by one step, where you find a spotlight. You move up by one step, where you find a gibbon. You move up-right by one step. What will you find?",
+            "Answer": "ice pop"
+        },
+        "17": {
+            "Question": "You have been given a pointy-topped regular hexagonal tile map consisting of 1 tile. Starting from a vertex, you will move along the edges of the tile. Initially, you are positioned at the top corner of the map, where you find an Airedale Terrier. You move down-left by one step, where you find a partridge. You move down by one step, where you find a bassinet. You move down-right by one step, where you find a purse. You move up-right by one step, where you find a maraca. You move up by one step, where you find a lakeshore. You move up-left by one step. What will you find?",
+            "Answer": "Airedale Terrier"
+        },
+        "18": {
+            "Question": "You have been given a pointy-topped regular hexagonal tile map consisting of 1 tile. Starting from a vertex, you will move along the edges of the tile. Initially, you are positioned at the top corner of the map, where you find a bullock cart. You move down-left by one step, where you find a pan flute. You move down by one step, where you find a Welsh Springer Spaniel. You move down-right by one step, where you find a common gallinule. You move up-right by one step, where you find an abaya. You move up by one step, where you find a disc brake. You move up-left by one step. What will you find?",
+            "Answer": "bullock cart"
+        },
+        "19": {
+            "Question": "You have been given a pointy-topped regular hexagonal tile map consisting of 1 tile. Starting from a vertex, you will move along the edges of the tile. Initially, you are positioned at the top corner of the map, where you find a swing. You move down-right by one step, where you find a patas monkey. You move down by one step, where you find a freight car. You move down-left by one step, where you find a passenger car. You move up-left by one step, where you find a motorboat. You move up by one step, where you find a tripod. You move up-right by one step. What will you find?",
+            "Answer": "swing"
+        },
+        "20": {
+            "Question": "You have been given a pointy-topped regular hexagonal tile map consisting of 1 tile. Starting from a vertex, you will move along the edges of the tile. Initially, you are positioned at the bottom right corner of the map, where you find a husky. You move up by one step, where you find a giant panda. You move up-left by one step, where you find a moped. You move down-left by one step, where you find a crane (machine). You move down by one step, where you find a scooter. You move down-right by one step, where you find a hoop skirt. You move up-right by one step. What will you find?",
+            "Answer": "husky"
+        },
+        "21": {
+            "Question": "You have been given a pointy-topped regular hexagonal tile map consisting of 1 tile. Starting from a vertex, you will move along the edges of the tile. Initially, you are positioned at the top corner of the map, where you find a scoreboard. You move down-left by one step, where you find a coil. You move down by one step, where you find a bustard. You move down-right by one step, where you find a polar bear. You move up-right by one step, where you find a cassette. You move up by one step, where you find a tights. You move up-left by one step. What will you find?",
+            "Answer": "scoreboard"
+        },
+        "22": {
+            "Question": "You have been given a pointy-topped regular hexagonal tile map consisting of 1 tile. Starting from a vertex, you will move along the edges of the tile. Initially, you are positioned at the bottom left corner of the map, where you find a junco. You move down-right by one step, where you find a military cap. You move up-right by one step, where you find a Saharan horned viper. You move up by one step, where you find a hen. You move up-left by one step, where you find a park bench. You move down-left by one step, where you find a front curtain. You move down by one step. What will you find?",
+            "Answer": "junco"
+        },
+        "23": {
+            "Question": "You have been given a pointy-topped regular hexagonal tile map consisting of 1 tile. Starting from a vertex, you will move along the edges of the tile. Initially, you are positioned at the bottom right corner of the map, where you find a flamingo. You move up by one step, where you find a pinwheel. You move up-left by one step, where you find a stingray. You move down-left by one step, where you find a gong. You move down by one step, where you find a chocolate syrup. You move down-right by one step, where you find a butcher shop. You move up-right by one step. What will you find?",
+            "Answer": "flamingo"
+        },
+        "24": {
+            "Question": "You have been given a pointy-topped regular hexagonal tile map consisting of 1 tile. Starting from a vertex, you will move along the edges of the tile. Initially, you are positioned at the bottom left corner of the map, where you find a sweatshirt. You move up by one step, where you find a ptarmigan. You move up-right by one step, where you find a sidewinder. You move down-right by one step, where you find a tennis ball. You move down by one step, where you find a measuring cup. You move down-left by one step, where you find a shoe store. You move up-left by one step. What will you find?",
+            "Answer": "sweatshirt"
+        },
+        "25": {
+            "Question": "You have been given a pointy-topped regular hexagonal tile map consisting of 1 tile. Starting from a vertex, you will move along the edges of the tile. Initially, you are positioned at the bottom left corner of the map, where you find a gas mask. You move up by one step, where you find a stretcher. You move up-right by one step, where you find a lipstick. You move down-right by one step, where you find an American black bear. You move down by one step, where you find a zucchini. You move down-left by one step, where you find a trilobite. You move up-left by one step. What will you find?",
+            "Answer": "gas mask"
+        },
+        "26": {
+            "Question": "You have been given a pointy-topped regular hexagonal tile map consisting of 1 tile. Starting from a vertex, you will move along the edges of the tile. Initially, you are positioned at the bottom right corner of the map, where you find a Boston Terrier. You move up by one step, where you find a manhole cover. You move up-left by one step, where you find a purse. You move down-left by one step, where you find a rugby ball. You move down by one step, where you find a toilet paper. You move down-right by one step, where you find an orange. You move up-right by one step. What will you find?",
+            "Answer": "Boston Terrier"
+        },
+        "27": {
+            "Question": "You have been given a pointy-topped regular hexagonal tile map consisting of 1 tile. Starting from a vertex, you will move along the edges of the tile. Initially, you are positioned at the bottom right corner of the map, where you find a cassette player. You move down-left by one step, where you find a newt. You move up-left by one step, where you find a shovel. You move up by one step, where you find a Griffon Bruxellois. You move up-right by one step, where you find a mosquito net. You move down-right by one step, where you find a window shade. You move down by one step. What will you find?",
+            "Answer": "cassette player"
+        },
+        "28": {
+            "Question": "You have been given a pointy-topped regular hexagonal tile map consisting of 1 tile. Starting from a vertex, you will move along the edges of the tile. Initially, you are positioned at the bottom right corner of the map, where you find a coil. You move up by one step, where you find a Dutch oven. You move up-left by one step, where you find a paper towel. You move down-left by one step, where you find a barn. You move down by one step, where you find a leopard. You move down-right by one step, where you find a go-kart. You move up-right by one step. What will you find?",
+            "Answer": "coil"
+        },
+        "29": {
+            "Question": "You have been given a pointy-topped regular hexagonal tile map consisting of 1 tile. Starting from a vertex, you will move along the edges of the tile. Initially, you are positioned at the bottom right corner of the map, where you find a space bar. You move up by one step, where you find a bow. You move up-left by one step, where you find a cowboy hat. You move down-left by one step, where you find an Australian Kelpie. You move down by one step, where you find a potter's wheel. You move down-right by one step, where you find a bath towel. You move up-right by one step. What will you find?",
+            "Answer": "space bar"
+        },
+        "30": {
+            "Question": "You have been given a pointy-topped regular hexagonal tile map consisting of 1 tile. Starting from a vertex, you will move along the edges of the tile. Initially, you are positioned at the bottom right corner of the map, where you find a shipwreck. You move down-left by one step, where you find a Beagle. You move up-left by one step, where you find a crayfish. You move up by one step, where you find an eggnog. You move up-right by one step, where you find a terrapin. You move down-right by one step, where you find a harmonica. You move down by one step. What will you find?",
+            "Answer": "shipwreck"
+        },
+        "31": {
+            "Question": "You have been given a pointy-topped regular hexagonal tile map consisting of 1 tile. Starting from a vertex, you will move along the edges of the tile. Initially, you are positioned at the bottom left corner of the map, where you find a hatchet. You move up by one step, where you find a flute. You move up-right by one step, where you find a couch. You move down-right by one step, where you find a Soft-coated Wheaten Terrier. You move down by one step, where you find a doormat. You move down-left by one step, where you find a great egret. You move up-left by one step. What will you find?",
+            "Answer": "hatchet"
+        },
+        "32": {
+            "Question": "You have been given a pointy-topped regular hexagonal tile map consisting of 1 tile. Starting from a vertex, you will move along the edges of the tile. Initially, you are positioned at the top corner of the map, where you find a bridegroom. You move down-left by one step, where you find a frying pan. You move down by one step, where you find a seashore. You move down-right by one step, where you find a recreational vehicle. You move up-right by one step, where you find a tiger. You move up by one step, where you find an espresso machine. You move up-left by one step. What will you find?",
+            "Answer": "bridegroom"
+        },
+        "33": {
+            "Question": "You have been given a pointy-topped regular hexagonal tile map consisting of 1 tile. Starting from a vertex, you will move along the edges of the tile. Initially, you are positioned at the top corner of the map, where you find a slug. You move down-right by one step, where you find a French horn. You move down by one step, where you find a garbage truck. You move down-left by one step, where you find a marmoset. You move up-left by one step, where you find a European green lizard. You move up by one step, where you find a rose hip. You move up-right by one step. What will you find?",
+            "Answer": "slug"
+        },
+        "34": {
+            "Question": "You have been given a pointy-topped regular hexagonal tile map consisting of 1 tile. Starting from a vertex, you will move along the edges of the tile. Initially, you are positioned at the bottom right corner of the map, where you find a movie theater. You move up by one step, where you find a pulled rickshaw. You move up-left by one step, where you find a mask. You move down-left by one step, where you find an ambulance. You move down by one step, where you find a mountain bike. You move down-right by one step, where you find a Leonberger. You move up-right by one step. What will you find?",
+            "Answer": "movie theater"
+        },
+        "35": {
+            "Question": "You have been given a pointy-topped regular hexagonal tile map consisting of 1 tile. Starting from a vertex, you will move along the edges of the tile. Initially, you are positioned at the bottom right corner of the map, where you find a fly. You move up by one step, where you find a match. You move up-left by one step, where you find a bookstore. You move down-left by one step, where you find an Indian cobra. You move down by one step, where you find an Appenzeller Sennenhund. You move down-right by one step, where you find a Miniature Schnauzer. You move up-right by one step. What will you find?",
+            "Answer": "fly"
+        },
+        "36": {
+            "Question": "You have been given a pointy-topped regular hexagonal tile map consisting of 1 tile. Starting from a vertex, you will move along the edges of the tile. Initially, you are positioned at the bottom right corner of the map, where you find a microphone. You move up by one step, where you find a pole. You move up-left by one step, where you find a Flat-Coated Retriever. You move down-left by one step, where you find a ballpoint pen. You move down by one step, where you find an Italian Greyhound. You move down-right by one step, where you find a CD player. You move up-right by one step. What will you find?",
+            "Answer": "microphone"
+        },
+        "37": {
+            "Question": "You have been given a pointy-topped regular hexagonal tile map consisting of 1 tile. Starting from a vertex, you will move along the edges of the tile. Initially, you are positioned at the bottom left corner of the map, where you find a pitcher. You move up by one step, where you find a hare. You move up-right by one step, where you find a common gallinule. You move down-right by one step, where you find a Maltese. You move down by one step, where you find a ping-pong ball. You move down-left by one step, where you find a meerkat. You move up-left by one step. What will you find?",
+            "Answer": "pitcher"
+        },
+        "38": {
+            "Question": "You have been given a pointy-topped regular hexagonal tile map consisting of 1 tile. Starting from a vertex, you will move along the edges of the tile. Initially, you are positioned at the bottom right corner of the map, where you find a chime. You move down-left by one step, where you find a guinea pig. You move up-left by one step, where you find a Great Dane. You move up by one step, where you find a Malinois. You move up-right by one step, where you find a teddy bear. You move down-right by one step, where you find an abacus. You move down by one step. What will you find?",
+            "Answer": "chime"
+        },
+        "39": {
+            "Question": "You have been given a pointy-topped regular hexagonal tile map consisting of 1 tile. Starting from a vertex, you will move along the edges of the tile. Initially, you are positioned at the bottom left corner of the map, where you find a stick insect. You move up by one step, where you find a ladle. You move up-right by one step, where you find a traffic sign. You move down-right by one step, where you find a cuirass. You move down by one step, where you find a langur. You move down-left by one step, where you find a pickup truck. You move up-left by one step. What will you find?",
+            "Answer": "stick insect"
+        },
+        "40": {
+            "Question": "You have been given a pointy-topped regular hexagonal tile map consisting of 1 tile. Starting from a vertex, you will move along the edges of the tile. Initially, you are positioned at the bottom left corner of the map, where you find a hippopotamus. You move up by one step, where you find a viaduct. You move up-right by one step, where you find a rotisserie. You move down-right by one step, where you find a crane (machine). You move down by one step, where you find a crossword. You move down-left by one step, where you find a Kuvasz. You move up-left by one step. What will you find?",
+            "Answer": "hippopotamus"
+        },
+        "41": {
+            "Question": "You have been given a pointy-topped regular hexagonal tile map consisting of 1 tile. Starting from a vertex, you will move along the edges of the tile. Initially, you are positioned at the bottom right corner of the map, where you find a bullock cart. You move up by one step, where you find a syringe. You move up-left by one step, where you find a rotisserie. You move down-left by one step, where you find an upright piano. You move down by one step, where you find a ski. You move down-right by one step, where you find a revolver. You move up-right by one step. What will you find?",
+            "Answer": "bullock cart"
+        },
+        "42": {
+            "Question": "You have been given a pointy-topped regular hexagonal tile map consisting of 1 tile. Starting from a vertex, you will move along the edges of the tile. Initially, you are positioned at the top corner of the map, where you find a mortar. You move down-left by one step, where you find a chain mail. You move down by one step, where you find a Dobermann. You move down-right by one step, where you find a Kuvasz. You move up-right by one step, where you find a car wheel. You move up by one step, where you find a hamster. You move up-left by one step. What will you find?",
+            "Answer": "mortar"
+        },
+        "43": {
+            "Question": "You have been given a pointy-topped regular hexagonal tile map consisting of 1 tile. Starting from a vertex, you will move along the edges of the tile. Initially, you are positioned at the top corner of the map, where you find a tennis ball. You move down-left by one step, where you find a hatchet. You move down by one step, where you find a snail. You move down-right by one step, where you find a jay. You move up-right by one step, where you find an ice cream. You move up by one step, where you find a junco. You move up-left by one step. What will you find?",
+            "Answer": "tennis ball"
+        },
+        "44": {
+            "Question": "You have been given a pointy-topped regular hexagonal tile map consisting of 1 tile. Starting from a vertex, you will move along the edges of the tile. Initially, you are positioned at the bottom right corner of the map, where you find an abaya. You move down-left by one step, where you find a chameleon. You move up-left by one step, where you find a European garden spider. You move up by one step, where you find a bobsleigh. You move up-right by one step, where you find a waffle iron. You move down-right by one step, where you find an American robin. You move down by one step. What will you find?",
+            "Answer": "abaya"
+        },
+        "45": {
+            "Question": "You have been given a pointy-topped regular hexagonal tile map consisting of 1 tile. Starting from a vertex, you will move along the edges of the tile. Initially, you are positioned at the bottom left corner of the map, where you find a nail. You move down-right by one step, where you find a window shade. You move up-right by one step, where you find an acorn squash. You move up by one step, where you find a Rhodesian Ridgeback. You move up-left by one step, where you find a Treeing Walker Coonhound. You move down-left by one step, where you find a trilobite. You move down by one step. What will you find?",
+            "Answer": "nail"
+        },
+        "46": {
+            "Question": "You have been given a 3 by 3 pointy-topped regular rhombus tile map. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the right corner of the grid, where you find a balance beam. You move down-left by one step, where you find a radio telescope. You move up-left by one step, where you find a half-track. You move up-left by one step, where you find a restaurant. You move up-right by one step, where you find a wok. You move down-right by one step, where you find a sleeping bag. You move down-left by one step. What will you find?",
+            "Answer": "half-track"
+        },
+        "47": {
+            "Question": "You have been given a 3 by 3 pointy-topped regular rhombus tile map. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the right corner of the grid, where you find a quail. You move up-left by one step, where you find a Pekingese. You move up-left by one step, where you find a broom. You move down-left by one step, where you find a unicycle. You move down-left by one step, where you find a crossword. You move down-right by one step, where you find a gong. You move up-right by one step, where you find an ant. You move up-right by one step. What will you find?",
+            "Answer": "Pekingese"
+        },
+        "48": {
+            "Question": "You have been given a 3 by 3 pointy-topped regular rhombus tile map. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the top corner of the grid, where you find a cock. You move down-left by one step, where you find a geyser. You move down-right by one step, where you find a jellyfish. You move up-right by one step, where you find an impala. You move down-right by one step, where you find a box turtle. You move down-left by one step, where you find an espresso machine. You move down-left by one step, where you find a bib. You move up-left by one step, where you find a megalith. You move up-right by one step. What will you find?",
+            "Answer": "jellyfish"
+        },
+        "49": {
+            "Question": "You have been given a 3 by 3 pointy-topped regular rhombus tile map. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the bottom corner of the grid, where you find a rifle. You move up-left by one step, where you find a white-headed capuchin. You move up-left by one step, where you find a small white. You move up-right by one step, where you find a terrapin. You move up-right by one step, where you find a pier. You move down-right by one step, where you find an envelope. You move down-left by one step, where you find a hummingbird. You move down-left by one step. What will you find?",
+            "Answer": "white-headed capuchin"
+        },
+        "50": {
+            "Question": "You have been given a 3 by 3 pointy-topped regular rhombus tile map. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the top corner of the grid, where you find a Giant Schnauzer. You move down-left by one step, where you find a Miniature Poodle. You move down-right by one step, where you find a weighing scale. You move up-right by one step, where you find a gossamer-winged butterfly. You move down-right by one step, where you find a speaker. You move down-left by one step, where you find a tank suit. You move up-left by one step. What will you find?",
+            "Answer": "weighing scale"
+        },
+        "51": {
+            "Question": "You have been given a 3 by 3 pointy-topped regular rhombus tile map. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the top corner of the grid, where you find an orangutan. You move down-right by one step, where you find a crossword. You move up-left by one step. What will you find?",
+            "Answer": "orangutan"
+        },
+        "52": {
+            "Question": "You have been given a 3 by 3 pointy-topped regular rhombus tile map. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the top corner of the grid, where you find a barn spider. You move down-right by one step, where you find a plunger. You move down-right by one step, where you find a snail. You move down-left by one step, where you find a chimpanzee. You move down-left by one step, where you find a military uniform. You move up-left by one step, where you find a meatloaf. You move up-right by one step, where you find an English Springer Spaniel. You move up-right by one step. What will you find?",
+            "Answer": "plunger"
+        },
+        "53": {
+            "Question": "You have been given a 3 by 3 pointy-topped regular rhombus tile map. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the right corner of the grid, where you find a kimono. You move down-left by one step, where you find a toy store. You move up-right by one step. What will you find?",
+            "Answer": "kimono"
+        },
+        "54": {
+            "Question": "You have been given a 3 by 3 pointy-topped regular rhombus tile map. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the bottom corner of the grid, where you find a bee eater. You move up-left by one step, where you find a ring-tailed lemur. You move up-left by one step, where you find a vacuum cleaner. You move up-right by one step, where you find a modem. You move up-right by one step, where you find a marimba. You move down-right by one step, where you find a convertible. You move down-left by one step, where you find a tub. You move down-left by one step. What will you find?",
+            "Answer": "ring-tailed lemur"
+        },
+        "55": {
+            "Question": "You have been given a 3 by 3 pointy-topped regular rhombus tile map. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the top corner of the grid, where you find an entertainment center. You move down-right by one step, where you find a garter snake. You move down-right by one step, where you find a washing machine. You move down-left by one step, where you find a window shade. You move down-left by one step, where you find a hermit crab. You move up-left by one step, where you find a bolete. You move up-left by one step, where you find a koala. You move up-right by one step, where you find an Irish Setter. You move down-right by one step, where you find a rugby ball. You move up-right by one step. What will you find?",
+            "Answer": "garter snake"
+        },
+        "56": {
+            "Question": "You have been given a 3 by 3 pointy-topped regular rhombus tile map. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the left corner of the grid, where you find a sulphur-crested cockatoo. You move down-right by one step, where you find a plow. You move down-right by one step, where you find a Malinois. You move up-right by one step, where you find a barbershop. You move up-left by one step, where you find a washing machine. You move up-left by one step, where you find a mongoose. You move up-right by one step, where you find a sarong. You move down-right by one step, where you find an Afghan Hound. You move down-left by one step. What will you find?",
+            "Answer": "washing machine"
+        },
+        "57": {
+            "Question": "You have been given a 3 by 3 pointy-topped regular rhombus tile map. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the top corner of the grid, where you find a wolf spider. You move down-right by one step, where you find a plastic bag. You move down-right by one step, where you find a flagpole. You move down-left by one step, where you find a trifle. You move up-left by one step, where you find a golf ball. You move up-right by one step. What will you find?",
+            "Answer": "plastic bag"
+        },
+        "58": {
+            "Question": "You have been given a 3 by 3 pointy-topped regular rhombus tile map. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the left corner of the grid, where you find a through arch bridge. You move down-right by one step, where you find a laptop computer. You move up-right by one step, where you find a weevil. You move up-left by one step, where you find a tailed frog. You move down-left by one step. What will you find?",
+            "Answer": "through arch bridge"
+        },
+        "59": {
+            "Question": "You have been given a 3 by 3 pointy-topped regular rhombus tile map. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the right corner of the grid, where you find a breastplate. You move down-left by one step, where you find a hummingbird. You move down-left by one step, where you find an eastern diamondback rattlesnake. You move up-left by one step, where you find a basketball. You move up-right by one step, where you find a pulled rickshaw. You move up-left by one step, where you find a Black and Tan Coonhound. You move up-right by one step, where you find a breakwater. You move down-right by one step, where you find a sea cucumber. You move down-right by one step. What will you find?",
+            "Answer": "breastplate"
+        },
+        "60": {
+            "Question": "You have been given a 3 by 3 pointy-topped regular rhombus tile map. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the top corner of the grid, where you find a joystick. You move down-left by one step, where you find a sunscreen. You move down-right by one step, where you find a platypus. You move down-right by one step, where you find a terrapin. You move down-left by one step, where you find a red admiral. You move up-left by one step, where you find a china cabinet. You move up-left by one step, where you find a tank. You move up-right by one step. What will you find?",
+            "Answer": "sunscreen"
+        },
+        "61": {
+            "Question": "You have been given a 3 by 3 pointy-topped regular rhombus tile map. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the bottom corner of the grid, where you find a nipple. You move up-right by one step, where you find a brain coral. You move up-right by one step, where you find a dishwasher. You move up-left by one step, where you find a mousetrap. You move up-left by one step, where you find a doormat. You move down-left by one step, where you find a spoonbill. You move down-left by one step, where you find a leaf beetle. You move down-right by one step, where you find a garbage truck. You move down-right by one step. What will you find?",
+            "Answer": "nipple"
+        },
+        "62": {
+            "Question": "You have been given a 3 by 3 pointy-topped regular rhombus tile map. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the bottom corner of the grid, where you find a soup bowl. You move up-left by one step, where you find a slug. You move up-left by one step, where you find a leafhopper. You move up-right by one step, where you find a toy store. You move down-right by one step, where you find an Asian elephant. You move down-left by one step. What will you find?",
+            "Answer": "slug"
+        },
+        "63": {
+            "Question": "You have been given a 3 by 3 pointy-topped regular rhombus tile map. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the bottom corner of the grid, where you find an Indian cobra. You move up-left by one step, where you find an electric locomotive. You move up-left by one step, where you find a gown. You move up-right by one step, where you find an abacus. You move down-right by one step, where you find an Affenpinscher. You move down-left by one step. What will you find?",
+            "Answer": "electric locomotive"
+        },
+        "64": {
+            "Question": "You have been given a 3 by 3 pointy-topped regular rhombus tile map. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the top corner of the grid, where you find a ladle. You move down-right by one step, where you find a hamper. You move down-right by one step, where you find a passenger car. You move down-left by one step, where you find a trombone. You move down-left by one step, where you find a proboscis monkey. You move up-left by one step, where you find a carton. You move up-left by one step, where you find a boa constrictor. You move up-right by one step, where you find a fig. You move down-right by one step, where you find a sawmill. You move up-right by one step. What will you find?",
+            "Answer": "hamper"
+        },
+        "65": {
+            "Question": "You have been given a 3 by 3 pointy-topped regular rhombus tile map. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the bottom corner of the grid, where you find an echidna. You move up-left by one step, where you find a parking meter. You move up-left by one step, where you find a Groenendael. You move up-right by one step, where you find a mashed potato. You move down-right by one step, where you find an abacus. You move down-right by one step, where you find a corn. You move up-right by one step, where you find a brain coral. You move up-left by one step, where you find a weighing scale. You move up-left by one step, where you find a Cairn Terrier. You move down-left by one step. What will you find?",
+            "Answer": "mashed potato"
+        },
+        "66": {
+            "Question": "You have been given a 3 by 3 pointy-topped regular rhombus tile map. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the left corner of the grid, where you find a menu. You move down-right by one step, where you find a shopping basket. You move down-right by one step, where you find a clogs. You move up-right by one step, where you find a pot pie. You move up-left by one step, where you find a consomme. You move down-left by one step. What will you find?",
+            "Answer": "shopping basket"
+        },
+        "67": {
+            "Question": "You have been given a 3 by 3 pointy-topped regular rhombus tile map. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the left corner of the grid, where you find a toilet seat. You move down-right by one step, where you find a ring-necked snake. You move up-right by one step, where you find a cradle. You move down-right by one step, where you find a crossword. You move up-right by one step, where you find a baseball player. You move up-left by one step, where you find a patas monkey. You move up-left by one step, where you find a cauliflower. You move down-left by one step, where you find a Pomeranian. You move down-right by one step. What will you find?",
+            "Answer": "cradle"
+        },
+        "68": {
+            "Question": "You have been given a 3 by 3 pointy-topped regular rhombus tile map. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the bottom corner of the grid, where you find a corn. You move up-right by one step, where you find a shipwreck. You move up-left by one step, where you find a shield. You move down-left by one step, where you find a Vizsla. You move up-left by one step, where you find a cicada. You move up-right by one step, where you find a meerkat. You move down-right by one step. What will you find?",
+            "Answer": "shield"
+        },
+        "69": {
+            "Question": "You have been given a 3 by 3 pointy-topped regular rhombus tile map. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the bottom corner of the grid, where you find a power drill. You move up-left by one step, where you find a sock. You move up-right by one step, where you find a Dalmatian. You move up-right by one step, where you find a jeep. You move down-right by one step, where you find an hourglass. You move down-left by one step, where you find a slip-on shoe. You move up-left by one step. What will you find?",
+            "Answer": "Dalmatian"
+        },
+        "70": {
+            "Question": "You have been given a 3 by 3 pointy-topped regular rhombus tile map. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the bottom corner of the grid, where you find a marmot. You move up-left by one step, where you find an ostrich. You move up-left by one step, where you find a killer whale. You move up-right by one step, where you find a viaduct. You move down-right by one step, where you find a sandal. You move down-left by one step. What will you find?",
+            "Answer": "ostrich"
+        },
+        "71": {
+            "Question": "You have been given a 3 by 3 pointy-topped regular rhombus tile map. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the left corner of the grid, where you find a chimpanzee. You move down-right by one step, where you find a potter's wheel. You move up-right by one step, where you find a killer whale. You move up-right by one step, where you find a nail. You move up-left by one step, where you find a hare. You move down-left by one step, where you find a shield. You move down-left by one step. What will you find?",
+            "Answer": "chimpanzee"
+        },
+        "72": {
+            "Question": "You have been given a 3 by 3 pointy-topped regular rhombus tile map. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the left corner of the grid, where you find a hoop skirt. You move up-right by one step, where you find a plastic bag. You move down-right by one step, where you find an albatross. You move up-right by one step, where you find a jaguar. You move up-left by one step, where you find a warthog. You move down-left by one step. What will you find?",
+            "Answer": "plastic bag"
+        },
+        "73": {
+            "Question": "You have been given a 3 by 3 pointy-topped regular rhombus tile map. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the top corner of the grid, where you find a common squirrel monkey. You move down-right by one step, where you find a wild boar. You move down-left by one step, where you find a shower cap. You move down-left by one step, where you find a pig. You move up-left by one step, where you find a jaguar. You move up-right by one step, where you find a consomme. You move up-right by one step. What will you find?",
+            "Answer": "common squirrel monkey"
+        },
+        "74": {
+            "Question": "You have been given a 3 by 3 pointy-topped regular rhombus tile map. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the right corner of the grid, where you find a T-shirt. You move down-left by one step, where you find a bow tie. You move up-left by one step, where you find a brown bear. You move down-left by one step, where you find a mosque. You move up-left by one step, where you find a Chesapeake Bay Retriever. You move up-right by one step, where you find a grille. You move up-right by one step, where you find a dragonfly. You move down-right by one step, where you find a geyser. You move down-right by one step. What will you find?",
+            "Answer": "T-shirt"
+        },
+        "75": {
+            "Question": "You have been given a 3 by 3 pointy-topped regular rhombus tile map. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the right corner of the grid, where you find a gazelle. You move down-left by one step, where you find a safe. You move up-left by one step, where you find a pillow. You move down-left by one step, where you find a southern black widow. You move down-right by one step, where you find a combination lock. You move up-right by one step. What will you find?",
+            "Answer": "safe"
+        },
+        "76": {
+            "Question": "You have been given a circular grid consisting of 8 connected dots. Starting from a vertex, you will move along the edges of the circular grid. Initially, you are positioned on the dot that's located at the top of the grid, where you find a wing. You move around the ring by 5 steps in a counter-clockwise direction, where you find a starfish. You move around the ring by 8 steps in a clockwise direction. What will you find?",
+            "Answer": "starfish"
+        },
+        "77": {
+            "Question": "You have been given a circular grid consisting of 8 connected dots. Starting from a vertex, you will move along the edges of the circular grid. Initially, you are positioned on the dot that's located at the top of the grid, where you find a volcano. You move around the ring by 6 steps in a clockwise direction, where you find a tandem bicycle. You move around the ring by 8 steps in a clockwise direction. What will you find?",
+            "Answer": "tandem bicycle"
+        },
+        "78": {
+            "Question": "You have been given a circular grid consisting of 8 connected dots. Starting from a vertex, you will move along the edges of the circular grid. Initially, you are positioned on the dot that's located at the top of the grid, where you find a tobacco shop. You move around the ring by 4 steps in a counter-clockwise direction, where you find a terrapin. You move around the ring by 3 steps in a counter-clockwise direction, where you find a corn. You move around the ring by 8 steps in a clockwise direction. What will you find?",
+            "Answer": "corn"
+        },
+        "79": {
+            "Question": "You have been given a circular grid consisting of 8 connected dots. Starting from a vertex, you will move along the edges of the circular grid. Initially, you are positioned on the dot that's located at the top of the grid, where you find a ring-tailed lemur. You move around the ring by 8 steps in a counter-clockwise direction. What will you find?",
+            "Answer": "ring-tailed lemur"
+        },
+        "80": {
+            "Question": "You have been given a circular grid consisting of 8 connected dots. Starting from a vertex, you will move along the edges of the circular grid. Initially, you are positioned on the dot that's located at the top of the grid, where you find an Australian Terrier. You move around the ring by 2 steps in a clockwise direction, where you find a library. You move around the ring by 5 steps in a clockwise direction, where you find a trench coat. You move around the ring by 3 steps in a counter-clockwise direction, where you find a koala. You move around the ring by 5 steps in a clockwise direction, where you find a Vizsla. You move around the ring by 7 steps in a clockwise direction. What will you find?",
+            "Answer": "Australian Terrier"
+        },
+        "81": {
+            "Question": "You have been given a circular grid consisting of 8 connected dots. Starting from a vertex, you will move along the edges of the circular grid. Initially, you are positioned on the dot that's located at the top of the grid, where you find a French Bulldog. You move around the ring by 6 steps in a counter-clockwise direction, where you find an American lobster. You move around the ring by 1 step in a counter-clockwise direction, where you find a whistle. You move around the ring by 2 steps in a counter-clockwise direction, where you find a dining table. You move around the ring by 8 steps in a clockwise direction. What will you find?",
+            "Answer": "dining table"
+        },
+        "82": {
+            "Question": "You have been given a circular grid consisting of 8 connected dots. Starting from a vertex, you will move along the edges of the circular grid. Initially, you are positioned on the dot that's located at the top of the grid, where you find a hoop skirt. You move around the ring by 2 steps in a counter-clockwise direction, where you find a lorikeet. You move around the ring by 4 steps in a clockwise direction, where you find a West Highland White Terrier. You move around the ring by 3 steps in a clockwise direction, where you find an American lobster. You move around the ring by 4 steps in a clockwise direction, where you find an Affenpinscher. You move around the ring by 5 steps in a counter-clockwise direction, where you find a fur coat. You move around the ring by 6 steps in a clockwise direction. What will you find?",
+            "Answer": "West Highland White Terrier"
+        },
+        "83": {
+            "Question": "You have been given a circular grid consisting of 8 connected dots. Starting from a vertex, you will move along the edges of the circular grid. Initially, you are positioned on the dot that's located at the top of the grid, where you find a boathouse. You move around the ring by 7 steps in a counter-clockwise direction, where you find a ground beetle. You move around the ring by 2 steps in a counter-clockwise direction, where you find a motorboat. You move around the ring by 5 steps in a clockwise direction, where you find a threshing machine. You move around the ring by 7 steps in a counter-clockwise direction, where you find a strawberry. You move around the ring by 2 steps in a counter-clockwise direction, where you find a whiskey jug. You move around the ring by 5 steps in a counter-clockwise direction, where you find a cockroach. You move around the ring by 4 steps in a clockwise direction, where you find a flamingo. You move around the ring by 6 steps in a clockwise direction. What will you find?",
+            "Answer": "boathouse"
+        },
+        "84": {
+            "Question": "You have been given a circular grid consisting of 8 connected dots. Starting from a vertex, you will move along the edges of the circular grid. Initially, you are positioned on the dot that's located at the top of the grid, where you find an Irish Water Spaniel. You move around the ring by 1 step in a clockwise direction, where you find a fountain. You move around the ring by 1 step in a clockwise direction, where you find a goldfish. You move around the ring by 3 steps in a counter-clockwise direction, where you find a bikini. You move around the ring by 4 steps in a clockwise direction, where you find an alligator lizard. You move around the ring by 5 steps in a counter-clockwise direction, where you find a T-shirt. You move around the ring by 1 step in a counter-clockwise direction, where you find a wok. You move around the ring by 1 step in a clockwise direction. What will you find?",
+            "Answer": "T-shirt"
+        },
+        "85": {
+            "Question": "You have been given a circular grid consisting of 8 connected dots. Starting from a vertex, you will move along the edges of the circular grid. Initially, you are positioned on the dot that's located at the top of the grid, where you find a frying pan. You move around the ring by 5 steps in a counter-clockwise direction, where you find a water snake. You move around the ring by 4 steps in a counter-clockwise direction, where you find a barbell. You move around the ring by 6 steps in a counter-clockwise direction, where you find a sandal. You move around the ring by 8 steps in a clockwise direction. What will you find?",
+            "Answer": "sandal"
+        },
+        "86": {
+            "Question": "You have been given a circular grid consisting of 8 connected dots. Starting from a vertex, you will move along the edges of the circular grid. Initially, you are positioned on the dot that's located at the top of the grid, where you find a harvester. You move around the ring by 2 steps in a counter-clockwise direction, where you find a pencil sharpener. You move around the ring by 6 steps in a clockwise direction, where you find a four-poster bed. You move around the ring by 2 steps in a counter-clockwise direction, where you find a barometer. You move around the ring by 2 steps in a counter-clockwise direction. What will you find?",
+            "Answer": "harvester"
+        },
+        "87": {
+            "Question": "You have been given a circular grid consisting of 8 connected dots. Starting from a vertex, you will move along the edges of the circular grid. Initially, you are positioned on the dot that's located at the top of the grid, where you find a sidewinder. You move around the ring by 8 steps in a clockwise direction. What will you find?",
+            "Answer": "sidewinder"
+        },
+        "88": {
+            "Question": "You have been given a circular grid consisting of 8 connected dots. Starting from a vertex, you will move along the edges of the circular grid. Initially, you are positioned on the dot that's located at the top of the grid, where you find a seashore. You move around the ring by 8 steps in a clockwise direction. What will you find?",
+            "Answer": "seashore"
+        },
+        "89": {
+            "Question": "You have been given a circular grid consisting of 8 connected dots. Starting from a vertex, you will move along the edges of the circular grid. Initially, you are positioned on the dot that's located at the top of the grid, where you find a mousetrap. You move around the ring by 5 steps in a clockwise direction, where you find a poncho. You move around the ring by 6 steps in a clockwise direction, where you find a Wire Fox Terrier. You move around the ring by 5 steps in a clockwise direction. What will you find?",
+            "Answer": "mousetrap"
+        },
+        "90": {
+            "Question": "You have been given a circular grid consisting of 8 connected dots. Starting from a vertex, you will move along the edges of the circular grid. Initially, you are positioned on the dot that's located at the top of the grid, where you find a speaker. You move around the ring by 3 steps in a clockwise direction, where you find a Tibetan Mastiff. You move around the ring by 3 steps in a clockwise direction, where you find a mitten. You move around the ring by 3 steps in a counter-clockwise direction. What will you find?",
+            "Answer": "Tibetan Mastiff"
+        },
+        "91": {
+            "Question": "You have been given a circular grid consisting of 8 connected dots. Starting from a vertex, you will move along the edges of the circular grid. Initially, you are positioned on the dot that's located at the top of the grid, where you find an Alpine ibex. You move around the ring by 4 steps in a clockwise direction, where you find a paddle wheel. You move around the ring by 1 step in a counter-clockwise direction, where you find a chain-link fence. You move around the ring by 1 step in a clockwise direction. What will you find?",
+            "Answer": "paddle wheel"
+        },
+        "92": {
+            "Question": "You have been given a circular grid consisting of 8 connected dots. Starting from a vertex, you will move along the edges of the circular grid. Initially, you are positioned on the dot that's located at the top of the grid, where you find a Persian cat. You move around the ring by 3 steps in a counter-clockwise direction, where you find an African wild dog. You move around the ring by 8 steps in a clockwise direction. What will you find?",
+            "Answer": "African wild dog"
+        },
+        "93": {
+            "Question": "You have been given a circular grid consisting of 8 connected dots. Starting from a vertex, you will move along the edges of the circular grid. Initially, you are positioned on the dot that's located at the top of the grid, where you find a typewriter keyboard. You move around the ring by 8 steps in a counter-clockwise direction. What will you find?",
+            "Answer": "typewriter keyboard"
+        },
+        "94": {
+            "Question": "You have been given a circular grid consisting of 8 connected dots. Starting from a vertex, you will move along the edges of the circular grid. Initially, you are positioned on the dot that's located at the top of the grid, where you find a sulphur butterfly. You move around the ring by 1 step in a counter-clockwise direction, where you find a barbell. You move around the ring by 3 steps in a counter-clockwise direction, where you find a shopping basket. You move around the ring by 8 steps in a counter-clockwise direction. What will you find?",
+            "Answer": "shopping basket"
+        },
+        "95": {
+            "Question": "You have been given a circular grid consisting of 8 connected dots. Starting from a vertex, you will move along the edges of the circular grid. Initially, you are positioned on the dot that's located at the top of the grid, where you find a maze. You move around the ring by 5 steps in a clockwise direction, where you find a cleaver. You move around the ring by 7 steps in a counter-clockwise direction, where you find a jackfruit. You move around the ring by 2 steps in a counter-clockwise direction, where you find an amphibious vehicle. You move around the ring by 1 step in a clockwise direction. What will you find?",
+            "Answer": "cleaver"
+        },
+        "96": {
+            "Question": "You have been given a circular grid consisting of 8 connected dots. Starting from a vertex, you will move along the edges of the circular grid. Initially, you are positioned on the dot that's located at the top of the grid, where you find a beaver. You move around the ring by 8 steps in a counter-clockwise direction. What will you find?",
+            "Answer": "beaver"
+        },
+        "97": {
+            "Question": "You have been given a circular grid consisting of 8 connected dots. Starting from a vertex, you will move along the edges of the circular grid. Initially, you are positioned on the dot that's located at the top of the grid, where you find a digital clock. You move around the ring by 2 steps in a counter-clockwise direction, where you find a plectrum. You move around the ring by 8 steps in a clockwise direction. What will you find?",
+            "Answer": "plectrum"
+        },
+        "98": {
+            "Question": "You have been given a circular grid consisting of 8 connected dots. Starting from a vertex, you will move along the edges of the circular grid. Initially, you are positioned on the dot that's located at the top of the grid, where you find an axolotl. You move around the ring by 1 step in a counter-clockwise direction, where you find a smooth green snake. You move around the ring by 4 steps in a counter-clockwise direction, where you find a passenger car. You move around the ring by 2 steps in a counter-clockwise direction, where you find a toaster. You move around the ring by 7 steps in a clockwise direction. What will you find?",
+            "Answer": "axolotl"
+        },
+        "99": {
+            "Question": "You have been given a circular grid consisting of 8 connected dots. Starting from a vertex, you will move along the edges of the circular grid. Initially, you are positioned on the dot that's located at the top of the grid, where you find a loupe. You move around the ring by 4 steps in a counter-clockwise direction, where you find a feather boa. You move around the ring by 1 step in a clockwise direction, where you find a drum. You move around the ring by 6 steps in a clockwise direction, where you find an ambulance. You move around the ring by 1 step in a clockwise direction. What will you find?",
+            "Answer": "feather boa"
+        },
+        "100": {
+            "Question": "You have been given a circular grid consisting of 8 connected dots. Starting from a vertex, you will move along the edges of the circular grid. Initially, you are positioned on the dot that's located at the top of the grid, where you find a gondola. You move around the ring by 7 steps in a counter-clockwise direction, where you find an American black bear. You move around the ring by 8 steps in a counter-clockwise direction. What will you find?",
+            "Answer": "American black bear"
+        },
+        "101": {
+            "Question": "You have been given a circular grid consisting of 8 connected dots. Starting from a vertex, you will move along the edges of the circular grid. Initially, you are positioned on the dot that's located at the top of the grid, where you find a T-shirt. You move around the ring by 1 step in a clockwise direction, where you find a mitten. You move around the ring by 3 steps in a clockwise direction, where you find a kingsnake. You move around the ring by 7 steps in a clockwise direction, where you find a syringe. You move around the ring by 8 steps in a counter-clockwise direction. What will you find?",
+            "Answer": "syringe"
+        },
+        "102": {
+            "Question": "You have been given a circular grid consisting of 8 connected dots. Starting from a vertex, you will move along the edges of the circular grid. Initially, you are positioned on the dot that's located at the top of the grid, where you find an English foxhound. You move around the ring by 6 steps in a counter-clockwise direction, where you find a consomme. You move around the ring by 5 steps in a counter-clockwise direction, where you find a through arch bridge. You move around the ring by 5 steps in a counter-clockwise direction. What will you find?",
+            "Answer": "English foxhound"
+        },
+        "103": {
+            "Question": "You have been given a circular grid consisting of 8 connected dots. Starting from a vertex, you will move along the edges of the circular grid. Initially, you are positioned on the dot that's located at the top of the grid, where you find a pretzel. You move around the ring by 1 step in a clockwise direction, where you find a giant panda. You move around the ring by 5 steps in a counter-clockwise direction, where you find a cougar. You move around the ring by 2 steps in a counter-clockwise direction, where you find a Toy Poodle. You move around the ring by 3 steps in a counter-clockwise direction, where you find a proboscis monkey. You move around the ring by 7 steps in a clockwise direction, where you find a sulphur butterfly. You move around the ring by 6 steps in a clockwise direction. What will you find?",
+            "Answer": "cougar"
+        },
+        "104": {
+            "Question": "You have been given a circular grid consisting of 8 connected dots. Starting from a vertex, you will move along the edges of the circular grid. Initially, you are positioned on the dot that's located at the top of the grid, where you find a seat belt. You move around the ring by 8 steps in a counter-clockwise direction. What will you find?",
+            "Answer": "seat belt"
+        },
+        "105": {
+            "Question": "You have been given a circular grid consisting of 8 connected dots. Starting from a vertex, you will move along the edges of the circular grid. Initially, you are positioned on the dot that's located at the top of the grid, where you find an American alligator. You move around the ring by 8 steps in a counter-clockwise direction. What will you find?",
+            "Answer": "American alligator"
+        },
+        "106": {
+            "Question": "You have been given a 3 by 3 square grid. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the top right corner of the grid, where you find a balance beam. You move down by one step, where you find a radio telescope. You move left by one step, where you find a half-track. You move left by one step, where you find a restaurant. You move up by one step, where you find a wok. You move right by one step, where you find a sleeping bag. You move down by one step. What will you find?",
+            "Answer": "half-track"
+        },
+        "107": {
+            "Question": "You have been given a 3 by 3 square grid. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the top right corner of the grid, where you find a quail. You move left by one step, where you find a Pekingese. You move left by one step, where you find a broom. You move down by one step, where you find a unicycle. You move down by one step, where you find a crossword. You move right by one step, where you find a gong. You move up by one step, where you find an ant. You move up by one step. What will you find?",
+            "Answer": "Pekingese"
+        },
+        "108": {
+            "Question": "You have been given a 3 by 3 square grid. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the top left corner of the grid, where you find a cock. You move down by one step, where you find a geyser. You move right by one step, where you find a jellyfish. You move up by one step, where you find an impala. You move right by one step, where you find a box turtle. You move down by one step, where you find an espresso machine. You move down by one step, where you find a bib. You move left by one step, where you find a megalith. You move up by one step. What will you find?",
+            "Answer": "jellyfish"
+        },
+        "109": {
+            "Question": "You have been given a 3 by 3 square grid. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the bottom right corner of the grid, where you find a rifle. You move left by one step, where you find a white-headed capuchin. You move left by one step, where you find a small white. You move up by one step, where you find a terrapin. You move up by one step, where you find a pier. You move right by one step, where you find an envelope. You move down by one step, where you find a hummingbird. You move down by one step. What will you find?",
+            "Answer": "white-headed capuchin"
+        },
+        "110": {
+            "Question": "You have been given a 3 by 3 square grid. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the top left corner of the grid, where you find a Giant Schnauzer. You move down by one step, where you find a Miniature Poodle. You move right by one step, where you find a weighing scale. You move up by one step, where you find a gossamer-winged butterfly. You move right by one step, where you find a speaker. You move down by one step, where you find a tank suit. You move left by one step. What will you find?",
+            "Answer": "weighing scale"
+        },
+        "111": {
+            "Question": "You have been given a 3 by 3 square grid. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the top left corner of the grid, where you find an orangutan. You move right by one step, where you find a crossword. You move left by one step. What will you find?",
+            "Answer": "orangutan"
+        },
+        "112": {
+            "Question": "You have been given a 3 by 3 square grid. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the top left corner of the grid, where you find a barn spider. You move right by one step, where you find a plunger. You move right by one step, where you find a snail. You move down by one step, where you find a chimpanzee. You move down by one step, where you find a military uniform. You move left by one step, where you find a meatloaf. You move up by one step, where you find an English Springer Spaniel. You move up by one step. What will you find?",
+            "Answer": "plunger"
+        },
+        "113": {
+            "Question": "You have been given a 3 by 3 square grid. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the top right corner of the grid, where you find a kimono. You move down by one step, where you find a toy store. You move up by one step. What will you find?",
+            "Answer": "kimono"
+        },
+        "114": {
+            "Question": "You have been given a 3 by 3 square grid. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the bottom right corner of the grid, where you find a bee eater. You move left by one step, where you find a ring-tailed lemur. You move left by one step, where you find a vacuum cleaner. You move up by one step, where you find a modem. You move up by one step, where you find a marimba. You move right by one step, where you find a convertible. You move down by one step, where you find a tub. You move down by one step. What will you find?",
+            "Answer": "ring-tailed lemur"
+        },
+        "115": {
+            "Question": "You have been given a 3 by 3 square grid. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the top left corner of the grid, where you find an entertainment center. You move right by one step, where you find a garter snake. You move right by one step, where you find a washing machine. You move down by one step, where you find a window shade. You move down by one step, where you find a hermit crab. You move left by one step, where you find a bolete. You move left by one step, where you find a koala. You move up by one step, where you find an Irish Setter. You move right by one step, where you find a rugby ball. You move up by one step. What will you find?",
+            "Answer": "garter snake"
+        },
+        "116": {
+            "Question": "You have been given a 3 by 3 square grid. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the bottom left corner of the grid, where you find a sulphur-crested cockatoo. You move right by one step, where you find a plow. You move right by one step, where you find a Malinois. You move up by one step, where you find a barbershop. You move left by one step, where you find a washing machine. You move left by one step, where you find a mongoose. You move up by one step, where you find a sarong. You move right by one step, where you find an Afghan Hound. You move down by one step. What will you find?",
+            "Answer": "washing machine"
+        },
+        "117": {
+            "Question": "You have been given a 3 by 3 square grid. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the top left corner of the grid, where you find a wolf spider. You move right by one step, where you find a plastic bag. You move right by one step, where you find a flagpole. You move down by one step, where you find a trifle. You move left by one step, where you find a golf ball. You move up by one step. What will you find?",
+            "Answer": "plastic bag"
+        },
+        "118": {
+            "Question": "You have been given a 3 by 3 square grid. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the bottom left corner of the grid, where you find a through arch bridge. You move right by one step, where you find a laptop computer. You move up by one step, where you find a weevil. You move left by one step, where you find a tailed frog. You move down by one step. What will you find?",
+            "Answer": "through arch bridge"
+        },
+        "119": {
+            "Question": "You have been given a 3 by 3 square grid. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the top right corner of the grid, where you find a breastplate. You move down by one step, where you find a hummingbird. You move down by one step, where you find an eastern diamondback rattlesnake. You move left by one step, where you find a basketball. You move up by one step, where you find a pulled rickshaw. You move left by one step, where you find a Black and Tan Coonhound. You move up by one step, where you find a breakwater. You move right by one step, where you find a sea cucumber. You move right by one step. What will you find?",
+            "Answer": "breastplate"
+        },
+        "120": {
+            "Question": "You have been given a 3 by 3 square grid. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the top left corner of the grid, where you find a joystick. You move down by one step, where you find a sunscreen. You move right by one step, where you find a platypus. You move right by one step, where you find a terrapin. You move down by one step, where you find a red admiral. You move left by one step, where you find a china cabinet. You move left by one step, where you find a tank. You move up by one step. What will you find?",
+            "Answer": "sunscreen"
+        },
+        "121": {
+            "Question": "You have been given a 3 by 3 square grid. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the bottom right corner of the grid, where you find a nipple. You move up by one step, where you find a brain coral. You move up by one step, where you find a dishwasher. You move left by one step, where you find a mousetrap. You move left by one step, where you find a doormat. You move down by one step, where you find a spoonbill. You move down by one step, where you find a leaf beetle. You move right by one step, where you find a garbage truck. You move right by one step. What will you find?",
+            "Answer": "nipple"
+        },
+        "122": {
+            "Question": "You have been given a 3 by 3 square grid. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the bottom right corner of the grid, where you find a soup bowl. You move left by one step, where you find a slug. You move left by one step, where you find a leafhopper. You move up by one step, where you find a toy store. You move right by one step, where you find an Asian elephant. You move down by one step. What will you find?",
+            "Answer": "slug"
+        },
+        "123": {
+            "Question": "You have been given a 3 by 3 square grid. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the bottom right corner of the grid, where you find an Indian cobra. You move left by one step, where you find an electric locomotive. You move left by one step, where you find a gown. You move up by one step, where you find an abacus. You move right by one step, where you find an Affenpinscher. You move down by one step. What will you find?",
+            "Answer": "electric locomotive"
+        },
+        "124": {
+            "Question": "You have been given a 3 by 3 square grid. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the top left corner of the grid, where you find a ladle. You move right by one step, where you find a hamper. You move right by one step, where you find a passenger car. You move down by one step, where you find a trombone. You move down by one step, where you find a proboscis monkey. You move left by one step, where you find a carton. You move left by one step, where you find a boa constrictor. You move up by one step, where you find a fig. You move right by one step, where you find a sawmill. You move up by one step. What will you find?",
+            "Answer": "hamper"
+        },
+        "125": {
+            "Question": "You have been given a 3 by 3 square grid. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the bottom right corner of the grid, where you find an echidna. You move left by one step, where you find a parking meter. You move left by one step, where you find a Groenendael. You move up by one step, where you find a mashed potato. You move right by one step, where you find an abacus. You move right by one step, where you find a corn. You move up by one step, where you find a brain coral. You move left by one step, where you find a weighing scale. You move left by one step, where you find a Cairn Terrier. You move down by one step. What will you find?",
+            "Answer": "mashed potato"
+        },
+        "126": {
+            "Question": "You have been given a 3 by 3 square grid. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the bottom left corner of the grid, where you find a menu. You move right by one step, where you find a shopping basket. You move right by one step, where you find a clogs. You move up by one step, where you find a pot pie. You move left by one step, where you find a consomme. You move down by one step. What will you find?",
+            "Answer": "shopping basket"
+        },
+        "127": {
+            "Question": "You have been given a 3 by 3 square grid. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the bottom left corner of the grid, where you find a toilet seat. You move right by one step, where you find a ring-necked snake. You move up by one step, where you find a cradle. You move right by one step, where you find a crossword. You move up by one step, where you find a baseball player. You move left by one step, where you find a patas monkey. You move left by one step, where you find a cauliflower. You move down by one step, where you find a Pomeranian. You move right by one step. What will you find?",
+            "Answer": "cradle"
+        },
+        "128": {
+            "Question": "You have been given a 3 by 3 square grid. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the bottom right corner of the grid, where you find a corn. You move up by one step, where you find a shipwreck. You move left by one step, where you find a shield. You move down by one step, where you find a Vizsla. You move left by one step, where you find a cicada. You move up by one step, where you find a meerkat. You move right by one step. What will you find?",
+            "Answer": "shield"
+        },
+        "129": {
+            "Question": "You have been given a 3 by 3 square grid. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the bottom right corner of the grid, where you find a power drill. You move left by one step, where you find a sock. You move up by one step, where you find a Dalmatian. You move up by one step, where you find a jeep. You move right by one step, where you find an hourglass. You move down by one step, where you find a slip-on shoe. You move left by one step. What will you find?",
+            "Answer": "Dalmatian"
+        },
+        "130": {
+            "Question": "You have been given a 3 by 3 square grid. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the bottom right corner of the grid, where you find a marmot. You move left by one step, where you find an ostrich. You move left by one step, where you find a killer whale. You move up by one step, where you find a viaduct. You move right by one step, where you find a sandal. You move down by one step. What will you find?",
+            "Answer": "ostrich"
+        },
+        "131": {
+            "Question": "You have been given a 3 by 3 square grid. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the bottom left corner of the grid, where you find a chimpanzee. You move right by one step, where you find a potter's wheel. You move up by one step, where you find a killer whale. You move up by one step, where you find a nail. You move left by one step, where you find a hare. You move down by one step, where you find a shield. You move down by one step. What will you find?",
+            "Answer": "chimpanzee"
+        },
+        "132": {
+            "Question": "You have been given a 3 by 3 square grid. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the bottom left corner of the grid, where you find a hoop skirt. You move up by one step, where you find a plastic bag. You move right by one step, where you find an albatross. You move up by one step, where you find a jaguar. You move left by one step, where you find a warthog. You move down by one step. What will you find?",
+            "Answer": "plastic bag"
+        },
+        "133": {
+            "Question": "You have been given a 3 by 3 square grid. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the top left corner of the grid, where you find a common squirrel monkey. You move right by one step, where you find a wild boar. You move down by one step, where you find a shower cap. You move down by one step, where you find a pig. You move left by one step, where you find a jaguar. You move up by one step, where you find a consomme. You move up by one step. What will you find?",
+            "Answer": "common squirrel monkey"
+        },
+        "134": {
+            "Question": "You have been given a 3 by 3 square grid. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the top right corner of the grid, where you find a T-shirt. You move down by one step, where you find a bow tie. You move left by one step, where you find a brown bear. You move down by one step, where you find a mosque. You move left by one step, where you find a Chesapeake Bay Retriever. You move up by one step, where you find a grille. You move up by one step, where you find a dragonfly. You move right by one step, where you find a geyser. You move right by one step. What will you find?",
+            "Answer": "T-shirt"
+        },
+        "135": {
+            "Question": "You have been given a 3 by 3 square grid. Starting from a vertex, you will move along the edges of the grid. Initially, you are positioned at the top right corner of the grid, where you find a gazelle. You move down by one step, where you find a safe. You move left by one step, where you find a pillow. You move down by one step, where you find a southern black widow. You move right by one step, where you find a combination lock. You move up by one step. What will you find?",
+            "Answer": "safe"
+        },
+        "136": {
+            "Question": "You have been given an equilateral triangular tile map consisting of 2 rows, where the first row has one tile and the second row has three tiles. Starting from a vertex, you will move along the edges of these tiles. Initially, you are positioned at the bottom left corner of the map, where you find a box turtle. You move right by one step, where you find a hand plane. You move up-right by one step, where you find a guacamole. You move down-right by one step, where you find a table lamp. You move left by one step. What will you find?",
+            "Answer": "hand plane"
+        },
+        "137": {
+            "Question": "You have been given an equilateral triangular tile map consisting of 2 rows, where the first row has one tile and the second row has three tiles. Starting from a vertex, you will move along the edges of these tiles. Initially, you are positioned at the bottom left corner of the map, where you find a vending machine. You move right by one step, where you find a Siamese cat. You move right by one step, where you find a brass. You move up-left by one step, where you find a tiger beetle. You move down-left by one step. What will you find?",
+            "Answer": "Siamese cat"
+        },
+        "138": {
+            "Question": "You have been given an equilateral triangular tile map consisting of 2 rows, where the first row has one tile and the second row has three tiles. Starting from a vertex, you will move along the edges of these tiles. Initially, you are positioned at the top corner of the map, where you find a green iguana. You move down-left by one step, where you find a radiator. You move down-left by one step, where you find a rain barrel. You move right by one step, where you find an Alpine ibex. You move right by one step, where you find a triumphal arch. You move up-left by one step, where you find a Sealyham Terrier. You move up-left by one step. What will you find?",
+            "Answer": "green iguana"
+        },
+        "139": {
+            "Question": "You have been given an equilateral triangular tile map consisting of 2 rows, where the first row has one tile and the second row has three tiles. Starting from a vertex, you will move along the edges of these tiles. Initially, you are positioned at the bottom left corner of the map, where you find a tree frog. You move up-right by one step, where you find a coucal. You move up-right by one step, where you find a Labrador Retriever. You move down-right by one step, where you find an Australian Terrier. You move down-right by one step, where you find an artichoke. You move left by one step, where you find a Griffon Bruxellois. You move left by one step. What will you find?",
+            "Answer": "tree frog"
+        },
+        "140": {
+            "Question": "You have been given an equilateral triangular tile map consisting of 2 rows, where the first row has one tile and the second row has three tiles. Starting from a vertex, you will move along the edges of these tiles. Initially, you are positioned at the bottom right corner of the map, where you find a wall clock. You move up-left by one step, where you find a sink. You move down-left by one step, where you find a red king crab. You move left by one step, where you find a Border Collie. You move up-right by one step, where you find a broom. You move down-right by one step. What will you find?",
+            "Answer": "red king crab"
+        },
+        "141": {
+            "Question": "You have been given an equilateral triangular tile map consisting of 2 rows, where the first row has one tile and the second row has three tiles. Starting from a vertex, you will move along the edges of these tiles. Initially, you are positioned at the bottom right corner of the map, where you find a movie theater. You move left by one step, where you find a computer mouse. You move up-left by one step, where you find a balance beam. You move down-left by one step, where you find a yellow garden spider. You move right by one step. What will you find?",
+            "Answer": "computer mouse"
+        },
+        "142": {
+            "Question": "You have been given an equilateral triangular tile map consisting of 2 rows, where the first row has one tile and the second row has three tiles. Starting from a vertex, you will move along the edges of these tiles. Initially, you are positioned at the bottom left corner of the map, where you find a guillotine. You move up-right by one step, where you find a water tower. You move up-right by one step, where you find a printer. You move down-right by one step, where you find a worm snake. You move down-right by one step, where you find a guenon. You move left by one step, where you find an Italian Greyhound. You move left by one step. What will you find?",
+            "Answer": "guillotine"
+        },
+        "143": {
+            "Question": "You have been given an equilateral triangular tile map consisting of 2 rows, where the first row has one tile and the second row has three tiles. Starting from a vertex, you will move along the edges of these tiles. Initially, you are positioned at the bottom left corner of the map, where you find a bath towel. You move right by one step, where you find an Appenzeller Sennenhund. You move up-left by one step, where you find a garter snake. You move down-left by one step. What will you find?",
+            "Answer": "bath towel"
+        },
+        "144": {
+            "Question": "You have been given an equilateral triangular tile map consisting of 2 rows, where the first row has one tile and the second row has three tiles. Starting from a vertex, you will move along the edges of these tiles. Initially, you are positioned at the bottom right corner of the map, where you find a shoji. You move left by one step, where you find a European green lizard. You move left by one step, where you find a collie. You move up-right by one step, where you find a trimaran. You move down-right by one step. What will you find?",
+            "Answer": "European green lizard"
+        },
+        "145": {
+            "Question": "You have been given an equilateral triangular tile map consisting of 2 rows, where the first row has one tile and the second row has three tiles. Starting from a vertex, you will move along the edges of these tiles. Initially, you are positioned at the bottom right corner of the map, where you find a banded gecko. You move left by one step, where you find a stingray. You move up-left by one step, where you find a fire engine. You move down-left by one step, where you find a measuring cup. You move right by one step. What will you find?",
+            "Answer": "stingray"
+        },
+        "146": {
+            "Question": "You have been given an equilateral triangular tile map consisting of 2 rows, where the first row has one tile and the second row has three tiles. Starting from a vertex, you will move along the edges of these tiles. Initially, you are positioned at the top corner of the map, where you find a balance beam. You move down-right by one step, where you find a Windsor tie. You move down-right by one step, where you find a broccoli. You move left by one step, where you find a pot. You move left by one step, where you find an Irish Wolfhound. You move right by one step. What will you find?",
+            "Answer": "pot"
+        },
+        "147": {
+            "Question": "You have been given an equilateral triangular tile map consisting of 2 rows, where the first row has one tile and the second row has three tiles. Starting from a vertex, you will move along the edges of these tiles. Initially, you are positioned at the top corner of the map, where you find a zucchini. You move down-right by one step, where you find a joystick. You move down-right by one step, where you find a dhole. You move left by one step, where you find a mantis. You move left by one step, where you find a folding chair. You move up-right by one step, where you find a jay. You move down-right by one step. What will you find?",
+            "Answer": "mantis"
+        },
+        "148": {
+            "Question": "You have been given an equilateral triangular tile map consisting of 2 rows, where the first row has one tile and the second row has three tiles. Starting from a vertex, you will move along the edges of these tiles. Initially, you are positioned at the bottom left corner of the map, where you find a garfish. You move up-right by one step, where you find a pulled rickshaw. You move right by one step, where you find a stretcher. You move down-left by one step, where you find a yellow garden spider. You move right by one step, where you find a dowitcher. You move up-left by one step. What will you find?",
+            "Answer": "stretcher"
+        },
+        "149": {
+            "Question": "You have been given an equilateral triangular tile map consisting of 2 rows, where the first row has one tile and the second row has three tiles. Starting from a vertex, you will move along the edges of these tiles. Initially, you are positioned at the top corner of the map, where you find a gown. You move down-right by one step, where you find a Dutch oven. You move down-right by one step, where you find an infant bed. You move left by one step, where you find a snorkel. You move up-left by one step, where you find a broccoli. You move up-right by one step. What will you find?",
+            "Answer": "gown"
+        },
+        "150": {
+            "Question": "You have been given an equilateral triangular tile map consisting of 2 rows, where the first row has one tile and the second row has three tiles. Starting from a vertex, you will move along the edges of these tiles. Initially, you are positioned at the bottom left corner of the map, where you find a strawberry. You move right by one step, where you find a loupe. You move right by one step, where you find a geyser. You move up-left by one step, where you find a plate rack. You move down-left by one step. What will you find?",
+            "Answer": "loupe"
+        },
+        "151": {
+            "Question": "You have been given an equilateral triangular tile map consisting of 2 rows, where the first row has one tile and the second row has three tiles. Starting from a vertex, you will move along the edges of these tiles. Initially, you are positioned at the bottom left corner of the map, where you find a chain. You move up-right by one step, where you find a wallet. You move up-right by one step, where you find a sarong. You move down-right by one step, where you find a marmot. You move down-right by one step, where you find a ski. You move left by one step, where you find a red panda. You move up-right by one step. What will you find?",
+            "Answer": "marmot"
+        },
+        "152": {
+            "Question": "You have been given an equilateral triangular tile map consisting of 2 rows, where the first row has one tile and the second row has three tiles. Starting from a vertex, you will move along the edges of these tiles. Initially, you are positioned at the bottom left corner of the map, where you find an espresso. You move right by one step, where you find a car wheel. You move up-right by one step, where you find a kite. You move left by one step, where you find a platypus. You move down-left by one step. What will you find?",
+            "Answer": "espresso"
+        },
+        "153": {
+            "Question": "You have been given an equilateral triangular tile map consisting of 2 rows, where the first row has one tile and the second row has three tiles. Starting from a vertex, you will move along the edges of these tiles. Initially, you are positioned at the top corner of the map, where you find a doormat. You move down-left by one step, where you find a sewing machine. You move down-left by one step, where you find a wardrobe. You move right by one step, where you find a mashed potato. You move right by one step, where you find a guenon. You move up-left by one step, where you find a prayer rug. You move down-left by one step. What will you find?",
+            "Answer": "mashed potato"
+        },
+        "154": {
+            "Question": "You have been given an equilateral triangular tile map consisting of 2 rows, where the first row has one tile and the second row has three tiles. Starting from a vertex, you will move along the edges of these tiles. Initially, you are positioned at the top corner of the map, where you find a maypole. You move down-left by one step, where you find a washing machine. You move down-right by one step, where you find a coffeemaker. You move up-right by one step, where you find a bow. You move down-right by one step, where you find a barbell. You move left by one step. What will you find?",
+            "Answer": "coffeemaker"
+        },
+        "155": {
+            "Question": "You have been given an equilateral triangular tile map consisting of 2 rows, where the first row has one tile and the second row has three tiles. Starting from a vertex, you will move along the edges of these tiles. Initially, you are positioned at the bottom left corner of the map, where you find a sturgeon. You move up-right by one step, where you find a face powder. You move right by one step, where you find a quill. You move down-right by one step, where you find a bra. You move left by one step, where you find a bassinet. You move up-left by one step. What will you find?",
+            "Answer": "face powder"
+        },
+        "156": {
+            "Question": "You have been given an equilateral triangular tile map consisting of 2 rows, where the first row has one tile and the second row has three tiles. Starting from a vertex, you will move along the edges of these tiles. Initially, you are positioned at the top corner of the map, where you find a spoonbill. You move down-left by one step, where you find a bullock cart. You move right by one step, where you find an Appenzeller Sennenhund. You move down-right by one step, where you find a magpie. You move left by one step, where you find a goldfish. You move up-right by one step. What will you find?",
+            "Answer": "Appenzeller Sennenhund"
+        },
+        "157": {
+            "Question": "You have been given an equilateral triangular tile map consisting of 2 rows, where the first row has one tile and the second row has three tiles. Starting from a vertex, you will move along the edges of these tiles. Initially, you are positioned at the top corner of the map, where you find a whiskey jug. You move down-left by one step, where you find a magpie. You move down-right by one step, where you find an Alpine ibex. You move left by one step, where you find a sulphur butterfly. You move up-right by one step. What will you find?",
+            "Answer": "magpie"
+        },
+        "158": {
+            "Question": "You have been given an equilateral triangular tile map consisting of 2 rows, where the first row has one tile and the second row has three tiles. Starting from a vertex, you will move along the edges of these tiles. Initially, you are positioned at the bottom left corner of the map, where you find a suit. You move right by one step, where you find a snowplow. You move up-left by one step, where you find an American black bear. You move right by one step, where you find a Siberian Husky. You move down-right by one step, where you find an Affenpinscher. You move left by one step. What will you find?",
+            "Answer": "snowplow"
+        },
+        "159": {
+            "Question": "You have been given an equilateral triangular tile map consisting of 2 rows, where the first row has one tile and the second row has three tiles. Starting from a vertex, you will move along the edges of these tiles. Initially, you are positioned at the top corner of the map, where you find an agaric. You move down-left by one step, where you find a motorboat. You move down-left by one step, where you find a tabby cat. You move right by one step, where you find a pickup truck. You move up-left by one step. What will you find?",
+            "Answer": "motorboat"
+        },
+        "160": {
+            "Question": "You have been given an equilateral triangular tile map consisting of 2 rows, where the first row has one tile and the second row has three tiles. Starting from a vertex, you will move along the edges of these tiles. Initially, you are positioned at the bottom right corner of the map, where you find a red king crab. You move up-left by one step, where you find a website. You move down-left by one step, where you find a fur coat. You move left by one step, where you find a megalith. You move up-right by one step, where you find a chameleon. You move up-right by one step, where you find a slide rule. You move down-right by one step. What will you find?",
+            "Answer": "website"
+        },
+        "161": {
+            "Question": "You have been given an equilateral triangular tile map consisting of 2 rows, where the first row has one tile and the second row has three tiles. Starting from a vertex, you will move along the edges of these tiles. Initially, you are positioned at the top corner of the map, where you find a ringlet. You move down-right by one step, where you find a wall clock. You move down-left by one step, where you find an entertainment center. You move right by one step, where you find a megalith. You move up-left by one step. What will you find?",
+            "Answer": "wall clock"
+        },
+        "162": {
+            "Question": "You have been given an equilateral triangular tile map consisting of 2 rows, where the first row has one tile and the second row has three tiles. Starting from a vertex, you will move along the edges of these tiles. Initially, you are positioned at the top corner of the map, where you find a Carolina anole. You move down-left by one step, where you find a rock crab. You move down-right by one step, where you find a Miniature Poodle. You move left by one step, where you find a tub. You move up-right by one step. What will you find?",
+            "Answer": "rock crab"
+        },
+        "163": {
+            "Question": "You have been given an equilateral triangular tile map consisting of 2 rows, where the first row has one tile and the second row has three tiles. Starting from a vertex, you will move along the edges of these tiles. Initially, you are positioned at the top corner of the map, where you find a hartebeest. You move down-right by one step, where you find a tarantula. You move down-right by one step, where you find an African rock python. You move left by one step, where you find a confectionery store. You move left by one step, where you find a swing. You move up-right by one step, where you find a daisy. You move down-right by one step. What will you find?",
+            "Answer": "confectionery store"
+        },
+        "164": {
+            "Question": "You have been given an equilateral triangular tile map consisting of 2 rows, where the first row has one tile and the second row has three tiles. Starting from a vertex, you will move along the edges of these tiles. Initially, you are positioned at the bottom left corner of the map, where you find a snail. You move up-right by one step, where you find a cardoon. You move down-right by one step, where you find a newt. You move right by one step, where you find a Miniature Pinscher. You move up-left by one step, where you find a tape player. You move up-left by one step, where you find a yurt. You move down-left by one step. What will you find?",
+            "Answer": "cardoon"
+        },
+        "165": {
+            "Question": "You have been given an equilateral triangular tile map consisting of 2 rows, where the first row has one tile and the second row has three tiles. Starting from a vertex, you will move along the edges of these tiles. Initially, you are positioned at the bottom left corner of the map, where you find a nail. You move up-right by one step, where you find a waste container. You move up-right by one step, where you find a Miniature Schnauzer. You move down-right by one step, where you find a cauldron. You move down-right by one step, where you find a neck brace. You move left by one step, where you find a Gordon Setter. You move up-right by one step. What will you find?",
+            "Answer": "cauldron"
+        }
+    }
+}

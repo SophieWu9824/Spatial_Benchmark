@@ -1,0 +1,204 @@
+{
+    "short-answer_question": {
+        "1": {
+            "Question": "Papa stranded in home. Water rising above waist. HELP 812 Wood Ln, 77828.Which parts of this sentence represent location descriptions?",
+            "Answer": "812 Wood Ln, 77828"
+        },
+        "2": {
+            "Question": "Anyone doing high water rescues in the Pasadena/Deer Park area? My daughter has been stranded in a parking lot all night.Which parts of this sentence represent location descriptions?",
+            "Answer": "Pasadena/Deer Park"
+        },
+        "3": {
+            "Question": "Allen Parkway, Memorial, Waugh overpass, Spotts park and Buffalo Bayou park completely under water.Which parts of this sentence represent location descriptions?",
+            "Answer": "Allen Parkway，Memorial，Waugh overpass，Spotts park，Buffalo Bayou park"
+        },
+        "4": {
+            "Question": "In the sentence \"Amtrak service between Richmond and Norfolk in the state of Virginia has been suspended,\" which parts indicate location descriptions?",
+            "Answer": "Virginia, Richmond, Norfolk."
+        },
+        "5": {
+            "Question": "In the statement \"The café in the Roman Square offers the best pasta,\" which word is a place name?",
+            "Answer": "Roman."
+        },
+        "6": {
+            "Question": "If an article mentions \"severe traffic congestion on the highway from Los Angeles to San Diego,\" which geographic locations are included in this sentence?",
+            "Answer": "Los Angeles, San Diego."
+        },
+        "7": {
+            "Question": "Analyzing the sentence \"Weather in the Himalayas is unpredictable; hiking requires caution,\" what geographic name is included?",
+            "Answer": "Himalayas."
+        },
+        "8": {
+            "Question": "In the sentence \"We went diving in the Great Barrier Reef and saw colorful coral,\" what geographical location is mentioned?",
+            "Answer": "Great Barrier Reef."
+        },
+        "9": {
+            "Question": "Do we know the flooding conditions at Buffalo Bayou Park and Minute Maid Park? Any information can help.Which parts of this sentence represent location descriptions?",
+            "Answer": "Buffalo Bayou Park;Minute Maid Park"
+        },
+        "10": {
+            "Question": "Hurricane eye wall is approaching Port Aransas, TX. Pray...Which parts of this sentence represent location descriptions?",
+            "Answer": "Port Aransas;TX"
+        },
+        "11": {
+            "Question": "If you have things to donate, you can drop them off at ClearField Community Center, Houston, 351 7th Ave.Which parts of this sentence represent location descriptions?",
+            "Answer": "ClearField Community Center;Houston;351 7th Ave"
+        },
+        "12": {
+            "Question": "Highway 10 between River Rd and 4th St is flooded. Please use local roads NOLA Q: Which parts of this sentence represent location descriptions?",
+            "Answer": "Highway 10 between River Rd and 4th St"
+        },
+        "13": {
+            "Question": "Major flooding at High Rd & 15 Ave. in west Houston. People trapped. Please help... Q: Which parts of this sentence represent location descriptions?",
+            "Answer": "High Rd & 15 Ave.;Houston"
+        },
+        "14": {
+            "Question": "\"The meeting will take place near Central Park and 5th Avenue tomorrow at noon.\" Which parts represent descriptions of places?",
+            "Answer": "Central Park, 5th Avenue"
+        },
+        "15": {
+            "Question": "\"We hiked from the base of Mount Fuji to the summit, stopping at various stations along the way.\"",
+            "Answer": "Mount Fuji"
+        },
+        "16": {
+            "Question": "\"Can anyone report on the flooding conditions in Boulder Creek and Big Sur?\"",
+            "Answer": "Boulder Creek, Big Sur"
+        },
+        "17": {
+            "Question": "In the sentence: \"The earthquake's epicenter was located near the San Andreas Fault, affecting nearby cities,\" which parts represent descriptions of places?",
+            "Answer": "San Andreas Fault"
+        },
+        "18": {
+            "Question": "Identify the place names in the text: \"Hurricane alerts issued for Miami, Fort Lauderdale, and West Palm Beach due to incoming storm.\" Which parts represent descriptions of places?",
+            "Answer": "Miami, Fort Lauderdale, West Palm Beach"
+        },
+        "19": {
+            "Question": "In the story, it says, \"Golden Gate Bridge and Fisherman's Wharf are thin on visitors due to recent flooding.\" What part of this sentence is a description of the location?",
+            "Answer": "Golden Gate Bridge and Fisherman's Wharf"
+        },
+        "20": {
+            "Question": "The tweet reads, \"Getting ready to head to St. Paul's Cathedral for tomorrow's event.\" What part of that sentence is a description of the location, please?",
+            "Answer": "St. Paul's Cathedral"
+        },
+        "21": {
+            "Question": "I'm going to go skiing at Lake Tahoe over the weekend. Analyze which parts of this sentence are location descriptions?",
+            "Answer": "Lake Tahoe"
+        },
+        "22": {
+            "Question": "News headline: \"Emergency Evacuation Order, Tsunami Threat to Coastal Malibu.\" What part of the headline is a description of the location, please?",
+            "Answer": "Malibu"
+        },
+        "23": {
+            "Question": "I saw a great street show at Times Square in New York City. What part of this sentence is a description of the location?",
+            "Answer": "Times Square, New York City"
+        },
+        "24": {
+            "Question": "The email states, \"Our meeting will be held at a cafe near the Seattle Space Needle.\" What part of that sentence is a description of the location, please?",
+            "Answer": "Seattle Space Needle"
+        },
+        "25": {
+            "Question": "In Mecca, Saudi Arabia, millions of pilgrims gather every year. analyze which parts of this sentence are descriptions of places?",
+            "Answer": "Mecca, Saudi Arabia"
+        },
+        "26": {
+            "Question": "The article passage mentions that \"Eiffel Tower is about to celebrate the 100th anniversary of its opening.\" What part of the passage is a description of the location?",
+            "Answer": "Eiffel Tower"
+        },
+        "27": {
+            "Question": "Identify the place names in the following sentence: \"Protests are ongoing at Tahrir Square and surrounding areas in Cairo.\" Which parts represent descriptions of places?",
+            "Answer": "Tahrir Square, Cairo"
+        },
+        "28": {
+            "Question": "\"Venice and its surrounding lagoon are experiencing unusually high tides this season.\" Which parts represent descriptions of places?",
+            "Answer": "Venice"
+        },
+        "29": {
+            "Question": "\"The wildfire is spreading rapidly through the Sequoia National Park, approaching Kings Canyon.\" Which parts represent descriptions of places?",
+            "Answer": "Sequoia National Park, Kings Canyon"
+        },
+        "30": {
+            "Question": "Find the place names in the text: \"Landslides have blocked roads in the Appalachian Mountains, particularly near Asheville.\" Which parts represent descriptions of places?",
+            "Answer": "Appalachian Mountains, Asheville"
+        },
+        "31": {
+            "Question": "\"The annual festival will be held at the banks of the Ganges, near Varanasi.\" Which parts represent descriptions of places?",
+            "Answer": "Ganges, Varanasi"
+        },
+        "32": {
+            "Question": "\"Beijing's Tiananmen Square is preparing for the National Day celebration.\" Which parts represent descriptions of places?",
+            "Answer": "Beijing, Tiananmen Square"
+        },
+        "33": {
+            "Question": "\"The night view of the Bund in Shanghai attracts many tourists.\" Which parts represent descriptions of places?",
+            "Answer": "Shanghai, the Bund"
+        },
+        "34": {
+            "Question": "\"Chengdu's Kuanzhai Alley is a great place to learn about the local culture.\" Which parts represent descriptions of places?",
+            "Answer": "Chengdu, Kuanzhai Alley"
+        },
+        "35": {
+            "Question": "\"The scenery of West Lake is particularly charming in spring.\" Which parts represent descriptions of places?",
+            "Answer": "West Lake"
+        },
+        "36": {
+            "Question": "\"The sea of clouds in Huangshan is a sight that climbers particularly look forward to.\" Which parts represent descriptions of places?",
+            "Answer": "Huangshan"
+        },
+        "37": {
+            "Question": "\"The Yellow River Iron Bridge in Lanzhou is a historical symbol of the city.\" Which parts represent descriptions of places?",
+            "Answer": "Lanzhou, Yellow River Iron Bridge"
+        },
+        "38": {
+            "Question": "\"The Zhanqiao Pier in Qingdao is a popular spot for photography.\" Which parts represent descriptions of places?",
+            "Answer": "Qingdao, Zhanqiao Pier"
+        },
+        "39": {
+            "Question": "\"Dali Ancient Town in Yunnan is full of historical atmosphere.\" Which parts represent descriptions of places?",
+            "Answer": "Yunnan, Dali Ancient Town"
+        },
+        "40": {
+            "Question": "\"Harbin's Ice and Snow World is the highlight of winter tourism.\" Which parts represent descriptions of places?",
+            "Answer": "Harbin, Ice and Snow World"
+        },
+        "41": {
+            "Question": "Please send assistance to a park near the Golden Gate Bridge. In which parts of the sentence represent location descriptions?",
+            "Answer": "Golden Gate Bridge"
+        },
+        "42": {
+            "Question": "The coastal freeway between Los Angeles and San Diego is particularly congested. Which parts of the center represent location descriptions?",
+            "Answer": "Los Angeles, San Diego, Coastal Highway"
+        },
+        "43": {
+            "Question": "The Tokyo Tower was badly damaged in last night's earthquake. Which parts of the center represent location descriptions?",
+            "Answer": "Tokyo Tower"
+        },
+        "44": {
+            "Question": "Yellowstone's spectacular volcanic landscapes attract visitors from around the world. Which parts of the center represent location descriptions?",
+            "Answer": "Yellowstone Park (US park)"
+        },
+        "45": {
+            "Question": "The Tower of London is historically known as a prison and palace. Which parts of the center represent location descriptions?",
+            "Answer": "Tower of London"
+        },
+        "46": {
+            "Question": "I got lost yesterday in the Old Town of Prague. Which parts of the center represent location descriptions?",
+            "Answer": "Prague Old Town"
+        },
+        "47": {
+            "Question": "A large number of passengers were stranded at Grand Central Terminal due to a subway breakdown in New York City. Which parts of the center represent location descriptions?",
+            "Answer": "Grand Central Station, New York City"
+        },
+        "48": {
+            "Question": "The cafe under the Eiffel Tower was the highlight of my trip. Which parts of the center represent location descriptions?",
+            "Answer": "Eiffel Tower"
+        },
+        "49": {
+            "Question": "The harbor near the Sydney Opera House is a great location to see the Sydney fireworks. Which parts of the center represent location descriptions?",
+            "Answer": "Sydney Opera House, Harbor"
+        },
+        "50": {
+            "Question": "While exploring the Amazon rainforest, we visited an indigenous village. Which parts of the center represent location descriptions?",
+            "Answer": "Amazon rainforest"
+        }
+    }
+}

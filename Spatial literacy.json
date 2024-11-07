@@ -1,0 +1,340 @@
+{
+    "T/F_question": {
+        "1": {
+            "Question": "The Mississippi River flows through Canada",
+            "Answer": "F"
+        },
+        "2": {
+            "Question": "The Eiffel Tower is located in London",
+            "Answer": "F"
+        },
+        "3": {
+            "Question": "Mount Fuji is located in China.",
+            "Answer": "F"
+        },
+        "4": {
+            "Question": "The Amazon River flows through Mexico.",
+            "Answer": "F"
+        },
+        "5": {
+            "Question": "The Vatican City is a landlocked country.",
+            "Answer": "T"
+        },
+        "6": {
+            "Question": "The Himalayas run through Thailand.",
+            "Answer": "F"
+        },
+        "7": {
+            "Question": "The African continent is made up of the African continental plate.",
+            "Answer": "T"
+        },
+        "8": {
+            "Question": "Yellowstone National Park is located in California, USA.",
+            "Answer": "F"
+        },
+        "9": {
+            "Question": "Egypt is a landlocked country.",
+            "Answer": "F"
+        },
+        "10": {
+            "Question": "The Iberian Peninsula consists of Spain and Portugal.",
+            "Answer": "T"
+        },
+        "11": {
+            "Question": "Maldives consists of several coral islands.",
+            "Answer": "T"
+        },
+        "12": {
+            "Question": "The Himalayas are the longest mountain range in the world.",
+            "Answer": "F"
+        },
+        "13": {
+            "Question": "The Atlantic Ocean is the second largest ocean in the world.",
+            "Answer": "T"
+        },
+        "14": {
+            "Question": "Iguazu Falls is located between Brazil and Argentina.",
+            "Answer": "T"
+        },
+        "15": {
+            "Question": "The Himalayas are located in Europe.",
+            "Answer": "F"
+        },
+        "16": {
+            "Question": "The Nile is the longest river in the world.",
+            "Answer": "F"
+        },
+        "17": {
+            "Question": "The Mississippi River flows through the northern and southern parts of the United States.",
+            "Answer": "T"
+        },
+        "18": {
+            "Question": "The Yangtze River is part of Asia.",
+            "Answer": "T"
+        },
+        "19": {
+            "Question": "Lake Victoria is shared by several countries.",
+            "Answer": "T"
+        },
+        "20": {
+            "Question": "Australia is located in the eastern part of South America.",
+            "Answer": "F"
+        },
+        "21": {
+            "Question": "The African continent does not border the Asian continent.",
+            "Answer": "T"
+        },
+        "22": {
+            "Question": "The Suez Canal connects the Mediterranean Sea to the Red Sea.",
+            "Answer": "T"
+        },
+        "23": {
+            "Question": "The River Thames flows through the United States.",
+            "Answer": "F"
+        },
+        "24": {
+            "Question": "Nassau can be reached by land from Miami.",
+            "Answer": "F"
+        },
+        "25": {
+            "Question": "Florida's location is more easterly than California's",
+            "Answer": "T"
+        },
+        "26": {
+            "Question": "Australia is larger than the United States",
+            "Answer": "F"
+        },
+        "27": {
+            "Question": "More than 5 countries border the Baltic Sea",
+            "Answer": "T"
+        },
+        "28": {
+            "Question": "Togo shares a border with Nigeria",
+            "Answer": "F"
+        },
+        "29": {
+            "Question": "Humans can see Mauna Loa from Mauna Kea.",
+            "Answer": "T"
+        },
+        "30": {
+            "Question": "The Nile flows through China.",
+            "Answer": "F"
+        },
+        "31": {
+            "Question": "Berlin is north of Hamburg.",
+            "Answer": "F"
+        },
+        "32": {
+            "Question": "Iran and Turkey are neighbors.",
+            "Answer": "T"
+        },
+        "33": {
+            "Question": "Australia's total population is over 500 million.",
+            "Answer": "F"
+        },
+        "34": {
+            "Question": "Brazil shares a common border with Uruguay.",
+            "Answer": "T"
+        },
+        "35": {
+            "Question": "Hokkaido is the smallest of Japan's four main islands.",
+            "Answer": "F"
+        },
+        "36": {
+            "Question": "The Hudson River flows through the United States and Canada.",
+            "Answer": "F"
+        }
+    },
+    "multiple-choice_question": {
+        "1": {
+            "Question": "Which option correctly describes the type of intersection between rivers and roads?\nA. Bridges over rivers\nB. Roads parallel to rivers\nC. Rivers and roads have no intersection points\nD. Tunnels under rivers for roads",
+            "Answer": "A"
+        },
+        "2": {
+            "Question": "Which Chinese city is located between the Yellow River and the Yangtze River?\nA. Shanghai\nB. Chengdu\nC. Wuhan\nD. Zhengzhou A. D",
+            "Answer": "D"
+        },
+        "3": {
+            "Question": "Which statement about buffer analysis is correct?\nA. Buffer analysis is only used for urban planning\nB. Buffer analysis cannot be applied to environmental protection\nC. Buffer analysis is used to generate an area within a specific distance range\nD. Buffer analysis results are always linear",
+            "Answer": "C"
+        },
+        "4": {
+            "Question": "Which option is not a correct description using the Kalman direction to determine the relationship between two locations?\nA. From Beijing to Shanghai is southeastward\nB. From Moscow to St. Petersburg is southward\nC. From Los Angeles to New York is eastward\nD. From Paris to Rome is southeastward",
+            "Answer": "B"
+        },
+        "5": {
+            "Question": "Arrange the following cities in the correct order based on average temperature from high to low.\nA. Beijing, Shanghai, Guangzhou, Harbin\nB. Guangzhou, Shanghai, Beijing, Harbin\nC. Harbin, Beijing, Shanghai, Guangzhou\nD. Shanghai, Beijing, Guangzhou, Harbin",
+            "Answer": "B"
+        },
+        "6": {
+            "Question": "Which correctly describes the longest river in China in the north-south direction?\nA. the Yellow River\nB. the Yangtze River\nC. Huaihe River\nD. Songhua River",
+            "Answer": "B"
+        },
+        "7": {
+            "Question": "Which of the following is not a city characterized by a river?\nA. London\nB. Cairo\nC. Tokyo\nD. Beijing A. D",
+            "Answer": "D"
+        },
+        "8": {
+            "Question": "Which of the following descriptions incorrectly expresses the distance relationship between these two geographic locations?\nA. London to Paris is closer than London to Berlin\nB. Moscow to St. Petersburg is farther than Moscow to Sochi\nC. New York to Washington is closer than New York to Miami\nD. Sydney to Melbourne is closer than Sydney to Perth",
+            "Answer": "B"
+        },
+        "9": {
+            "Question": "Which option is incorrectly described based on the proximity of borders?\nA. France is neighboring Spain\nB. Canada is neighboring the United States\nC. Germany neighbors Italy\nD. Russia neighbors Finland",
+            "Answer": "C"
+        },
+        "10": {
+            "Question": "Which description correctly expresses the order in which cities are ranked by average temperature?\nA. Bangkok > Cairo > Melbourne > Moscow\nB. Cairo > Bangkok > Moscow > Melbourne\nC. Moscow > Melbourne > Cairo > Bangkok\nD. Bangkok > Cairo > Moscow > Melbourne",
+            "Answer": "A"
+        },
+        "11": {
+            "Question": "Which of the following options correctly describes the intersection of a river and a highway?\nA. the Nile River crosses the Cairo-Alexandria Highway\nB. the Mississippi River crosses Route 66\nC. the River Thames crosses the M25 highway",
+            "Answer": "C"
+        },
+        "12": {
+            "Question": "Which of the following options incorrectly describes the distance relationship between two geographic locations?\nA. the distance from Sydney to Melbourne is closer than Sydney to Brisbane\nB. the distance from London to Edinburgh is farther than from London to Paris\nC. the distance from New York to Washington is farther than the distance from New York to Boston\nD. the distance from Beijing to Shanghai is closer than from Beijing to Guangzhou",
+            "Answer": "B"
+        },
+        "13": {
+            "Question": "In order of elevation, which of the following options is a correct description?\nA. Denver > Mexico City > Bangkok > Berlin\nB. Bangkok > Denver > Berlin > Mexico City\nC. Berlin > Mexico City > Denver > Bangkok\nD. Mexico City > Denver > Berlin > Bangkok",
+            "Answer": "D"
+        },
+        "14": {
+            "Question": "Which of the following options correctly describes the directional relationship between the two countries?\nA. to the east of the United States is Canada\nB. to the north of China is Mongolia\nC. to the south of Australia is New Zealand\nD. to the west of India is Pakistan",
+            "Answer": "B"
+        },
+        "15": {
+            "Question": "Which of the following options is a correct description, in order of population?\nA. Shanghai > London > Moscow > Cape Town\nB. London > Moscow > Cape Town > Shanghai\nC. Cape Town > Moscow > Shanghai > London\nD. Moscow > Shanghai > London > Cape Town",
+            "Answer": "A"
+        },
+        "16": {
+            "Question": "Which option correctly describes the geocoded relationship between the countries?\nA. India and Nepal are neighboring countries\nB. Vietnam and Thailand are neighboring countries\nC. Poland and Italy are neighbors\nD. Canada and Mexico are neighboring countries",
+            "Answer": "A"
+        },
+        "17": {
+            "Question": "Which of the following options correctly describes inter-city visibility?\nA. the Eiffel Tower in Paris can be seen from Big Ben in London\nB. from St. Stephen's Cathedral in Vienna you can see the Parliament building in Budapest\nC. the towers of Las Vegas can be seen from Griffith Observatory in Los Angeles\nD. the Dead Sea can be seen from the Mount of Olives in Jerusalem",
+            "Answer": "D"
+        },
+        "18": {
+            "Question": "Which of the following options correctly describes the positional relationship between the two islands?\nA. to the west of Honshu Island in Japan is Shikoku Island\nB. south of Luzon Island in the Philippines is Mindanao Island\nC. to the east of Sumatra in Indonesia is the island of Java\nD. to the north of Madagascar are the Comoros Islands",
+            "Answer": "A"
+        },
+        "19": {
+            "Question": "Which of the following options describes the countries in order of their combined size?\nA. Russia > Canada > China > Brazil\nB. China > Russia > Brazil > Canada\nC. Canada > China > Brazil > Russia\nD. Brazil > Canada > China > Russia",
+            "Answer": "A"
+        },
+        "20": {
+            "Question": "Which of the following options correctly describes the ranking of cities in terms of average temperature?\nA. Bangkok > Cairo > Berlin > Sydney\nB. Berlin > Cairo > Bangkok > Sydney\nC. Cairo > Bangkok > Sydney > Berlin\nD. Bangkok > Sydney > Cairo > Berlin",
+            "Answer": "D"
+        },
+        "21": {
+            "Question": "Based on the proximity of country borders, which of the following descriptions is false?\nA. Norway borders Sweden\nB. Mexico borders Belize\nC. India borders Nepal\nD. Argentina borders Chile",
+            "Answer": "B"
+        },
+        "22": {
+            "Question": "Which of the following descriptions incorrectly expresses the distance relationship between two geographic locations?\nA. London to Manchester is closer than London to Edinburgh\nB. Los Angeles to San Francisco is farther than Los Angeles to San Diego\nC. Beijing to Shanghai is closer than Beijing to Guangzhou\nD.The distance from Tokyo to Sapporo is closer than the distance from Tokyo to Kyoto.",
+            "Answer": "D"
+        },
+        "23": {
+            "Question": "Which of the following options correctly describes the relationship between rivers and cities?\nA. the Nile River flows through Cairo\nB. the Amazon River flows through Buenos Aires\nC. the Yellow River flows through Shanghai\nD. the Ganges River flows through New Delhi",
+            "Answer": "A"
+        },
+        "24": {
+            "Question": "Which of the following options is a correct description, in order of elevation?\nA. Moscow > Mexico City > Bangkok > Cairo\nB. Bangkok > Cairo > Moscow > Mexico City\nC. Mexico City > Moscow > Cairo > Bangkok\nD. Cairo > Mexico City > Bangkok > Moscow",
+            "Answer": "C"
+        },
+        "25": {
+            "Question": "Which option correctly describes the order of population of the following cities?\nA. Shanghai > London > New Delhi > Bangkok\nB. New Delhi > London > Shanghai > Bangkok\nC. Bangkok > Shanghai > New Delhi > London\nD. London > Bangkok > Shanghai > New Delhi",
+            "Answer": "A"
+        },
+        "26": {
+            "Question": "Which option is not a correct description using the Kalman direction to determine the relationship between two locations?\nA. From Beijing to Shanghai is southeastward\nB. From Moscow to St. Petersburg is southward\nC. From Los Angeles to New York is eastward\nD. From Paris to Rome is southeastward",
+            "Answer": "D"
+        },
+        "27": {
+            "Question": "Which of the following options incorrectly describes the relationship between topographic features?\nA. the Andes run through Chile\nB. the Rocky Mountains are in Australia\nC. the Alps run through Italy\nD. Egypt in the east is Libya.",
+            "Answer": "B"
+        },
+        "28": {
+            "Question": "Which of the following descriptions correctly expresses the positional relationship between the two islands?\nA. north of Grand Bahama Island is Florida\nB. south of Sumatra is the island of Java\nC. east of England is Iceland\nD. south of New Zealand's North Island is the South Island",
+            "Answer": "D"
+        },
+        "29": {
+            "Question": "Which of the following options correctly describes inter-city visibility?\nA. View of Lake Rodrigo de Freitas from the statue of Christ on Mount Corcovado, Rio de Janeiro\nB. from the Empire State Building in New York you can see the Capitol Building in Washington, D.C.\nC. the West Lake in Hangzhou can be seen from the Oriental Pearl Tower in Shanghai\nD. the Black Sea can be seen from St. Sophia Cathedral in Kiev.",
+            "Answer": "A"
+        }
+    },
+    "short-answer_question": {
+        "1": {
+            "Question": "What are the UNESCO World Heritage Sites in Bahrain?",
+            "Answer": "The Ancient Harbour and Capital of Dilmun, the Archaeological Site of Qal’at al-Bahrain – Ancient Harbour and Capital of Dilmun, and the Pearling, Testimony of an Island Economy.Dilmun Burial Mounds"
+        },
+        "2": {
+            "Question": "How can GIS be used to determine the shortest driving distance between two cities?",
+            "Answer": "By using the network analysis tool in GIS software, inputting the coordinates or addresses of the two cities, and applying the shortest path algorithm to calculate the shortest driving distance."
+        },
+        "3": {
+            "Question": "Describe how GIS can be used to assess flood risk to downstream areas of a river.",
+            "Answer": "Utilize GIS for watershed and rainfall data analysis, simulate changes in river water levels and flow velocities, assess and map potential flood impact areas."
+        },
+        "4": {
+            "Question": "How can GIS analysis be used to determine population density distribution in a country?",
+            "Answer": "Collect population census data, perform spatial analysis using GIS software, overlay population data onto maps, and visualize population density distribution by generating population density maps."
+        },
+        "5": {
+            "Question": "How can GIS data be used to evaluate urban heat island effects?",
+            "Answer": "Collect surface temperature and vegetation coverage data from different areas of the city, conduct spatial analysis using GIS, compare temperature differences in various areas, and identify regions with severe urban heat island effects."
+        },
+        "6": {
+            "Question": "Which cities in China are listed as UNESCO World Heritage Cities?",
+            "Answer": "Beijing, Xi'an, Luoyang, Kaifeng."
+        },
+        "7": {
+            "Question": "Within 100 miles of New York City, which cities have a population exceeding 500,000?",
+            "Answer": "Philadelphia and Jersey City."
+        },
+        "8": {
+            "Question": "How can you determine the straight-line distance between two landmarks using GIS?",
+            "Answer": "Input the coordinates of the two landmarks into GIS software and use the measuring tool to calculate the straight-line distance between them."
+        },
+        "9": {
+            "Question": "Which countries border Brazil?",
+            "Answer": "Uruguay, Argentina, Paraguay, Bolivia, Peru, Colombia, Venezuela, Guyana, Suriname, French Guiana."
+        },
+        "10": {
+            "Question": "How can GIS be used to identify service facilities along a highway?",
+            "Answer": "Load highway data layer and service facility data layer into GIS, use buffer analysis tool to identify all service facilities within a specific distance along the highway."
+        },
+        "11": {
+            "Question": "In which city do I-94 and I-29 intersect?",
+            "Answer": "Fargo, ND"
+        },
+        "12": {
+            "Question": "In which German city crosses A60 the Rhine river?",
+            "Answer": "Mainz"
+        },
+        "13": {
+            "Question": "What is the single most important geographic commonality between Belarus, Bolivia, Chad, and Nepal?",
+            "Answer": "Landlocked"
+        },
+        "14": {
+            "Question": "What is the single most important geographic commonality between Mauritius, Sardegna, Guernsey and Bali?",
+            "Answer": "Islands"
+        },
+        "15": {
+            "Question": "In which order does the Danube flow through Bratislava, Budapest, Linz and Vienna?",
+            "Answer": "Linz, Vienna, Bratislava, Budapest"
+        },
+        "16": {
+            "Question": "Which two cities among Dallas, Atlanta, Memphis, and Oklahoma City are closest to each other considering great circle distances?",
+            "Answer": "Dallas and Oklahoma City (307km)"
+        },
+        "17": {
+            "Question": "Which cities of 250,000 or more residents are within a 100 mile drive from Lexington, KY?",
+            "Answer": "Louisville (78 mi, 629 K pop), Cincinnati (85 mi, pop 308 K)"
+        },
+        "18": {
+            "Question": "List the UNESCO world heritage sites in Oman",
+            "Answer": "Aflaj Irrigation Systems of Oman (2006)\nAncient City of Qalhat (2018)\nArchaeological Sites of Bat, Al-Khutm and Al-Ayn (1988)\nBahla Fort (1987)\nLand of Frankincense (2000)"
+        }
+    }
+}

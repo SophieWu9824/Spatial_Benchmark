@@ -1,0 +1,164 @@
+{
+    "short-answer_question": {
+        "1": {
+            "Question": "Provide in one sentence a common term for these equations: \nX = (Sx * Cos(b)) * x - (Sy * Sin(a)) * y + Tx \nY = (Sx * (Sin(b)) * x + (Sy *  Cos(a)) * y + Ty",
+            "Answer": "Affine transformation"
+        },
+        "2": {
+            "Question": "Explain in one sentence what this equation computes:  f=sqrt(((x2 \u00a8C x1)2 + (y2 \u00a8C y1)2))",
+            "Answer": "2-D distance between 2 points"
+        },
+        "3": {
+            "Question": "Explain in one sentence what this equation computes:  f=R * acos(cos(p1) * cos(p2) * cos(l1-l2) + sin(p1) * sin(p2))",
+            "Answer": "Great circle distance between 2 points"
+        },
+        "4": {
+            "Question": "Explain what this equation does and what is used for in 2 sentences. \nF = INT[365.25a] + INT[30.6001(b+1)] + D + K/24 + 1720981.5, where a = A-1 and b = P+12 if P \u00a1\u00dc 2 and where a = A and b = P if P > 2",
+            "Answer": "Gregorian to Julian Date"
+        },
+        "5": {
+            "Question": "Explain in one sentence what this equation computes: X = (NIR - R) / (NIR + R)",
+            "Answer": "NDVI"
+        },
+        "6": {
+            "Question": "Provide in one sentence a common term for this equation and what it is used for: cos a = cos b cos c + sin b sin c cos A ",
+            "Answer": "Law of Cosines, computes the missing side a from the two other sides and an angle  in a spherical triangle"
+        },
+        "7": {
+            "Question": "Explain in one sentence the purpose of the following formula: g = 2 * pi * R * (1 - sin(p))",
+            "Answer": "Calculate the meridian length from the Earth's equator to a given latitude."
+        },
+        "8": {
+            "Question": "Describe the function of this formula in one sentence: h = a * exp(-((x-x0)^2/(2sigma_x^2) + (y-y0)^2/(2sigma_y^2)))",
+            "Answer": "Computes the value of a two-dimensional Gaussian function used to describe how points in space are distributed around a central point."
+        },
+        "9": {
+            "Question": "Explain the use of this equation in one sentence: j = 1/(1 + e^(-z))",
+            "Answer": "This is the Sigmoid function in a logistic regression model, used to convert any real value into a probability between 0 and 1."
+        },
+        "10": {
+            "Question": "Briefly describe the function of the following equation: k = max(0, 1 - y*(wx+b))",
+            "Answer": "This is the hinge loss function used in support vector machines to measure the degree of classification error."
+        },
+        "11": {
+            "Question": "State in one sentence what this formula is designed to do: m = d * tan(alpha)",
+            "Answer": "Calculate the length of the opposite side for a given angle and distance."
+        },
+        "12": {
+            "Question": "Explain the function of the following equation in one sentence: n = log(a) / log(b)",
+            "Answer": "Compute the logarithm of a with b as the base."
+        },
+        "13": {
+            "Question": "Please explain in one sentence what this formula is designed to do: o = (c^2 + d^2 - 2cd * cos(e))^(1/2)",
+            "Answer": "Calculate the distance between two points obtained by the cosine theorem."
+        },
+        "14": {
+            "Question": "Describe the use of this equation in one sentence: p = a * b * sin(theta)",
+            "Answer": "Calculate the area of a parallelogram formed by vectors a and b."
+        },
+        "15": {
+            "Question": "Briefly describe the function of this equation: q = ((x1 - x2)^2 + (y1 - y2)^2 + (z1 - z2)^2)^(1/2)",
+            "Answer": "Calculate the Euclidean distance between two points in three-dimensional space."
+        },
+        "16": {
+            "Question": "Explain in one sentence the purpose of the calculation of the following formula: r = 0.299 * R + 0.587 * G + 0.114 * B",
+            "Answer": "The calculation converts the RGB color model to grayscale values based on the human eye's sensitivity to color."
+        },
+        "17": {
+            "Question": "Explain in one sentence the purpose of the following equation: t = atan2(y, x)",
+            "Answer": "Calculates the angle of the point (x, y) with respect to the origin, and the result is between -\u00a6\u00d0 and \u00a6\u00d0."
+        },
+        "18": {
+            "Question": "Explain the function of the following equation: g = tan^-1((y2 - y1) / (x2 - x1))",
+            "Answer": "Calculate the angle between two points."
+        },
+        "19": {
+            "Question": "If the following equation is used to calculate the difference in the number of days between dates, how should it be described as a function of h = (date2 - date1) / 86400",
+            "Answer": "Calculates the number of days between two dates."
+        },
+        "20": {
+            "Question": "Provide a sentence describing the use of this equation: i = 0.299 * r + 0.587 * g + 0.114 * b",
+            "Answer": "Calculates the grayscale value of a color image."
+        },
+        "21": {
+            "Question": "How to explain the use of this equation in simple terms: j = a * log(b) + c",
+            "Answer": "Typically used in log-linear regression models to explain the effect of a variable on the response variable."
+        },
+        "22": {
+            "Question": "Briefly describe what this equation calculates: k = ((z2 - z1) / ((x2 - x1)2 + (y2 - y1)2))^0.5",
+            "Answer": "Calculate the slope between points in space."
+        },
+        "23": {
+            "Question": "Describe the application of this equation: l = (u2 * v1 - u1 * v2) / (u2 - u1)",
+            "Answer": "Calculate the y-coordinate of the intersection of the two lines."
+        },
+        "24": {
+            "Question": "What is this equation usually used for: m = (n * \u00a1\u00c6(xy) - \u00a1\u00c6x * \u00a1\u00c6y) / (n * \u00a1\u00c6(x^2) - (\u00a1\u00c6x)^2)",
+            "Answer": "Calculate the slope of a simple linear regression."
+        },
+        "25": {
+            "Question": "Provide common terms for these equations: X = (Sx * Cos(b)) * x - (Sy * Sin(a)) * y + Tx, Y = (Sx * Sin(b)) * x + (Sy * Cos(a)) * y + Ty.",
+            "Answer": "This set of equations is commonly used for two-dimensional coordinate transformations."
+        },
+        "26": {
+            "Question": "Explain in one sentence what this equation calculates: f = R * acos(cos(\u00a6\u00d51) * cos(\u00a6\u00d52) * cos(\u00a6\u00cb1 - \u00a6\u00cb2) + sin(\u00a6\u00d51) * sin(\u00a6\u00d52)).",
+            "Answer": "This equation calculates the great circle distance (spherical distance) between two points on the Earth's surface."
+        },
+        "27": {
+            "Question": "Explain what this equation does and what it is used for: f = INT[365.25 * (Y - 1)] + INT[30.6001 * (M + 1)] + D - 679006.",
+            "Answer": "This equation is used to calculate the number of Julian days corresponding to a calendar date."
+        },
+        "28": {
+            "Question": "Explain what this equation calculates: G = 1 / (1 + e^(- (a * x + b * y + c))).",
+            "Answer": "This equation is the formula for the logistic Steele regression model, which is commonly used to categorize spatial data."
+        },
+        "29": {
+            "Question": "Describe the usual use of this equation in one sentence: I = \u00a6\u00c1 * R + \u00a6\u00c2 * G + \u00a6\u00c3 * B.",
+            "Answer": "This equation is used in multispectral image analysis to calculate a composite index based on reflectance at different wavelengths."
+        },
+        "30": {
+            "Question": "Explain what this equation calculates: d = |a * x + b * y + c| / \u00a1\u00cc(a2 + b2).",
+            "Answer": "This equation calculates the shortest distance from the point (x, y) to the line ax + by + c = 0 and is often used in spatial regression analysis."
+        },
+        "31": {
+            "Question": "Explain in one sentence what this equation calculates: c = 2 * atan2(\u00a1\u00cc(a2 + b2), \u00a1\u00cc(1 - a2 - b2)).",
+            "Answer": "This equation calculates the spherical distance between two points and is often used in the calculation of distances on the Earth's surface."
+        },
+        "32": {
+            "Question": "Provide common uses of this equation: X' = Xcos\u00a6\u00c8 - Ysin\u00a6\u00c8, Y' = Xsin\u00a6\u00c8 + Ycos\u00a6\u00c8.",
+            "Answer": "This set of equations represents the rotation of a point around the origin in two dimensions, with \u00a6\u00c8 being the angle of rotation."
+        },
+        "33": {
+            "Question": "Explain what this equation does in one sentence: z = a * e^(b * T).",
+            "Answer": "This equation simulates exponential growth and is commonly used to analyze the effect of temperature changes on event rates."
+        },
+        "34": {
+            "Question": "Explain what this equation calculates: n = INT[275 * M / 9] - INT[(M + 9) / 12] * (1 + INT[(Y - 4 * INT[Y / 4] + 2) / 3]) + D - 30.",
+            "Answer": "This equation is used to calculate the Nth day of the year given the year (Y), month (M) and day (D)."
+        },
+        "35": {
+            "Question": "Explain what this equation calculates: I = 0.2126 * R + 0.7152 * G + 0.0722 * B.",
+            "Answer": "This equation is used to calculate the gray value of a color image, weighted according to the sensitivity of the human eye to different colors."
+        },
+        "36": {
+            "Question": "Describe the usual use of this equation in one sentence: d = \u00a1\u00cc((x2 - x1)2 * cos2((y2 + y1)/2) + (y2 - y1)2) * R.",
+            "Answer": "This equation calculates the approximate distance between two points based on the curvature of the earth, taking into account the effect of latitude, and is suitable for distance measurements in GIS."
+        },
+        "37": {
+            "Question": "Explain what this equation calculates: h = R * (1 / cos(\u00a6\u00c4) - 1).",
+            "Answer": "This equation is used to calculate the line-of-sight distance h from the Earth's surface to a point with a geocentric angle \u00a6\u00c4."
+        },
+        "38": {
+            "Question": "Describe the common uses of this equation in one sentence: \u00a6\u00a4\u00a6\u00cb = \u00a6\u00cb2 - \u00a6\u00cb1, \u00a6\u00a4\u00a6\u00d5 = \u00a6\u00d52 - \u00a6\u00d51, a = sin2(\u00a6\u00a4\u00a6\u00d5/2) + cos(\u00a6\u00d51) * cos(\u00a6\u00d52) * sin2(\u00a6\u00a4\u00a6\u00cb/2), c = 2 * atan2(\u00a1\u00cca, \u00a1\u00cc(1-a)).",
+            "Answer": "This equation calculates the spherical shortest distance between two points on Earth according to the Haverset formula."
+        },
+        "39": {
+            "Question": "Explain what this equation does in one sentence: t = 0.01 * (X - 32 * sin(Y * \u00a6\u00d0 / 180)).",
+            "Answer": "This equation is used to estimate the corrected temperature T (Celsius) for a geographic location based on the temperature X (Fahrenheit) and latitude Y (angle)."
+        },
+        "40": {
+            "Question": "Explain what this equation calculates: s = \u00a1\u00d2 from \u00a6\u00cb1 to \u00a6\u00cb2 \u00a1\u00d2 from \u00a6\u00d51 to \u00a6\u00d52 R2 * cos(\u00a6\u00d5) d\u00a6\u00d5 d\u00a6\u00cb.",
+            "Answer": "This equation calculates the surface area S of the area on the Earth's surface defined by latitude and longitude, where R is the radius of the Earth."
+        }
+    }
+}

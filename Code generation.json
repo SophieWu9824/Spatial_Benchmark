@@ -1,0 +1,96 @@
+{
+    "short-answer_question": {
+        "1": {
+            "Question": "Modify the following code to also print the id of the local and global x variable: \nx = \"awesome\" # global variable\ndef myfunc():\n  x = \"fantastic\" # local variable with same name\n  print(\"GIS is \" + x)\n\nmyfunc()\nprint(\"GIS is \" + x) ",
+            "Answer": "x = \"awesome\" # global variable\n\ndef myfunc():\n    x = \"fantastic\" # local variable with same name\n    print(\"Inside myfunc(), x id is:\", id(x))\n    print(\"GIS is \" + x)\n\nmyfunc()\nprint(\"Outside myfunc(), x id is:\", id(x))\nprint(\"GIS is \" + x)\n"
+        },
+        "2": {
+            "Question": "Modify the following code to also change the latitude and longitude values of the selected row to 33.5 and -82.5, respectively\n\nimport arcpy\nfrom pathlib import *\nscriptDir = Path.cwd()\ndbDir = scriptDir / 'Data' / 'MiamiCursor.gdb'\nfc = dbDir / 'TermitesMiami'\nfields = (\"Latitude\", \"Longitude\", \"Year\")\nsqlwhere = '\"OBJECTID\" =  2'\nwith arcpy.da.UpdateCursor(str(fc),(fields), sqlwhere) as cursor:\n    for row in cursor:\n      row[2] = '1940'\n      cursor.updateRow(row)",
+            "Answer": "import arcpy\nfrom pathlib import *\n\nscriptDir = Path.cwd()\ndbDir = scriptDir / 'Data' / 'MiamiCursor.gdb'\nfc = dbDir / \"TermitesMiami\"\nfields = (\"Latitude\", \"Longitude\", \"Year\")\nsqlwhere = '\"OBJECTID\" = 2'\n\nwith arcpy.da.UpdateCursor(str(fc), fields, sqlwhere) as cursor:\n    for row in cursor:\n        row[0] = 33.5  # \u00d0\u00de\u00b8\u00c4\u00be\u00ad\u00b6\u00c8\u00d6\u00b5\n        row[1] = -82.5  # \u00d0\u00de\u00b8\u00c4\u00ce\u00b3\u00b6\u00c8\u00d6\u00b5\n        row[2] = '1940'\n        cursor.updateRow(row)"
+        },
+        "3": {
+            "Question": "Generate Python code that sorts the following points from East to West and prints their coordinates.\n \nLatitude,Longitude\n40.7128,-74.0060\n34.0522,-118.2437\n51.5074,-0.1278",
+            "Answer": "points = [\n    {\"latitude\": 40.7128, \"longitude\": -74.0060},\n    {\"latitude\": 34.0522, \"longitude\": -118.2437},\n    {\"latitude\": 51.5074, \"longitude\": -0.1278}\n]\n\nsorted_points = sorted(points, key=lambda x: x[\"longitude\"])\n\nfor point in sorted_points:\n    print(\"Latitude: {}, Longitude: {}\".format(point[\"latitude\"], point[\"longitude\"]))\n"
+        },
+        "4": {
+            "Question": "Generate ArcPy code that connects the following points with a line and saves the result as a shapefile into a directory called C:/temp\nLatitude,Longitude\n35.0522,-118.5437\n34.7654,-118.2437\n34.95,-117.2437",
+            "Answer": "import arcpy\nfrom arcpy import Point, Polyline\n\narcpy.env.workspace = \"C:/temp\"\n\npoint1 = Point(-118.5437, 35.0522)\npoint2 = Point(-118.2437, 34.7654)\npoint3 = Point(-117.2437, 34.95)\n\nline = Polyline(arcpy.Array([point1, point2, point3]))\n\noutput_shapefile = \"C:/temp/points_line.shp\"\narcpy.management.CopyFeatures(line, output_shapefile)"
+        },
+        "5": {
+            "Question": "Complete this code to plot three polygons. \ninstall.packages(\"sp\")\nlibrary(sp)\ncs1 <- rbind(c(7, 5), c(10, 5), c(10, 0), c(5, 0))\ncs2 <- rbind(c(5, 5), c(10, 5), c(9, 8))\ncs3 <- rbind(c(7, 5), c(3, 5), c(5, 0))",
+            "Answer": "library(sp)\n\ncs1 <- rbind(c(7, 5), c(10, 5), c(10, 0), c(5, 0))\ncs2 <- rbind(c(5, 5), c(10, 5), c(9, 8))\ncs3 <- rbind(c(7, 5), c(3, 5), c(5, 0))\n\np1 <- Polygon(cs1)\np2 <- Polygon(cs2)\np3 <- Polygon(cs3)\n\npolys <- Polygons(list(p1,p2,p3),\"areas\")\n\npolySpa <- SpatialPolygons(list(polys))\nplot(polySpa)"
+        },
+        "6": {
+            "Question": "Complete this code to create and plot a raster map using indirect distance weighting with a power of 0.5\nlibrary(spatstat) # for ppp\nlibrary(sp)\n\nxlist <- 1:10\nylist <- 1:10\ncomb <- expand.grid(xlist,ylist)\nlabels <- runif(100)*(comb$Var1/10)*(comb$Var2/10)\nw = owin(c(0,11),c(0,11))\nppp_rd<-ppp(comb$Var1,comb$Var2, marks=labels,window=w)",
+            "Answer": "library(spatstat) # for ppp\nlibrary(sp)\n\nxlist <- 1:10\nylist <- 1:10\ncomb <- expand.grid(xlist,ylist)\nlabels <- runif(100)*(comb$Var1/10)*(comb$Var2/10)\nw = owin(c(0,11),c(0,11))\nppp_rd<-ppp(comb$Var1,comb$Var2, marks=labels,window=w)\n\n# plot(ppp_rd)\nidw_rd <- idw(ppp_rd, power=0.5, at=\"pixels\")\n\nplot(idw_rd,\n     col=heat.colors(20), \n     main=\"Interpolated rd points using IDW\") "
+        },
+        "7": {
+            "Question": "In ArcGIS Python, if you need to remove a specified attribute column from an existing shp file, how can you modify the following code to accomplish this?\n\nimport arcpy\nshp_path = \"C:\\\\data\\\\example.shp\"\nfields_to_delete = [\"Area\", \"Perimeter\"]",
+            "Answer": "import arcpy\nshp_path = \"C:\\\\data\\\\example.shp\"\nfields_to_delete = [\"Area\", \"Perimeter\"]\narcpy.DeleteField_management(shp_path, fields_to_delete)\n"
+        },
+        "8": {
+            "Question": "How can I use R's sp package to create and draw a Polygon from a given set of coordinates, assuming the coordinates are (3, 4), (5, 6), (7, 4)?",
+            "Answer": "library(sp)\ncoords <- rbind(c(3, 4), c(5, 6), c(7, 4))\npoly <- Polygon(coords)\npolys <- Polygons(list(poly), \"p1\")\nsp_poly <- SpatialPolygons(list(polys))\nplot(sp_poly)\n"
+        },
+        "9": {
+            "Question": "Given the following R code, if you need to compute the average distance from each point in a collection of points to its nearest neighbor, how would this be done using the spatstat package?library(spatstat)\npoints <- ppp(1:10, 1:10, window=owin(xrange=c(0,10), yrange=c(0,10)))\n",
+            "Answer": "library(spatstat)\npoints <- ppp(1:10, 1:10, window=owin(xrange=c(0,10), yrange=c(0,10)))\nnearest_dist <- nndist(points)\nmean(nearest_dist)\n"
+        },
+        "10": {
+            "Question": "Using the ArcPy package in Python, how do I export all the element classes in a geodatabase as separate Shapefile files?",
+            "Answer": "import arcpy\narcpy.env.workspace = \"C:/data/Geodatabase.gdb\"\nfeature_classes = arcpy.ListFeatureClasses()\nfor fc in feature_classes:\n    arcpy.FeatureClassToShapefile_conversion(fc, \"C:/output/\")\n"
+        },
+        "11": {
+            "Question": "How can I convert a point pattern to a pixel image and apply Gaussian smoothing if I use the spatstat library in R?",
+            "Answer": "library(spatstat)\nx <- rpoispp(10)\npix <- as.im(x, dimyx=256)\nsmoothed <- blur(pix, sigma=2)\nplot(smoothed)\n"
+        },
+        "12": {
+            "Question": "How can I use the arcpy package in an ArcGIS Python script to modify the default symbol system for a given layer?\n\nimport arcpy\nmxd = arcpy.mapping.MapDocument(\"CURRENT\")\nlyr = arcpy.mapping.ListLayers(mxd, \"Layer_Name\")[0]\n# continue code ",
+            "Answer": "import arcpy\nmxd = arcpy.mapping.MapDocument(\"CURRENT\")\nlyr = arcpy.mapping.ListLayers(mxd, \"Layer_Name\")[0]\nlyr.symbologyType = 'UNIQUE_VALUES'\narcpy.RefreshActiveView()\n"
+        },
+        "13": {
+            "Question": "Write R code to compute and output the area of a SpatialPolygon object.\n\nlibrary(sp)\npoly <- SpatialPolygons(...)\n# continue code ",
+            "Answer": "library(sp)\ncoords <- list(rbind(c(-180,-20), c(-140,55), c(10, 0), c(-140,-60), c(-180,-20)))\npol <- Polygon(coords)\npls <- Polygons(list(pol), '1')\nspoly <- SpatialPolygons(list(pls))\nsf_object <- st_as_sf(spoly)\narea <- st_area(sf_object)\nprint(area)\n"
+        },
+        "14": {
+            "Question": "How to create a labeled point process and compute its density in R using the spatstat package?\n\nlibrary(spatstat)\nx <- runif(10)\ny <- runif(10)\nmarks <- runif(10)\n# continue code ",
+            "Answer": "library(spatstat)\nx <- runif(10)\ny <- runif(10)\nmarks <- runif(10)\npp <- ppp(x, y, marks=marks, window=owin(xrange=c(0,1), yrange=c(0,1)))\ndensity_pp <- density(pp)\nplot(density_pp)\n"
+        },
+        "15": {
+            "Question": "Using the spatstat package in R, how do I calculate the average of the nearest-neighbor distances of a point pattern?\n\nlibrary(spatstat)\npp <- ppp(1:10, 1:10, window=owin(xrange=c(0,10), yrange=c(0,10))))\n# Continue the code",
+            "Answer": "library(spatstat)\npp <- ppp(1:10, 1:10, window=owin(xrange=c(0,10), yrange=c(0,10)))\nmean(nndist(pp))\n"
+        },
+        "16": {
+            "Question": "Write an R script that uses the functions of the sp package to calculate and print the average longitude and latitude of all points in a SpatialPointsDataFrame object.",
+            "Answer": "library(sp)\ncoordinates <- data.frame(lon = c(-74.0060, -118.2437, -0.1278), lat = c(40.7128, 34.0522, 51.5074))\nspdf <- SpatialPointsDataFrame(coords = coordinates, data = data.frame(id = seq(1,3)))\nmean_lon <- mean(coordinates(spdf)[,1])\nmean_lat <- mean(coordinates(spdf)[,2])\nprint(c(mean_lon, mean_lat))\n"
+        },
+        "17": {
+            "Question": "Using Python and the ArcPy library, write a script that reads an element class called \u00a1\u00b0UrbanAreas\u00a1\u00b1, finds the largest area, and prints its name.",
+            "Answer": "import arcpy\nfc = 'c:/gis_data/UrbanAreas.shp'\nmax_area = 0\nmax_name = None\nwith arcpy.da.SearchCursor(fc, ['NAME', 'SHAPE@AREA']) as cursor:\n    for row in cursor:\n        if row[1] > max_area:\n            max_area = row[1]\n            max_name = row[0]\nprint(\"Largest area:\", max_name)\n"
+        },
+        "18": {
+            "Question": "Create an R script that loads point pattern data on a linear network using the spatstat library and calculates and prints the average spacing of all points on the linear network.",
+            "Answer": "library(spatstat)\nlibrary(spatstat.core)\nlibrary(spatstat.linnet)\nL <- simplenet\nX <- runiflpp(10, L)\ndistances <- nndist(X)\naverage_spacing <- mean(distances)\nprint(paste(average_spacing))"
+        },
+        "19": {
+            "Question": "Using the spatstat library in R, how do I convert a point pattern to a pixel image and apply Gaussian smoothing? Please generate executable code",
+            "Answer": "library(spatstat)\ndata(cells)  # \u00ca\u00b9\u00d3\u00c3spatstat\u00b0\u00fc\u00d6\u00d0\u00b5\u00c4cells\u00b5\u00e3\u00ca\u00fd\u00be\u00dd\nW <- boundingbox(cells)  # \u00bb\u00f1\u00c8\u00a1\u00b5\u00e3\u00c4\u00a3\u00ca\u00bd\u00b5\u00c4\u00b1\u00df\u00bd\u00e7\nim <- as.im(cells, W, dimyx=128)  # \u00bd\u00ab\u00b5\u00e3\u00c4\u00a3\u00ca\u00bd\u00d7\u00aa\u00bb\u00bb\u00ce\u00aa\u00cf\u00f1\u00cb\u00d8\u00cd\u00bc\u00cf\u00f1\nsmooth_im <- blur(im, sigma=0.1)  # \u00d3\u00a6\u00d3\u00c3\u00b8\u00df\u00cb\u00b9\u00c6\u00bd\u00bb\u00ac\nplot(smooth_im)  # \u00bb\u00e6\u00d6\u00c6\u00bd\u00e1\u00b9\u00fb\n"
+        },
+        "20": {
+            "Question": "How to calculate the nearest neighbor distance between two point patterns in R using the spatstat library? Please generate executable code",
+            "Answer": "library(spatstat)\ndata(cells, ganglia)  # \u00ca\u00b9\u00d3\u00c3spatstat\u00b0\u00fc\u00d6\u00d0\u00b5\u00c4\u00c1\u00bd\u00d7\u00e9\u00b5\u00e3\u00ca\u00fd\u00be\u00dd\nnearest_dist <- nncross(cells, ganglia)  # \u00bc\u00c6\u00cb\u00e3\u00c1\u00bd\u00b8\u00f6\u00b5\u00e3\u00c4\u00a3\u00ca\u00bd\u00d6\u00ae\u00bc\u00e4\u00b5\u00c4\u00d7\u00ee\u00bd\u00fc\u00c1\u00da\u00be\u00e0\u00c0\u00eb\nprint(nearest_dist)  # \u00b4\u00f2\u00d3\u00a1\u00be\u00e0\u00c0\u00eb\n"
+        },
+        "21": {
+            "Question": "Using the spatstat library in R, how do I calculate the K function for a point pattern data and plot the result? Please generate executable code",
+            "Answer": "library(spatstat)\ndata(cells)  # \u00ca\u00b9\u00d3\u00c3spatstat\u00b0\u00fc\u00d6\u00d0\u00b5\u00c4\u00b5\u00e3\u00ca\u00fd\u00be\u00dd\nKest <- Kest(cells)  # \u00bc\u00c6\u00cb\u00e3K\u00ba\u00af\u00ca\u00fd\nplot(Kest)  # \u00bb\u00e6\u00d6\u00c6K\u00ba\u00af\u00ca\u00fd\u00cd\u00bc\n"
+        },
+        "22": {
+            "Question": "How can I use the spatstat library in R to randomly sample a certain number of points from a point pattern and plot those points? Please generate executable code",
+            "Answer": "library(spatstat)\nw <- owin(c(0, 10), c(0, 10))\nx <- runif(50, 0, 10) \ny <- runif(50, 0, 10)\nppp_full <- ppp(x, y, window=w) \nn_sample <- 20\nindices <- sample(1:ppp_full$n, n_sample, replace=FALSE)\nppp_sampled <- ppp_full[indices]。\nplot(ppp_full, main=“Full Point Pattern and Sampled Points”)\npoints(ppp_sampled, pch=19, col=“red”)"
+        },
+        "23": {
+            "Question": "Using the spatstat library in R, how do you calculate and plot the density of point patterns on a linear network? Please generate executable code",
+            "Answer": "library(spatstat) \nset.seed(42)\npoints_on_net <- rpoislpp(10, L)\ndensity_points <- density.lpp(points_on_net, sigma=0.1)\nplot(L, main='Linear Network with Point Pattern')\nplot(points_on_net, add=TRUE, col='red', pch=20)\nplot(density_points, main='Density of Points on Linear Network', add=TRUE)"
+        }
+    }
+}

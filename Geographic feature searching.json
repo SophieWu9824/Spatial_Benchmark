@@ -1,0 +1,408 @@
+{
+    "short-answer_question": {
+        "1": {
+            "Question": "XX, usually locally referred to as simply Havn, is the capital and largest city of the Faroe Islands. It is located in the southern part on the east coast of Streymoy. To the northwest of the city lies the 347-meter-high (1,138 ft) mountain Húsareyn, and to the southwest, the 350-meter-high (1,150 ft) Kirkjubøreyn. Return only the name of XX in the given paragraph.",
+            "Answer": "Tórshavn"
+        },
+        "2": {
+            "Question": "XX is the capital and largest city of Greenland, a constituent country of the Kingdom of Denmark. XX is the seat of government and the country's largest cultural and economic centre. The major cities from other countries closest to the capital are Iqaluit and St. John's in Canada and Reykjavík in Iceland.Return only the name of XX in the given paragraph.",
+            "Answer": "Nuuk"
+        },
+        "3": {
+            "Question": "XX is an atoll and the capital of the Republic of Kiribati, in the Micronesia region of the central Pacific Ocean. It comprises North XX, which has 6,629 inhabitants and much in common with other more remote islands of the Gilberts group, and South XX, which has 56,388 inhabitants as of 2015, half of the country's total population. Return only the name of XX in the given paragraph.",
+            "Answer": "Tarawa"
+        },
+        "4": {
+            "Question": "XX is the capital of the island nation of Tuvalu. It has a population of 6,320 people (2017 census), and so it has more people than the rest of Tuvalu combined, with approximately 60% of the population. It consists of a narrow sweep of land between 20 and 400 metres (66 and 1,312 feet) wide, encircling a large lagoon (Te Namo) 18 km (11 miles) long and 14 km (9 miles) wide. Return only the name of XX in the given paragraph.",
+            "Answer": "Funafuti"
+        },
+        "5": {
+            "Question": "XX is the second largest city in Vanuatu after the capital Port Vila; it is located on the island of Espiritu Santo and has a population of 18,062 as of the 2020 census. Those on Vanuatu's northern islands who regard Luganville as their big city, particularly indigenous populations, call it Santo; rural residents of Espiritu Santo call it Kanal (from French \\\"second canal\\\"). Return only the name of XX in the given paragraph.",
+            "Answer": "Luganville"
+        },
+        "6": {
+            "Question": "XX is the capital and largest city of Solomon Islands, situated on the northwestern coast of Guadalcanal. As of 2021, it had a population of 92,344 people. The city is served by XX International Airport and the seaport of Point Cruz, and lies along the Kukum Highway. The airport area to the east of XX was the site of a battle between the United States and the JapanesReturn only the name of XX in the given paragraph.",
+            "Answer": "Honiara"
+        },
+        "7": {
+            "Question": "XX, informally referred to as Nati, is a city and commune in north western Benin and the capital of Atakora Department. The commune covers an area of 3045 square kilometres and as of 2013 had a population of 104,010 people.Return only the name of XX in the given paragraph.",
+            "Answer": "Natitingou"
+        },
+        "8": {
+            "Question": "XX is a city in Burkina Faso with a population of 904,920 (as of 2019); it is the second-largest city in the country, after Ouagadougou, Burkina Faso's capital. The name means \\\"home of the Bobo-Dioula\\\". The local Bobo-speaking population (related to the Mande) refers to the city simply as Sia. Return only the name of XX in the given paragraph.",
+            "Answer": "Bobo-Dioulasso"
+        },
+        "9": {
+            "Question": "XX is a town located in the Central African Republic prefecture of Ombella-M'Poko. XX is located on National Highway 1 (RN1), about 100 km northwest of the national capital, Bangui. The road, one of the country's few paved highways, leads on to Bouar, and ultimately to Cameroon. Situated on the , XX is noted for its waterfalls and for the nearby hydroelectric works. Return only the name of XX in the given paragraph.",
+            "Answer": "Boali"
+        },
+        "10": {
+            "Question": "XX is the second largest city in Chad and is the capital of the region of Logone Occidental. The city lies on the Mbéré River (a tributary of the Western Logone) some 475 kilometres south of the capital N'Djamena. It is the main city of the Ngambai people. XX has grown as an industrial centre, home to the Gala Brewery, which produces Chad's most popular beer and the cottoReturn only the name of XX in the given paragraph.",
+            "Answer": "Moundou"
+        },
+        "11": {
+            "Question": "XX, also known as Cidade de Nacala or Nacala-Porto is a city on the northern coast of Mozambique. Located in the southwestern indentation of inner Fernao Veloso Bay, it is the deepest natural port on the east coast of Africa. XX serves as the terminal for the Nacala railway, a rail line to the landlocked Malawi. South of XX is Mozambique Island.Return only the name of XX in the given paragraph.",
+            "Answer": "Nacala"
+        },
+        "12": {
+            "Question": "XX is a city in southwestern Yemen. It is located in the Yemeni Highlands, near the port city of Mocha on the Red Sea, at an elevation of about 1,400 metres (4,600 ft) above sea level. It is the capital of XX Governorate. With a population of over 600,000 in 2005, it is the largest city in Yemen in terms of population ahead of the capital Sana'a and the soutReturn only the name of XX in the given paragraph.",
+            "Answer": "Taiz"
+        },
+        "13": {
+            "Question": "XX is an administrative ward in the Dodoma Urban district of the Dodoma Region of Tanzania. In 2016 the Tanzania National Bureau of Statistics report there were 7,048 people in the ward, from 6,485 in 2012.Return only the name of XX in the given paragraph.",
+            "Answer": "Zuzu"
+        },
+        "14": {
+            "Question": "XX is a city in Eswatini (previously called Swaziland), and is one of the two capitals (along with Lobamba), serving as the executive capital. With an estimated population of 94,874 (2010), it is located on the XX River and its tributary the Polinjane River in the Mdzimba Mountains. Return only the name of XX in the given paragraph.",
+            "Answer": "Mbabane"
+        },
+        "15": {
+            "Question": "XX, previously anglicized as Ulan Bator, is the capital and most populous city of Mongolia. It is the coldest capital city in the world. The municipality is located in north central Mongolia at an elevation of about 1,300 metres (4,300 ft) in a valley on the Tuul River. Return only the name of XX in the given paragraph.",
+            "Answer": "Ulaanbaatar"
+        },
+        "16": {
+            "Question": "XX, is a city in Khatlon Region, southern Tajikistan. Located 203 km (126 mi) southeast of the capital Dushanbe on the river (a right tributary of Panj), it is one of the largest cities in the country.Return only the name of XX in the given paragraph.",
+            "Answer": "Kulob"
+        },
+        "17": {
+            "Question": "XX is the second-largest city in Kyrgyzstan, located in the Fergana Valley in the south of the country and often referred to as the \\\"capital of the south\\\". It is the oldest city in the country (estimated to be more than 3,000 years old) and has served as the administrative center of Osh Region since 1939. Return only the name of XX in the given paragraph.",
+            "Answer": "Osh"
+        },
+        "18": {
+            "Question": "XX, formerly known as Tashauz (until 1992; Russian: Ташау́з) and Dashkhovuz , is a city in northern Turkmenistan and the capital of Dashoguz Province. a city in northern Turkmenistan and the capital of Dashoguz Province. The Uzbek border is about 10 kilometers away.Return only the name of XX in the given paragraph.",
+            "Answer": "Dashoguz"
+        },
+        "19": {
+            "Question": "XX is a city in Kazakhstan, located on the eastern shore of the Caspian Sea. Its current name means \\\"white mountain\\\" in Kazakh, which may be due to its cliffs that overlook the Caspian. From 1964 to 1991, the city was known as Shevchenko. Its former name was given due to the eponymous Ukrainian poet's period of exile in the area.Return only the name of XX in the given paragraph.",
+            "Answer": "Aktau"
+        },
+        "20": {
+            "Question": "XX is a town in Montenegro in the northern region. It has a population of 3,717 (2011 census). XX is the centre of Plav Municipality (population of 9,081 following the formation of Gusinje Municipality).Return only the name of XX in the given paragraph.",
+            "Answer": "Plav"
+        },
+        "21": {
+            "Question": "XX is the third largest city in Serbia and the administrative center of the Nišava District. It is located in southern part of Serbia. According to the 2011 census, the city proper has a population of 183,164, while its administrative area has a population of 260,237 inhabitants. Return only the name of XX in the given paragraph.",
+            "Answer": "Niš"
+        },
+        "22": {
+            "Question": "XX is the capital of Transnistria (de facto), a breakaway state of Moldova, where it is the third largest city. The city is located on the eastern bank of the Dniester River. Return only the name of XX in the given paragraph.",
+            "Answer": "Tiraspol"
+        },
+        "23": {
+            "Question": "XX is a city in northwestern France, a commune in the Finistère department in the Brittany region, and a vice-capital of the same department, with the subdistrict of XX,which has a municipal area of 49.51 km2 and a population of 139,619 as of January 1, 2021 With an area of 49.51 km² and a population of 139,619 on January 1, 2021, it is the most populous city in the département, the second largest in Brittany after the capital Rennes, and the 25th largest of all French cities.Return only the name of XX in the given paragraph.",
+            "Answer": "Brest"
+        },
+        "24": {
+            "Question": "XX, located in the southern tip of the U.S. state of New York (not the capital of New York), is the most populous city in the U.S., the centerpiece of the New York metropolitan area, and one of the largest cities in the world, and is a cosmopolitan metropolis that has a significant impact on the global economy, business, finance, media, politics, education, and entertainment. xx is also the location of the headquarters of the United Nations, and thus is considered to be the center of world diplomacy. xx has also been referred to as the most XX is also known as the most important city in the world and the “capital of the world”.Return only the name of XX in the given paragraph.",
+            "Answer": "New York"
+        },
+        "25": {
+            "Question": "XX is the capital and largest city of England and the United Kingdom, with a population of just under 9 million. It stands on the River Thames in south-east England at the head of a 50-mile (80 km) estuary down to the North Sea, and has been a major settlement for two millennia. Return only the name of XX in the given paragraph.",
+            "Answer": "London"
+        },
+        "26": {
+            "Question": "XX is the capital and most populous city of France, with an estimated population of 2,165,423 residents in 2019 in an area of more than 105 km² (41 sq mi), making it the 30th most densely populated city in the world in 2020. Since the 17th century, XX has been one of the world's major centres of finance.Return only the name of XX in the given paragraph.",
+            "Answer": "Paris"
+        },
+        "27": {
+            "Question": "XX, is the capital of Japan. Formerly known as Edo, its metropolitan area (13,452 square kilometers or 5,194 square miles) is the most populous in the world, with an estimated 37.468 million residents as of 2018;Return only the name of XX in the given paragraph.",
+            "Answer": "Tokyo"
+        },
+        "28": {
+            "Question": "XX, a Special Administrative Region of the People's Republic of China, is one of the major cities in the Pearl River Delta, the Guangdong-Hong Kong-Macao Greater Bay Area, the Greater China region, the Asia-Pacific region, and a global city. It covers Hong Kong Island, Kowloon (including New Kowloon) and the “New Territories”, and is located on the eastern side of the Pearl River Estuary in Guangdong Province.Return only the name of XX in the given paragraph.",
+            "Answer": "Hong Kong"
+        },
+        "29": {
+            "Question": "XX, is a sovereign island country and city-state in maritime Southeast Asia. It lies about one degree of latitude (137 kilometres or 85 miles) north of the equator, off the southern tip of the Malay Peninsula, bordering the Strait of Malacca to the west, the Singapore Strait to the south, the South China Sea to the eastReturn only the name of XX in the given paragraph.",
+            "Answer": "Singapore"
+        },
+        "30": {
+            "Question": "XX is one of the four direct-administered municipalities of the People's Republic of China (PRC). The city is located on the southern estuary of the Yangtze River, with the Huangpu River flowing through it. With a population of 24.89 million as of 2021, XX is the most populous urban area in China with 39,300,000 inhabitants livingReturn only the name of XX in the given paragraph.",
+            "Answer": "Shanghai"
+        },
+        "31": {
+            "Question": "XX, is the capital of the People's Republic of China. It is the center of power and development of the country. XX is the world's most populous national capital city, with over 21 million residents. It has an administrative area of 16,410.5 km2 (6,336.1 sq mi)Return only the name of XX in the given paragraph.",
+            "Answer": "Beijing"
+        },
+        "32": {
+            "Question": "XX, is the capital and largest metropolis of South Korea. According to the 2020 census, XX has a population of 9.9 million people, and forms the heart of the Seoul Capital Area with the surrounding Incheon metropolis and Gyeonggi province. Considered to be a global city and rated as an Alpha – City by Globalization and World Cities Research Network (GaWC),Return only the name of XX in the given paragraph.",
+            "Answer": "Seoul"
+        },
+        "33": {
+            "Question": "XX, is a metropolitan area located in the southern part of the U.S. state of California, and the county seat of Los Angeles County, with a population of about 3.97 million, making it the largest city in California, but not the state's capital (the state's capital is Sacramento), and the second-most populous in the United States, after New York City. The city covers an area of 469.1 square miles (1,214.9 square kilometers).Return only the name of XX in the given paragraph.",
+            "Answer": "Los Angeles"
+        },
+        "34": {
+            "Question": "XX is the capital city of the state of New South Wales, and the most populous city in both Australia and Oceania. Located on Australia's east coast, the metropolis surrounds Sydney Harbour and extends about 70 km (43.5 mi) towards the Blue Mountains to the west, Hawkesbury to the north, the Royal National Park to the south and Macarthur to the south-west. Return only the name of XX in the given paragraph.",
+            "Answer": "Sydney"
+        },
+        "35": {
+            "Question": "XX is the capital and largest city of Russia. The city stands on the Moskva River in Central Russia, with a population estimated at 13.0 million residents within the city limits, over 17 million residents in the urban area, and over 20 million residents in the metropolitan area. Return only the name of XX in the given paragraph.",
+            "Answer": "Moscow"
+        },
+        "36": {
+            "Question": "XX is the most populous city in the U.S. state of Illinois and the third-most populous in the United States, after New York City and Los Angeles. With a population of 2,746,388 in the 2020 census, it is also the most populous city in the Midwestern United States. As the seat of Cook County (the second-most populous U.S. county)Return only the name of XX in the given paragraph.",
+            "Answer": "Chicago"
+        },
+        "37": {
+            "Question": "XX is the most populous city in the United Arab Emirates (UAE) and the capital of the Emirate of Dubai. Established in the 18th century as a small fishing village, the city grew rapidly in the early 21st century with a focus on tourism and luxury, having the second most five-star hotels in the world, and the tallest building in the world,Return only the name of XX in the given paragraph.",
+            "Answer": "Dubai"
+        },
+        "38": {
+            "Question": "XX, is the capital and most populous city of Thailand. The city occupies 1,568.7 square kilometres (605.7 sq mi) in the Chao Phraya River delta in central Thailand and has an estimated population of 10.539 million as of 2020, 15.3 percent of the country's population.Return only the name of XX in the given paragraph.",
+            "Answer": "Bangkok"
+        },
+        "39": {
+            "Question": "XX, is the largest city in Turkey, serving as the country's economic, cultural and historic hub. The city straddles the Bosporus strait, lying in both Europe and Asia, and has a population of over 15 million residents, comprising 19% of the population of Turkey. Return only the name of XX in the given paragraph.",
+            "Answer": "Istanbul"
+        },
+        "40": {
+            "Question": "XX is a city on the coast of northeastern Spain. It is the capital and largest city of the autonomous community of Catalonia, as well as the second most populous municipality of Spain. With a population of 1.6 million within city limits, its urban area extends to numerous neighbouring municipalities within the Province of Barcelona Return only the name of XX in the given paragraph.",
+            "Answer": "Barcelona"
+        },
+        "41": {
+            "Question": "XX, the capital of the United Mexican States, is the hub of many political, economic and cultural spheres, and one of the largest cities in the world.XX is located in the middle of the central highlands of Mexico, and its satellite cities around it were formerly known as the Mexican Federal District (México, D.F.), which is administratively on a par with the other 31 states of the country (Estados), but is administratively subordinate to the center of the country.Return only the name of XX in the given paragraph.",
+            "Answer": "Mexico City"
+        },
+        "42": {
+            "Question": "XX is the capital and most populous city of the German state of Bavaria. With a population of 1,558,395 inhabitants as of 31 July 2020, it is the third-largest city in Germany, after Berlin and Hamburg, and thus the largest which does not constitute its own state, as well as the 11th-largest city in the European Union. Return only the name of XX in the given paragraph.",
+            "Answer": "Munich"
+        },
+        "43": {
+            "Question": "XX is the capital city of Italy. It is also the capital of the Lazio region, the centre of the Metropolitan City of Rome, and a special comune named Comune di Roma Capitale. With 2,860,009 residents in 1,285 km2 (496.1 sq mi), Rome is the country's most populated comune and the third most populous city in the European Union by population within city limits. Return only the name of XX in the given paragraph.",
+            "Answer": "Rome"
+        },
+        "44": {
+            "Question": "XX, is the capital of the state of Rio de Janeiro. It is the second-most-populous city in Brazil (after São Paulo) and the sixth-most-populous city in the Americas.Return only the name of XX in the given paragraph.",
+            "Answer": "Rio de Janeiro"
+        },
+        "45": {
+            "Question": "XX is the capital city of the Indian state of Maharashtra and the de facto financial centre of India. According to the United Nations, as of 2018, XX is the second-most populous city in India after Delhi and the eighth-most populous city in the world with a population of roughly 20 million (2 crore).Return only the name of XX in the given paragraph.",
+            "Answer": "Mumbai"
+        },
+        "46": {
+            "Question": "XX is the capital of Egypt and the largest urban agglomeration in Africa, the Arab world and the Middle East. The Greater Cairo metropolitan area, with a population of 21.9 million, is the 12th-largest in the world by population. Return only the name of XX in the given paragraph.",
+            "Answer": "Cairo"
+        },
+        "47": {
+            "Question": "XX is a city in Central Italy and the capital city of the Tuscany region. It is the most populated city in Tuscany, with 383,083 inhabitants in 2016, and over 1,520,000 in its metropolitan area. XX was a centre of medieval European trade and finance and one of the wealthiest cities of that era. It is considered by many academics to have been the birthplace of the RenaissanceReturn only the name of XX in the given paragraph.",
+            "Answer": "Florence"
+        },
+        "48": {
+            "Question": "XX is the capital and most populous city of Spain. The city has almost 3.4 million inhabitants and a metropolitan area population of approximately 6.7 million. It is the second-largest city in the European Union (EU), and its monocentric metropolitan area is the third-largest in the EU. The municipality covers 604.3 km2 (233.3 sq mi) geographical area. Return only the name of XX in the given paragraph.",
+            "Answer": "Madrid"
+        },
+        "49": {
+            "Question": "XX, is the capital and primate city of Argentina. The city is located on the western shore of the Río de la Plata, on South America's southeastern coast. \"XX\" is Spanish for \"fair winds\" or \"good airs\". XX is classified as an Alpha global city, according to the Globalization and World Cities Research Network (GaWC) 2020 ranking.Return only the name of XX in the given paragraph.",
+            "Answer": "Buenos Aires"
+        },
+        "50": {
+            "Question": "XX, is the capital of the Philippines, and its second-most populous city. It is highly urbanized and, as of 2019, was the world's most densely populated city proper. XX is considered to be a global city Return only the name of XX in the given paragraph.",
+            "Answer": "Manila"
+        },
+        "51": {
+            "Question": "XX is the capital city of the Canadian province of Ontario. With a recorded population of 2,794,356 in 2021, it is the most populous city in Canada and the fourth most populous city in North America. The city is the anchor of the Golden Horseshoe, an urban agglomeration of 9,765,188 people (as of 2021) surrounding the western end of Lake OntarioReturn only the name of XX in the given paragraph.",
+            "Answer": "Toronto"
+        },
+        "52": {
+            "Question": "XX is the capital and largest city of Germany by both area and population. Its 3.6 million inhabitants make it the European Union's most populous city, according to population within city limits. One of Germany's sixteen constituent states, XX is surrounded by the State of Brandenburg and contiguous with Potsdam, Brandenburg's capital. Return only the name of XX in the given paragraph.",
+            "Answer": "Berlin"
+        },
+        "53": {
+            "Question": "XX, is the largest city in South Africa, classified as a megacity, and is one of the 100 largest urban areas in the world. According to Demographia, the Johannesburg-Pretoria urban area (combined because of strong transport links that make commuting feasible) is the 26th-largest in the world in terms of population, with 14,167,000 inhabitants.Return only the name of XX in the given paragraph.",
+            "Answer": "Johannesburg"
+        },
+        "54": {
+            "Question": "XX is a world-renowned natural wonder through which the Colorado River flows, and it was selected by UNESCO as one of its protected natural heritage sites. Located on the Kaibab Plateau in northwestern Arizona, USA, the Grand Canyon is one of the most magnificent sights on earth.Return only the name of XX in the given paragraph.",
+            "Answer": "Grand Canyon"
+        },
+        "55": {
+            "Question": "XX, managed by the U.S. National Park Service, was officially named a national park for the protection of wildlife and natural resources on March 1, 1872, and in 1978 it was inscribed on the World Heritage List as a World Natural Heritage Site. It was the world's first national park.XX covers an area of approximately 898,317 hectares, located primarily in the U.S. state of Wyoming, with portions in Montana and Idaho.Return only the name of XX in the given paragraph.",
+            "Answer": "Yellowstone National Park"
+        },
+        "56": {
+            "Question": "The XX, also known as the Great Wall of China, is an ancient Chinese military fortification, a tall, strong and continuous wall used to limit the movement of enemy riders.XX is not a purely isolated wall, but a defense system that combines a wall as the main body and a large number of cities, barricades, pavilions and markers.Return only the name of XX in the given paragraph.",
+            "Answer": "Great Wall"
+        },
+        "57": {
+            "Question": "XX is the widest waterfall in the world, located 23 kilometers upstream of the merging point of the Iguazu and Paraná Rivers on the border between Argentina and Brazil, it is a horseshoe-shaped waterfall with a height of 82 meters, a width of 4 kilometers, and an average drop of 75 m. In 1984, it was classified as a World Natural Heritage Site by UNESCO.Return only the name of XX in the given paragraph.",
+            "Answer": "Iguazu Falls"
+        },
+        "58": {
+            "Question": "The XX belt is located in the Italian region of Campania, south of Naples, and covers an area of 11,000 hectares, the town of Amalfi was founded in the fourth century AD. Historically the city of Amalfi was the bishop's see and later became a commercial center.Return only the name of XX in the given paragraph.",
+            "Answer": "Amalfi Coast"
+        },
+        "59": {
+            "Question": "XX is located 75 kilometers northwest of the province of Cuzco in the Republic of Peru (Perú), with geographic coordinates 13°9′23″S, 72°32′34″W. The entire site towers over a ridge about 2,350 meters above sea level, and is a remnant of Peru's famous pre-Columbian Inca Empire built in the 15th century, and one of the New Seven Wonders of the World.Return only the name of XX in the given paragraph.",
+            "Answer": "Machu Picchu"
+        },
+        "60": {
+            "Question": "XX is the world's largest and longest coral reef group, located in the southern hemisphere, which runs along the northeast coast of Australia, Queensland, from the Torres Strait in the north to the Tropic of Capricorn in the south, stretching a total of 2011 kilometers, and the widest point is 161 kilometers. There are 2,900 large and small coral reef islands, the natural landscape is very special.Return only the name of XX in the given paragraph.",
+            "Answer": "Great Barrier Reef"
+        },
+        "61": {
+            "Question": "XX Formed about 2.5 million years ago, it is the world's largest sandy desert, covering an area of about 9.32 million square kilometers in northern Africa. The region's climatic conditions are so harsh that it is one of the most inhospitable places on earth for living creatures to survive.Return only the name of XX in the given paragraph.",
+            "Answer": "Sahara Desert"
+        },
+        "62": {
+            "Question": "XX is located in the middle reaches of the Zambezi River in Africa, on the border between Zambia and Zimbabwe. It is more than 1,700 meters (5,500 feet) wide and 108 meters (355 feet) at its highest point, making it one of the world's most famous waterfall wonders. European explorer, David Livingston discovered it during his journey in 1855 and named it after the Queen of England. XX was inscribed on the World Heritage List in 1989.Return only the name of XX in the given paragraph.",
+            "Answer": "Victoria Falls"
+        },
+        "63": {
+            "Question": "XX is the largest rift zone on the world's continents, which looks like a huge scar from satellite photos. XX is known as the “Scar of the Earth”. This rift zone is located in eastern Africa, starting from the lower valley of the Zambezi River in the south, and dividing into two branches, east and west, northward through the Shire Valley to the north of Lake Malawi (Lake Nyasa).Return only the name of XX in the given paragraph.",
+            "Answer": "Great Rift Valley"
+        },
+        "64": {
+            "Question": "XX, established in 1959, began operations in 1968 as Ecuador's first national park. Ecuador designated 97% of the Galápagos Islands as the extent of the first national park. The remaining 3% is spread over Santa Cruz Island, San Cristóbal Island, Floreana Island and Isabela Island.Return only the name of XX in the given paragraph.",
+            "Answer": "Galapagos Islands"
+        },
+        "65": {
+            "Question": "XX is the westernmost island of East Nusa Tenggara Province, Indonesia. Between Sumbawa and Flores Island. The longest length of 40 kilometers from north to south and the widest width of 20 kilometers from east to west, with rolling hills. It is dry and hot, with woods and pastures.Return only the name of XX in the given paragraph.",
+            "Answer": "Komodo Island"
+        },
+        "66": {
+            "Question": "XX, meaning “Cape City”, is South Africa's flat-topped mountain overlooking the city of Cape Town and Table Bay, towering over the northern tip of the high and rocky Cape Peninsula.Return only the name of XX in the given paragraph.",
+            "Answer": "Table Mountain"
+        },
+        "67": {
+            "Question": "XX is the southernmost active volcano on Earth.XX was active in 1900 and 1902 and has a caldera that is about 800 meters wide and 300 meters deep with steep walls. There are readily active vents both inside and outside the crater. There are two other extinguished vents, and the sulfur reserves are so large that Ross named it Erebus Volcano after one of his ships.Return only the name of XX in the given paragraph.",
+            "Answer": "Mount Erebus"
+        },
+        "68": {
+            "Question": "XX is an archipelago in the western Indian Ocean, belonging to the Governorate of Socotra, Yemen. Its location is about 350 kilometers south of the Arabian Peninsula, east of the Horn of Africa, where the Arabian Sea meets the Gulf of Aden. The archipelago consists of four islands with an area of 3,650 square kilometers, with the main island having an area of 3,635 square kilometers.Return only the name of XX in the given paragraph.",
+            "Answer": "Socotra Island"
+        },
+        "69": {
+            "Question": "XX are some of the largest and most spectacular sand dunes in the Gobi Desert, Mongolia. However, they represent only 3-5% of the entire landmass of the Gobi Desert (500,000 square miles). They form part of the immense Gobi Gurvan Saikhan National Park – Mongolia’s largest national park.Return only the name of XX in the given paragraph.",
+            "Answer": "Khongoryn Els"
+        },
+        "70": {
+            "Question": "The northern and southern lobes of the XX are what’s left of a much larger ice sheet that reached its maximum size about 18,000 years ago. Though just a fraction of their previous size, the modern icefields remain the largest expanse of ice in the Southern Hemisphere outside of Antarctica. But rapid change is ongoing. “They are, in fact, melting away at some of the highest rates on the planet,” said Eric Rignot, a glaciologist at NASA’s Jet Propulsion Laboratory and the University of California-Irvine.Return only the name of XX in the given paragraph.",
+            "Answer": "Patagonian Ice Fields"
+        },
+        "71": {
+            "Question": "XX is one of the most famous natural wonders of Kazakhstan, known for the narrow trunks of the spruce trees that rise up from its eeriblueish color water almost like in a horror movie and therefore some refer to it as the Dead lake of Kazakhstan. XX is located in the Chon.Urekty gorge, in the Tien shan mountain system at an alitude of about 2000 meters above sea level and not very far from Almaty. Return only the name of XX in the given paragraph.",
+            "Answer": "Lake Kaindy"
+        },
+        "72": {
+            "Question": "The XX is located in the western highlands of the Bolivian Department of Potosí, at an altitude of 3,656 m (11,995 ft) above sea level, and is 150 km long and 130 km wide, covering an area of 9,065 km2, making it the world's largest salt-covered wilderness, and the “Mirror of the Sky”. There are salt pans around the edge, with roads connecting the main salt pans.Return only the name of XX in the given paragraph.",
+            "Answer": "Salar de Uyuni"
+        },
+        "73": {
+            "Question": "The broadest waterfall in India, XX is popularly known as the Niagara of India, because of its width. Situated in the west side of Jagdalpur in the Bastar District of Chhattisgarh, this waterfall originates from the Indravati river. XX is at the height of about 30 metres with a width of 985 feet, and during monsoons, you can watch the falls at its full glory. The fall cascades from the top of the cliff in 3 streams during summers.Return only the name of XX in the given paragraph.",
+            "Answer": "Chitrakote Falls"
+        },
+        "74": {
+            "Question": "XX lies along the Hunza River, and borders Ishkoman to the northwest, Shigar to the southeast, Afghanistan's Wakhan Corridor to the north, and the Xinjiang region of China to the northeast.[2] The Hunza Valley floor is at an elevation of 2,438 meters (7,999 feet). Geographically, the XX consists of three regions: Upper Hunza (Gojal), Central Hunza, and Lower Hunza (Shinaki).Return only the name of XX in the given paragraph.",
+            "Answer": "Hunza Valley"
+        },
+        "75": {
+            "Question": "The XX are a range of mountains between Central Asia and South Asia. They are located at a junction with other notable mountains, namely the Tian Shan, Karakoram, Kunlun, Hindu Kush and the Himalaya mountain ranges. They are among the world's highest mountains.Return only the name of XX in the given paragraph.",
+            "Answer": "Pamir Mountains"
+        },
+        "76": {
+            "Question": "XX is the highest mountain in the U.S. state of Maine at 5,269 feet (1,606 m). Named Katahdin, which means \"Great Mountain\", by the Penobscot Native Americans, it is within Northeast Piscataquis, Piscataquis County, and is the centerpiece of Baxter State Park. It is a steep, tall massif formed from a granite intrusion weathered to the surface. The flora and fauna on the mountain are typical of those found in northern New England, with the summit hosting fragile and endangered alpine tundra.Return only the name of XX in the given paragraph.",
+            "Answer": "Mount Katahdin"
+        },
+        "77": {
+            "Question": "XX is a karst/glaciokarst landscape centred in County Clare, on the west coast of Ireland. It measures around 530 square kilometres (200 sq mi), within the circle made by the villages of Lisdoonvarna, Corofin, Gort and Kinvara. The area includes such natural features as Mullaghmore hill and Ailladie cliffs, and historic monuments such as Poulnabrone dolmen and Caherconnell Stone Fort. Return only the name of XX in the given paragraph.",
+            "Answer": "The Burren"
+        },
+        "78": {
+            "Question": "The XX is a national park in western Namibia, situated between the coast of the Atlantic Ocean and the edge of the Great Escarpment. It encompasses part of the Namib Desert (considered the world's oldest desert), the Naukluft mountain range, and the lagoon at Sandwich Harbour. The best-known area of the park and one of the main visitor attractions in Namibia is Sossusvlei, a clay pan surrounded by dunes, and Sesriem, a small canyon of the Tsauchab. Return only the name of XX in the given paragraph.",
+            "Answer": "Namib-Naukluft Park"
+        },
+        "79": {
+            "Question": "XX, surrounded by mountains on three sides and snow-white sandy beaches, is famous for the movie “The Beach” starring Leonardo. The beach is not big, surrounded by hundreds of meters of wall is extraordinary, like a huge hand to protect the Mahya Bay. The sea is turquoise blue and the shore is dotted with delicate coconut trees. It has a typical tropical island atmosphere, suitable for sightseeing and diving.Return only the name of XX in the given paragraph.",
+            "Answer": "Maya Bay"
+        },
+        "80": {
+            "Question": "XX is a county-level administrative unit (a \"forestry district\") in northwestern Hubei province, People's Republic of China, directly subordinated to the provincial government. It occupies 3,253 square kilometres (1,256 sq mi) in western Hubei, and, as of 2007 had the resident population estimated at 74,000 (with the registered population of 79,976). On July 17, 2016, XX was listed as a World Heritage Site, the 50th World Heritage Site in China, because of its exceptional floral and faunal biodiversity and its protection of many rare, endangered, and endemic species.Return only the name of XX in the given paragraph.",
+            "Answer": "Shennongjia"
+        },
+        "81": {
+            "Question": "XX is a wrought-iron lattice tower on the Champ de Mars in Paris, France. It is named after the engineer Gustave Eiffel, whose company designed and built the tower from 1887 to 1889.Return only the name of XX in the given paragraph.",
+            "Answer": "Eiffel Tower"
+        },
+        "82": {
+            "Question": "XX is a colossal neoclassical sculpture on Liberty Island in New York Harbor, within New York City. The copper statue, a gift to the U.S. from the people of France, was designed by French sculptor Frédéric Auguste Bartholdi and its metal framework was built by Gustave Eiffel. The statue was dedicated on October 28, 1886.Return only the name of XX in the given paragraph.",
+            "Answer": "Statue of Liberty"
+        },
+        "83": {
+            "Question": "The XX is the largest Egyptian pyramid and served as the tomb of pharaoh Khufu, who ruled during the Fourth Dynasty of the Old Kingdom. Built c. 2600 BC, over a period of about 27 years, the pyramid is the oldest of the Seven Wonders of the Ancient World, and the only wonder that has remained largely intact. Return only the name of XX in the given paragraph.",
+            "Answer": "Great Pyramids of Giza"
+        },
+        "84": {
+            "Question": "XX is an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, Uttar Pradesh, India. It was commissioned in 1631 by the fifth Mughal emperor, Shah Jahan (r. 1628–1658) to house the tomb of his beloved wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan himself. The tomb is the centrepiece of a 17-hectare (42-acre) complex, which includes a mosque and a guest house, and is set in formal gardens bounded on three sides by a crenellated wall.Return only the name of XX in the given paragraph.",
+            "Answer": "Taj Mahal"
+        },
+        "85": {
+            "Question": "XX is an elliptical amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum. It is the largest ancient amphitheatre ever built, and is still the largest standing amphitheatre in the world, despite its age. Return only the name of XX in the given paragraph.",
+            "Answer": "Colosseum"
+        },
+        "86": {
+            "Question": "XX is a major commercial intersection, tourist destination, entertainment hub, and neighborhood in Midtown Manhattan, New York City, New York, U.S. It is formed by the junction of Broadway, Seventh Avenue, and 42nd Street. Together with adjacent Duffy Square, XX is a bowtie-shaped plaza five blocks long between 42nd and 47th Streets.Return only the name of XX in the given paragraph.",
+            "Answer": "Times Square"
+        },
+        "87": {
+            "Question": "XX is the campanile, or freestanding bell tower, of Pisa Cathedral. It is known for its nearly four-degree lean, the result of an unstable foundation. The tower is one of three structures in the Pisa's Cathedral Square (Piazza del Duomo), which includes the cathedral and Pisa Baptistry.Return only the name of XX in the given paragraph.",
+            "Answer": "Leaning Tower of Pis"
+        },
+        "88": {
+            "Question": "XX is a royal residence in London, and the administrative headquarters of the monarch of the United Kingdom. Located in the City of Westminster, the palace is often at the centre of state occasions and royal hospitality. It has been a focal point for the British people at times of national rejoicing and mourning.Return only the name of XX in the given paragraph.",
+            "Answer": "Buckingham Palace"
+        },
+        "89": {
+            "Question": "The XX is a multi-venue performing arts centre in Sydney, Australia. Located on the foreshore of Sydney Harbour, it is widely regarded as one of the world's most famous and distinctive buildings and a masterpiece of 20th-century architecture.Return only the name of XX in the given paragraph.",
+            "Answer": "Sydney Opera House"
+        },
+        "90": {
+            "Question": "XX is a church of the Italian High Renaissance located in Vatican City, an independent microstate enclaved within the city of Rome, Italy. It was initially planned in the 15th century by Pope Nicholas V and then Pope Julius II to replace the ageing Old St. Peter's Basilica, which was built in the fourth century by Roman emperor Constantine the Great. Construction of the present basilica began on 18 April 1506 and was completed on 18 November 1626Return only the name of XX in the given paragraph.",
+            "Answer": "St. Peter's Basilica"
+        },
+        "91": {
+            "Question": "XX is a castle complex in Prague, Czech Republic serving as the official residence and workplace of the president of the Czech Republic. Built in the 9th century, the castle has long served as the seat of power for kings of Bohemia, Holy Roman emperors, and presidents of Czechoslovakia. As such, the term \"XX\" or simply the \"Castle\" or \"the Hrad\" are often used as metonymy for the president and his staff and advisors. The Bohemian Crown Jewels are kept within a hidden room inside it.Return only the name of XX in the given paragraph.",
+            "Answer": "Prague Castle"
+        },
+        "92": {
+            "Question": "XX is one of the oldest and largest squares in Moscow, the capital of Russia. It is located in Moscow's historic centre, in the eastern walls of the Kremlin. It is the city's most prominent landmark, with famous buildings such as Saint Basil's Cathedral, Lenin's Mausoleum and the GUM department store. Return only the name of XX in the given paragraph.",
+            "Answer": "Red Square"
+        },
+        "93": {
+            "Question": "XX is a palace and fortress complex located in Granada, Andalusia, Spain. It is one of the most famous monuments of Islamic architecture and one of the best-preserved palaces of the historic Islamic world, in addition to containing notable examples of Spanish Renaissance architecture.Return only the name of XX in the given paragraph.",
+            "Answer": "Alhambra"
+        },
+        "94": {
+            "Question": "XX is a skyscraper in Dubai, United Arab Emirates. It is the world's tallest structure. With a total height of 829.8 m (2,722 ft, or just over half a mile) and a roof height (excluding antenna, but including a 242.6 m spire)[2] of 828 m (2,717 ft), the Burj Khalifa has been the tallest structure and building in the world since its topping out in 2009, surpassing Taipei 101, the previous holder of that status.Return only the name of XX in the given paragraph.",
+            "Answer": "Burj Khalifa"
+        },
+        "95": {
+            "Question": "XX was an ancient city in what is now the comune of Pompei near Naples in the Campania region of Italy. Along with Herculaneum, Stabiae, and many surrounding villas, the city was buried under 4 to 6 m (13 to 20 ft) of volcanic ash and pumice in the eruption of Mount Vesuvius in 79 AD.Return only the name of XX in the given paragraph.",
+            "Answer": "Pompeii"
+        },
+        "96": {
+            "Question": "XX is the best-known of the desert castles located in present-day eastern Jordan. It was built some time between 723 and 743, by Walid Ibn Yazid, the future Umayyad caliph Walid II,whose dominance of the region was rising at the time. It is considered one of the most important examples of early Islamic art and architecture.Return only the name of XX in the given paragraph.",
+            "Answer": "Qasr Amra"
+        },
+        "97": {
+            "Question": "XX is a medieval fortress that was developed within the walls of the Roman Saxon Shore fort of Portus Adurni at Portchester, to the east of Fareham in Hampshire.Return only the name of XX in the given paragraph.",
+            "Answer": "Portchester Castle"
+        },
+        "98": {
+            "Question": "XX is an 18th-century Talpur-era fort located in the town of Kot Diji in Khairpur District, Pakistan, about 25 miles east of the Indus River at the edge of the Thar Desert. The fort sits above a pre-Harappan Civilization archaeological site dating to 2500 to 2800 B.C.E.Return only the name of XX in the given paragraph.",
+            "Answer": "Kot Diji Fort"
+        },
+        "99": {
+            "Question": "XX is a castle in northern Wałbrzych in Lower Silesian Voivodeship, Poland. The largest castle in the region of Silesia, it is the third-largest in Poland behind Malbork Castle and Wawel Castle.[1] It lies within Książ Landscape Park, a protected area located in the Sudetes and Sudeten Foreland. The castle overlooks the gorge of the Pełcznica river and is one of Wałbrzych's main tourist attractions.Return only the name of XX in the given paragraph.",
+            "Answer": "Książ Castle"
+        },
+        "100": {
+            "Question": "XX is a Roman aqueduct in Segovia, Spain. It was built around the first century AD to channel water from springs in the mountains 17 kilometres (11 mi) away to the city's fountains, public baths and private houses, and was in use until 1973. Its elevated section, with its complete arcade of 167 arches, is one of the best-preserved Roman aqueduct bridges and the foremost symbol of Segovia, as evidenced by its presence on the city's coat of arms. Return only the name of XX in the given paragraph.",
+            "Answer": "Aqueduct of Segovia"
+        },
+        "101": {
+            "Question": "The XX is a dzong fortress in Lhasa, capital of the Tibet Autonomous Region in China. It was the winter palace of the Dalai Lamas from 1649 to 1959, has been a museum since then, and a World Heritage Site since 1994.Return only the name of XX in the given paragraph.",
+            "Answer": "Potala Palace"
+        }
+    }
+}

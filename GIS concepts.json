@@ -1,0 +1,288 @@
+{
+    "T/F_question": {
+        "1": {
+            "Question": "Using a dot density map can effectively display the distribution density of specific events within an area.",
+            "Answer": "T"
+        },
+        "2": {
+            "Question": "In spatial interpolation methods, IDW (Inverse Distance Weighting) interpolation assumes that points farther away have less influence on the predicted location.",
+            "Answer": "T"
+        },
+        "3": {
+            "Question": "The primary storage formats for spatial data include vector and raster, and these two formats can be converted between each other without loss.",
+            "Answer": "F"
+        },
+        "4": {
+            "Question": "Each contour line in a contour map represents a different elevation.",
+            "Answer": "T"
+        },
+        "5": {
+            "Question": "When conducting path analysis, GIS systems do not consider the influence of terrain elevation changes on the cost of movement.",
+            "Answer": "F"
+        },
+        "6": {
+            "Question": "In GIS, coordinate systems and projection systems are the same thing.",
+            "Answer": "F"
+        },
+        "7": {
+            "Question": "Vector data cannot represent elevation information of terrain.",
+            "Answer": "F"
+        },
+        "8": {
+            "Question": "When using Geographic Information Systems (GIS) for spatial analysis, buffer analysis can determine features within a specific distance.",
+            "Answer": "T"
+        },
+        "9": {
+            "Question": "In GIS, polygons belong to a raster data type.",
+            "Answer": "F"
+        },
+        "10": {
+            "Question": "In GIS operations, spatial overlay analysis can merge data from two or more spatial layers.",
+            "Answer": "T"
+        },
+        "11": {
+            "Question": "In GIS, raster data types are suitable for continuous data representation, such as meteorological data.",
+            "Answer": "T"
+        },
+        "12": {
+            "Question": "When using layers in GIS, each layer must contain the same type of geographic data.",
+            "Answer": "F"
+        },
+        "13": {
+            "Question": "Geographic Information Systems (GIS) are capable of handling multi-temporal data to show changes in data over time.",
+            "Answer": "T"
+        },
+        "14": {
+            "Question": "Spatial interpolation methods in GIS can be used to predict unknown data values for geographic locations.",
+            "Answer": "T"
+        },
+        "15": {
+            "Question": "In GIS, all spatial analysis tools can be directly applied to vector and raster data types.",
+            "Answer": "F"
+        },
+        "16": {
+            "Question": "Spatial analysis in GIS can be used to calculate the shortest distance between two geographic features.",
+            "Answer": "T"
+        },
+        "17": {
+            "Question": "Geographic Information Systems (GIS) cannot directly import non-spatial data for analysis.",
+            "Answer": "F"
+        },
+        "18": {
+            "Question": "In GIS, vector data types are best suited for representing irregular shapes such as administrative boundaries.",
+            "Answer": "T"
+        },
+        "19": {
+            "Question": "Data-driven decision support for geographic information systems (GIS) is limited to the field of environmental sciences.",
+            "Answer": "F"
+        },
+        "20": {
+            "Question": "The geocoding function of GIS converts addresses into geographic coordinate points.",
+            "Answer": "T"
+        },
+        "21": {
+            "Question": "In GIS, the geographic coordinate system can be converted to a projected coordinate system, but this conversion may result in distortion of the data.",
+            "Answer": "T"
+        },
+        "22": {
+            "Question": "When using spatial analysis in GIS, spatial autocorrelation analysis can be used to detect patterns or clusters in the data.",
+            "Answer": "T"
+        },
+        "23": {
+            "Question": "Map algebra in GIS allows multiple raster layers to be combined through mathematical operations.",
+            "Answer": "T"
+        },
+        "24": {
+            "Question": "In Geographic Information Systems (GIS), all spatial queries must be executed through the SQL language.",
+            "Answer": "F"
+        },
+        "25": {
+            "Question": "GIS can use network analysis to model and analyze traffic flow.",
+            "Answer": "T"
+        },
+        "26": {
+            "Question": "Grid north is in the direction of the north pole.",
+            "Answer": "F"
+        },
+        "27": {
+            "Question": "A larger scale map covers less ground than a smaller scale map of the same physical size.",
+            "Answer": "T"
+        },
+        "28": {
+            "Question": "All other things being equal  distortion is higher in images over areas with greater terrain relief than in images over areas with less terrain relief.",
+            "Answer": "T"
+        },
+        "29": {
+            "Question": "Convex hulls may have concave external boundaries.",
+            "Answer": "F"
+        },
+        "30": {
+            "Question": "System installation is part of the GIS design and development step.",
+            "Answer": "F"
+        },
+        "31": {
+            "Question": "Data development is part of the spatial data editing and manipulation process.",
+            "Answer": "F"
+        },
+        "32": {
+            "Question": "Plotters are not considered GIS data entry devices.",
+            "Answer": "T"
+        }
+    },
+    "multiple-choice_question": {
+        "1": {
+            "Question": "Which map projection is most suitable for research on global climate models?\nA. Mercator projection\nB. Pseudocylindrical projection\nC. Orthographic projection\nD. Robinson projection",
+            "Answer": "D"
+        },
+        "2": {
+            "Question": "In GIS, how is the \"topology\" attribute of spatial data described?\nA. Describes the position and shape of the data\nB. Describes the storage and access methods of the data\nC. Describes the relative positions and relationships between data\nD. Describes the color and style of the data",
+            "Answer": "C"
+        },
+        "3": {
+            "Question": "Which of the following is not a commonly used method in GIS spatial analysis?\nA. Buffer analysis\nB. Overlay analysis\nC. Cluster analysis\nD. Color analysis",
+            "Answer": "D"
+        },
+        "4": {
+            "Question": "In GIS, what type of data is typically used to handle and analyze elevation data?\nA. Raster data\nB. Vector data\nC. Relational database data\nD. Text data",
+            "Answer": "A"
+        },
+        "5": {
+            "Question": "When building a GIS database for a city, which data structure is most suitable for storing street networks?\nA. Tree structure\nB. Graph structure\nC. Array\nD. Queue",
+            "Answer": "B"
+        },
+        "6": {
+            "Question": "In GIS, which map projection maintains angular realism but may distort area?A. Mercator projection, B. Lambert conformal conic, C. Robinson, D. Azimuthal equidistant",
+            "Answer": "A"
+        },
+        "7": {
+            "Question": "What is the purpose of spatial interpolation?A. to improve the resolution of a map, B. to predict data in unsampled areas, C. to reduce the size of the map data, D. to increase the transparency of the layers",
+            "Answer": "B"
+        },
+        "8": {
+            "Question": "In GIS, which method is used to effectively measure and analyze the actual driving distance between two locations?A. spatial overlay, B. buffer analysis, C. network analysis, D. raster analysis",
+            "Answer": "C"
+        },
+        "9": {
+            "Question": "Which GIS data type is commonly used to represent continuously varying surfaces, such as temperature or elevation?A. raster data, B. vector data, C. TIN, D. CAD",
+            "Answer": "A"
+        },
+        "10": {
+            "Question": "In GIS, what does \"geocoding\" mean? A. converting addresses to geographic coordinates, B. coding geodatabases, C. creating spatial indexes, D. encrypting map data",
+            "Answer": "A"
+        },
+        "11": {
+            "Question": "In GIS, which type of map projection is best suited for displaying smaller geographic areas, such as cities or counties?\nA. the Lamberts orthographic conic projection\nB. the Mercator projection\nC. equatorial azimuthal projection\nD. bilinear projection",
+            "Answer": "A"
+        },
+        "12": {
+            "Question": "For what purpose are indexes in spatial databases typically used?\nA. to reduce query time\nB. increase data storage\nC. modify data formats\nD. enhance data security",
+            "Answer": "A"
+        },
+        "13": {
+            "Question": "Which algorithm is most commonly used when performing path analysis in GIS? \nA. the Dijkstra algorithm\nB. the Freudian algorithm\nC. Primm's algorithm\nD. Kruskal's algorithm.",
+            "Answer": "A"
+        },
+        "14": {
+            "Question": "Which technique is not a common method for performing geocoding? \nA. address matching\nB. coordinate transformation\nC. raster analysis\nD. reverse geocoding",
+            "Answer": "C"
+        },
+        "15": {
+            "Question": "In GIS, what type of map is generally referred to as an image map? \nA. maps based on vector data\nB. maps based on raster data\nC. maps based on statistical data\nD. maps based on text data",
+            "Answer": "B"
+        },
+        "16": {
+            "Question": "Which of the following is not a component of the GIS spatial data type? \nA. vector data\nB. raster data\nC. sound data\nD. attribute data",
+            "Answer": "C"
+        },
+        "17": {
+            "Question": "One of the main functions of a Geographic Information System (GIS) is? \nA. data collection\nB. text editing\nC. video processing\nD. web page design",
+            "Answer": "A"
+        },
+        "18": {
+            "Question": "Which spatial analysis technique is used to identify relationships between geographic areas? \nA. hot spot analysis\nB. correlation analysis\nC. network analysis\nD. connectivity analysis",
+            "Answer": "D"
+        },
+        "19": {
+            "Question": "In GIS, which concept refers to the logical relationship of data between different layers? \nA. overlay analysis\nB. buffer analysis\nC. projection transformation\nD. data integration",
+            "Answer": "A"
+        },
+        "20": {
+            "Question": "Which type of map is commonly used to show elevation? \nA. political maps\nB. economic maps\nC. geological maps\nD. topographical maps",
+            "Answer": "D"
+        },
+        "21": {
+            "Question": "When using GIS for regional analysis, which method is effective in identifying spatial distribution patterns of geographic features? Select your answer below:\nA. spatial interpolation\nB. data coding\nC. attribute querying\nD. text analysis",
+            "Answer": "A"
+        },
+        "22": {
+            "Question": "Which projection should be chosen in map making to minimize distortion of shape, area, distance, or direction caused by the projection? Select your answer below:\nA. equal-area projection\nB. isometric projection\nC. azimuthal projection\nD. perspective projection",
+            "Answer": "A"
+        },
+        "23": {
+            "Question": "Which tool in GIS is used to determine surface water flow direction and watershed boundaries? Please select the answer below:\nA. hydrologic analysis tool\nB. terrain analysis tool\nC. geologic analysis tool\nD. ecological analysis tool",
+            "Answer": "A"
+        },
+        "24": {
+            "Question": "In GIS, which technique is used to track and manage the location of moving objects in real time? Select your answer below:\nA. real-time monitoring system\nB. geocoding systems\nC. static data analysis\nD. image processing systems",
+            "Answer": "A"
+        },
+        "25": {
+            "Question": "When performing GIS spatial analysis, which technique is used to identify all objects within a range of distances from a specific location? Select your answer below:\nA. buffer analysis\nB. overlay analysis\nC. network analysis\nD. cluster analysis",
+            "Answer": "A"
+        },
+        "26": {
+            "Question": "A degree of longitude spans approximately 110574 meters at the Equator. How many meters are spanned by a second of longitude at the Equator? Choose between following answers: A. 30.7, B. 22.2, C. 123,D.100",
+            "Answer": "A"
+        },
+        "27": {
+            "Question": "The population (number of people) in the U.S. County data layer belongs to which type of attribute? Select from the following answers: a. interval/ratio, b. nominal, c. ordinal, d. none",
+            "Answer": "A"
+        },
+        "28": {
+            "Question": "The principles of spatial data coding mainly include systematicity, generality and standardization, and scalability, etc. Which of the following characteristics also belongs to the principles of spatial data coding? Please choose from the following answers:A. Practicality.B. Consistency.C. Portability.D. Security",
+            "Answer": "B"
+        },
+        "29": {
+            "Question": "Which of the following options is not part of the spatial data editing and processing process? Select from the following answers:A. Data format conversion.B. Projection conversion.C. Map splicing.D. Data distribution",
+            "Answer": "D"
+        },
+        "30": {
+            "Question": "Spatial ensemble analysis accomplishes which of the following?A Terrain analysis.B Buffer analysis.C Logic operations.D Overlay analysis",
+            "Answer": "D"
+        },
+        "31": {
+            "Question": "The following devices are not part of the GIS data entry equipment?A. Scanner;B. Plotter;C. Digitizer;D Keyboard",
+            "Answer": "B"
+        }
+    },
+    "short-answer_question": {
+        "1": {
+            "Question": "It is known that a logging company, which is authorized to log in a certain area, has stipulated that no trees should be logged within 1 km of a river in order to prevent soil erosion. In addition, it is decided that the logging area will be located within 2 km of roads and rivers with slopes of less than 15 degrees for ease of transportation. It is known that there are both rivers and roads in the selected area. Which of the following methods of GIS spatial analysis should be used to solve this problem?",
+            "Answer": "Spatial analysis methods: polygonal overlay analysis, buffer analysis"
+        },
+        "2": {
+            "Question": "What are the three basic characteristics that spatial data have?",
+            "Answer": "Temporal features, spatial features, attribute features."
+        },
+        "3": {
+            "Question": "What are the differences between vector data and raster data in Geographic Information Systems (GIS)?",
+            "Answer": "Vector data represent geographic locations and shapes in the form of points, lines, and polygons, suitable for depicting precise locations and boundaries; raster data are stored in the form of pixel grids, suitable for expressing continuous variables such as temperature and elevation."
+        },
+        "4": {
+            "Question": "How can GIS be used to determine the best location for a new park in a city?",
+            "Answer": "By analyzing urban population density, existing park distribution, and vacant land resources, evaluating and selecting the optimal location using multi-criteria assessment methods in GIS."
+        },
+        "5": {
+            "Question": "What is geocoding in GIS?",
+            "Answer": "Geocoding is the process of converting geographic locations such as street addresses into spatial coordinates on a map."
+        },
+        "6": {
+            "Question": "Why is it necessary to consider map projection when performing geographic data analysis?",
+            "Answer": "Different map projections affect the representation and accuracy of geographic data. Choosing an appropriate projection can reduce spatial distortion and ensure the accuracy of analysis."
+        },
+        "7": {
+            "Question": "What types of problems is \"buffer analysis\" commonly used to address in GIS?",
+            "Answer": "Buffer analysis is commonly used to determine areas within a specific distance of a geographic feature, such as assessing safety zones around schools, the impact range of commercial services, or the boundaries of environmental protection zones."
+        }
+    }
+}

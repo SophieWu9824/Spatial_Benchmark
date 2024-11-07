@@ -1,0 +1,488 @@
+{
+    "short-answer_question": {
+        "1": {
+            "Question": "You are in a 6 by 6 two-dimensional arrays. You must avoid some obstacles: (2,1). From (0,1) to (3,4). Just use \"up, down, left, right\" to indicate your route.Your output is formatted as: path:  ",
+            "Answer": ""
+        },
+        "2": {
+            "Question": "You are in a 6 by 6 two-dimensional arrays. You have to avoid some obstacles: (1,1). From (0,0) to (5,5). Simply use \u00a1\u00b0 \u00a1\u00aeup, down, left, and right\u00a1\u00af \u00a1\u00b1to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "3": {
+            "Question": "You are in a 6 by 6 two-dimensional arrays. You have to avoid some obstacles: (2,3), (4,1). From (0,0) to (5,4). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "4": {
+            "Question": "You are in a 6 by 6 two-dimensional arrays. You have to avoid some obstacles: (1,2). From (0,1) to (3,4). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "5": {
+            "Question": "You are in a 6 by 6 two-dimensional arrays. You have to avoid some obstacles: (3,3). From (2,1) to (4,4). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "6": {
+            "Question": "You are in a 6 by 6 two-dimensional arrays. You must avoid some obstacles: (0,5). From (0,0) to (2,2). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "7": {
+            "Question": "You are in a 6 by 6 two-dimensional arrays. You have to avoid some obstacles: (4,4), (2,2). From (1,1) to (5,3). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "8": {
+            "Question": "You are in a 6 by 6 two-dimensional arrays. You must avoid some obstacles: (1,3). From (0,2) to (4,0). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "9": {
+            "Question": "You are in a 6 by 6 two-dimensional arrays. You must avoid some obstacles: (2,1). From (0,1) to (3,5). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "10": {
+            "Question": "You are in a 6 by 6 two-dimensional arrays. You have to avoid some obstacles: (0,4), (5,0). From (1,0) to (4,5). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "11": {
+            "Question": "You are in a 6 by 6 two-dimensional arrays. You have to avoid some obstacles: (5,5). From (0,0) to (3,3). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "12": {
+            "Question": "You are in a 6 by 6 two-dimensional arrays. You must avoid some obstacles: (1,4). From (1,1) to (5,0). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "13": {
+            "Question": "You are in a 6 by 6 two-dimensional arrays. You have to avoid some obstacles: (2,0), (3,5). From (0,1) to (4,2). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: \n",
+            "Answer": ""
+        },
+        "14": {
+            "Question": "You are in a 6 by 6 two-dimensional arrays. You must avoid some obstacles: (4,3). From (0,0) to (5,1). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "15": {
+            "Question": "You are in a 6 by 6 two-dimensional arrays. You must avoid some obstacles: (3,1). From (0,1) to (3,4). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "16": {
+            "Question": "You are in a 6 by 6 two-dimensional arrays. You have to avoid some obstacles: (2,4), (1,5). From (1,0) to (4,3). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "17": {
+            "Question": "You are in a 6 by 6 two-dimensional arrays. You must avoid some obstacles: (5,2). From (2,2) to (0,4). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "18": {
+            "Question": "You are in a 6 by 6 two-dimensional arrays. You have to avoid some obstacles: (0,3). From (1,2) to (4,5). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "19": {
+            "Question": "You are in a 6 by 6 two-dimensional arrays. You must avoid some obstacles: (4,0). From (2,2) to (5,5). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "20": {
+            "Question": "You are in a 6 by 6 two-dimensional arrays. You have to avoid some obstacles: (3,2), (0,1). From (1,1) to (3,3). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "21": {
+            "Question": "You are in a 6 by 6 two-dimensional arrays. You must avoid some obstacles: (1,0). From (0,0) to (5,4). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "22": {
+            "Question": "You are in a 6 by 6 two-dimensional arrays. You must avoid some obstacles: (2,5). From (0,1) to (4,0). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "23": {
+            "Question": "You are in a 6 by 6 two-dimensional arrays. You have to avoid some obstacles: (3,4). From (2,2) to (5,1). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "24": {
+            "Question": "You are in a 6 by 6 two-dimensional arrays. You have to avoid some obstacles: (4,2), (1,1). From (0,0) to (3,5). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "25": {
+            "Question": "You are in a 6 by 6 two-dimensional arrays. You have to avoid some obstacles: (0,2). From (1,1) to (4,4). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "26": {
+            "Question": "You are in a 6 by 6 two-dimensional arrays. You must avoid some obstacles: (5,3), (2,1). From (0,1) to (5,0). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "27": {
+            "Question": "You are in a 6 by 6 two-dimensional arrays. You have to avoid some obstacles: (1,2), (3,3). From (1,0) to (4,5). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "28": {
+            "Question": "You are in a 6 by 6 two-dimensional arrays. You must avoid some obstacles: (4,5). From (2,2) to (0,0). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "29": {
+            "Question": "You are in a 6 by 6 two-dimensional arrays. You must avoid some obstacles: (3,0). From (1,1) to (5,3). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "30": {
+            "Question": "You are in a 6 by 6 two-dimensional arrays. You have to avoid some obstacles: (2,2), (0,4). From (0,1) to (3,4). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "31": {
+            "Question": "You are in a 6 by 6 two-dimensional arrays. You must avoid some obstacles: (5,4). From (1,1) to (4,0). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "32": {
+            "Question": "You are in a 5 by 5 two-dimensional arrays. You have to avoid some obstacles: (1,1). From (1,0) to (4,3). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "33": {
+            "Question": "You are in a 5 by 5 two-dimensional arrays. You must avoid some obstacles: (2,3). From (0,0) to (4,3). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "34": {
+            "Question": "You are in a 5 by 5 two-dimensional arrays. You have to avoid some obstacles: (1,2). From (0,1) to (3,4). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "35": {
+            "Question": "You are in a 5 by 5 two-dimensional arrays. You have to avoid some obstacles: (3,3). From (1,1) to (4,4). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "36": {
+            "Question": "You are in a 5 by 5 two-dimensional arrays. You must avoid some obstacles: (0,4). From (0,0) to (2,2). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "37": {
+            "Question": "You are in a 5 by 5 two-dimensional arrays. You must avoid some obstacles: (4,2). From (1,1) to (4,3). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "38": {
+            "Question": "You are in a 5 by 5 two-dimensional arrays. You must avoid some obstacles: (1,3). From (0,2) to (4,0). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "39": {
+            "Question": "You are in a 5 by 5 two-dimensional arrays. You must avoid some obstacles: (2,1). From (0,1) to (3,4). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "40": {
+            "Question": "You are in a 5 by 5 two-dimensional arrays. You have to avoid some obstacles: (0,3). From (1,0) to (4,4). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "41": {
+            "Question": "You are in a 5 by 5 two-dimensional arrays. You must avoid some obstacles: (4,1). From (0,0) to (3,3). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "42": {
+            "Question": "You are in a 5 by 5 two-dimensional arrays. You must avoid some obstacles: (3,4). From (1,1) to (4,0). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "43": {
+            "Question": "You are in a 5 by 5 two-dimensional arrays. You must avoid some obstacles: (2,0). From (0,1) to (3,2). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "44": {
+            "Question": "You are in a 5 by 5 two-dimensional arrays. You must avoid some obstacles: (4,3). From (0,0) to (4,1). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "45": {
+            "Question": "You are in a 5 by 5 two-dimensional arrays. You must avoid some obstacles: (3,1). Go from (0,1) to (3,4). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "46": {
+            "Question": "You are in a 5 by 5 two-dimensional arrays. You have to avoid some obstacles: (2,4). From (1,0) to (3,3). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "47": {
+            "Question": "You are in a 5 by 5 two-dimensional arrays. You must avoid some obstacles: (4,0). From (2,2) to (0,4). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "48": {
+            "Question": "You are in a 5 by 5 two-dimensional arrays. You must avoid some obstacles: (1,0). From (1,2) to (4,3). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "49": {
+            "Question": "You are in a 5 by 5 two-dimensional arrays. You have to avoid some obstacles: (0,1). From (2,2) to (4,4). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "50": {
+            "Question": "You are in a 5 by 5 two-dimensional arrays. You must avoid some obstacles: (3,2). From (1,1) to (3,4). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "51": {
+            "Question": "You are in a 5 by 5 two-dimensional arrays. You have to avoid some obstacles: (1,4). From (0,0) to (4,3). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "52": {
+            "Question": "You are in a 5 by 5 two-dimensional arrays. You must avoid some obstacles: (2,2). From (0,1) to (4,0). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "53": {
+            "Question": "You are in a 5 by 5 two-dimensional arrays. You must avoid some obstacles: (4,4). From (2,2) to (0,0). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "54": {
+            "Question": "You are in a 5 by 5 two-dimensional arrays. You must avoid some obstacles: (3,0). From (1,1) to (4,4). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "55": {
+            "Question": "You are in a 5 by 5 two-dimensional arrays. You have to avoid some obstacles: (0,2). From (1,1) to (3,3). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "56": {
+            "Question": "You are in a 5 by 5 two-dimensional arrays. You have to avoid some obstacles: (1,1), (2,1). From (0,0) to (4,0). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "57": {
+            "Question": "You are in a 5 by 5 two-dimensional arrays. You have to avoid some obstacles: (1,2), (3,3). From (1,0) to (4,4). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "58": {
+            "Question": "You are in a 5 by 5 two-dimensional arrays. You must avoid some obstacles: (4,2). From (2,2) to (0,0). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "59": {
+            "Question": "You are in a 5 by 5 two-dimensional arrays. You must avoid some obstacles: (0,4). From (1,1) to (4,4). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "60": {
+            "Question": "You are in a 5 by 5 two-dimensional arrays. You must avoid some obstacles: (2,0). From (0,1) to (3,4). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "61": {
+            "Question": "You are in a 5 by 5 two-dimensional arrays. You must avoid some obstacles: (3,1). From (1,1) to (4,0). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "62": {
+            "Question": "You are in a 7 by 7 two-dimensional arrays. You must avoid some obstacles: (1,3). From (0,2) to (6,6). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "63": {
+            "Question": "You are in a 7 by 7 two-dimensional arrays. You have to avoid some obstacles: (2,3), (4,1). From (1,0) to (6,5). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "64": {
+            "Question": "You are in a 7 by 7 two-dimensional arrays. You must avoid some obstacles: (1,2). From (0,1) to (5,6). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "65": {
+            "Question": "You are in a 7 by 7 two-dimensional arrays. You must avoid some obstacles: (3,3). From (1,3) to (5,6). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "66": {
+            "Question": "You are in a 7 by 7 two-dimensional arrays. You must avoid some obstacles: (0,3). From (0,0) to (3,3). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "67": {
+            "Question": "You are in a 7 by 7 two-dimensional arrays. You have to avoid some obstacles: (4,4), (2,2). From (1,1) to (6,4). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "68": {
+            "Question": "You are in a 7 by 7 two-dimensional arrays. You must avoid some obstacles: (1,3). From (0,2) to (5,0). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "69": {
+            "Question": "You are in a 7 by 7 two-dimensional arrays. You must avoid some obstacles: (2,1). From (0,1) to (6,6). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "70": {
+            "Question": "You are in a 7 by 7 two-dimensional arrays. You have to avoid some obstacles: (0,5), (6,0). From (1,0) to (6,6). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "71": {
+            "Question": "You are in a 7 by 7 two-dimensional arrays. You must avoid some obstacles: (6,6). From (0,0) to (5,5). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "72": {
+            "Question": "You are in a 7 by 7 two-dimensional arrays. You must avoid some obstacles: (1,4). From (1,1) to (6,0). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "73": {
+            "Question": "You are in a 7 by 7 two-dimensional arrays. You have to avoid some obstacles: (2,0), (3,6). From (0,1) to (5,3). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "74": {
+            "Question": "You are in a 7 by 7 two-dimensional arrays. You must avoid some obstacles: (4,3). From (0,0) to (6,2). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "75": {
+            "Question": "You are in a 7 by 7 two-dimensional arrays. You must avoid some obstacles: (3,1). From (0,1) to (6,5). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "76": {
+            "Question": "You are in a 7 by 7 two-dimensional arrays. You have to avoid some obstacles: (2,4), (1,5). From (1,0) to (6,4). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "77": {
+            "Question": "You are in a 7 by 7 two-dimensional arrays. You must avoid some obstacles: (6,2). From (3,3) to (0,5). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "78": {
+            "Question": "You are in a 7 by 7 two-dimensional arrays. You must avoid some obstacles: (0,3). From (2,2) to (6,6). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "79": {
+            "Question": "You are in a 7 by 7 two-dimensional arrays. You must avoid some obstacles: (4,0). From (3,3) to (6,6). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "80": {
+            "Question": "You are in a 7 by 7 two-dimensional arrays. You must avoid some obstacles: (3,2), (0,1). From (2,2) to (5,5). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "81": {
+            "Question": "You are in a 7 by 7 two-dimensional arrays. You must avoid some obstacles: (1,0). From (0,0) to (6,5). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "82": {
+            "Question": "You are in a 7 by 7 two-dimensional arrays. You must avoid some obstacles: (2,5). From (0,1) to (5,0). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "83": {
+            "Question": "You are in a 7 by 7 two-dimensional arrays. You must avoid some obstacles: (3,4). Go from (3,3) to (6,2). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "84": {
+            "Question": "You are in a 7 by 7 two-dimensional arrays. You have to avoid some obstacles: (4,2), (1,1). From (0,3) to (6,6). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "85": {
+            "Question": "You are in a 7 by 7 two-dimensional arrays. You must avoid some obstacles: (0,2). From (2,2) to (5,5). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "86": {
+            "Question": "You are in a 7 by 7 two-dimensional arrays. You must avoid some obstacles: (6,3), (2,1). From (0,1) to (6,0). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "87": {
+            "Question": "You are in a 7 by 7 two-dimensional arrays. You have to avoid some obstacles: (1,2), (3,3). From (2,0) to (6,6). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "88": {
+            "Question": "You are in a 7 by 7 two-dimensional arrays. You must avoid some obstacles: (4,5). From (3,3) to (0,0). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "89": {
+            "Question": "You are in a 7 by 7 two-dimensional arrays. You must avoid some obstacles: (0,4). From (2,2) to (6,6). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "90": {
+            "Question": "You are in a 7 by 7 two-dimensional arrays. You must avoid some obstacles: (2,0). From (1,1) to (5,6). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "91": {
+            "Question": "You are in a 7 by 7 two-dimensional arrays. You have to avoid some obstacles: (3,1), (5,5). From (1,1) to (6,0). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "92": {
+            "Question": "You are in a 4 by 4 two-dimensional arrays. You have to avoid some obstacles: (1,1). From (0,0) to (3,3). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "93": {
+            "Question": "You are in a 4 by 4 two-dimensional arrays. You have to avoid some obstacles: (2,3). From (0,0) to (3,2). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "94": {
+            "Question": "You are in a 4 by 4 two-dimensional arrays. You have to avoid some obstacles: (1,2). From (0,1) to (3,3). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "95": {
+            "Question": "You are in a 4 by 4 two-dimensional arrays. You have to avoid some obstacles: (3,3). From (0,0) to (2,2). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "96": {
+            "Question": "You are in a 4 by 4 two-dimensional arrays. You must avoid some obstacles: (0,3). Go from (0,0) to (3,0). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "97": {
+            "Question": "You are in a 4 by 4 two-dimensional arrays. You have to avoid some obstacles: (3,1). From (0,0) to (2,3). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "98": {
+            "Question": "You are in a 4 by 4 two-dimensional arrays. You have to avoid some obstacles: (2,0). From (1,1) to (3,3). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "99": {
+            "Question": "You are in a 4 by 4 two-dimensional arrays. You have to avoid some obstacles: (0,2). Go from (0,1) to (3,2). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "100": {
+            "Question": "You are in a 4 by 4 two-dimensional arrays. You have to avoid some obstacles: (1,0). From (0,0) to (3,3). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "101": {
+            "Question": "You are in a 4 by 4 two-dimensional arrays. You have to avoid some obstacles: (1,3). From (0,0) to (2,2). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "102": {
+            "Question": "You are in a 4 by 4 two-dimensional arrays. You have to avoid some obstacles: (3,2). From (1,1) to (0,3). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "103": {
+            "Question": "You are in a 4 by 4 two-dimensional arrays. You have to avoid some obstacles: (2,1). From (0,1) to (3,3). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "104": {
+            "Question": "You are in a 4 by 4 two-dimensional arrays. You have to avoid some obstacles: (0,1). From (0,0) to (3,2). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "105": {
+            "Question": "You are in a 4 by 4 two-dimensional arrays. You have to avoid some obstacles: (1,2). From (1,0) to (3,3). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "106": {
+            "Question": "You are in a 4 by 4 two-dimensional arrays. You have to avoid some obstacles: (2,2). From (1,1) to (3,0). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "107": {
+            "Question": "You are in a 4 by 4 two-dimensional arrays. You have to avoid some obstacles: (0,1). From (0,0) to (3,3). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "108": {
+            "Question": "You are in a 4 by 4 two-dimensional arrays. You must avoid some obstacles: (1,0). From (1,1) to (3,2). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "109": {
+            "Question": "You are in a 4 by 4 two-dimensional arrays. You must avoid some obstacles: (2,1). From (0,0) to (3,0). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "110": {
+            "Question": "You are in a 4 by 4 two-dimensional arrays. You have to avoid some obstacles: (3,2). From (0,0) to (2,3). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "111": {
+            "Question": "You are in a 4 by 4 two-dimensional arrays. You have to avoid some obstacles: (1,3). From (0,1) to (3,2). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "112": {
+            "Question": "You are in a 4 by 4 two-dimensional arrays. You have to avoid some obstacles: (3,1). Go from (1,1) to (2,3). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "113": {
+            "Question": "You are in a 4 by 4 two-dimensional arrays. You have to avoid some obstacles: (2,3). From (0,1) to (3,0). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "114": {
+            "Question": "You are in a 4 by 4 two-dimensional arrays. You have to avoid some obstacles: (1,2). From (1,1) to (3,3). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "115": {
+            "Question": "You are in a 4 by 4 two-dimensional arrays. You have to avoid some obstacles: (0,2). From (0,0) to (3,1). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "116": {
+            "Question": "You are in a 4 by 4 two-dimensional arrays. You have to avoid some obstacles: (3,3). From (0,0) to (3,2). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "117": {
+            "Question": "You are in a 4 by 4 two-dimensional arrays. You have to avoid some obstacles: (1,1). From (0,0) to (3,2). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "118": {
+            "Question": "You are in a 4 by 4 two-dimensional arrays. You have to avoid some obstacles: (2,2). From (0,1) to (3,3). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "119": {
+            "Question": "You are in a 4 by 4 two-dimensional arrays. You have to avoid some obstacles: (2,0). From (1,1) to (3,2). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "120": {
+            "Question": "You are in a 4 by 4 two-dimensional arrays. You must avoid some obstacles: (3,0). From (0,0) to (2,3). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        },
+        "121": {
+            "Question": "You are in a 4 by 4 two-dimensional arrays. You have to avoid some obstacles: (0,3). From (1,1) to (3,0). Just use \u00a1\u00b0up, down, left, right\u00a1\u00b1 to indicate your route.Your output is formatted as: path: ",
+            "Answer": ""
+        }
+    }
+}

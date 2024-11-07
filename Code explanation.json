@@ -1,0 +1,176 @@
+{
+    "short-answer_question": {
+        "1": {
+            "Question": "Explain in one sentence the purpose of this code: \ndef f(a):\n    X = {}    \n    b = 2    \n    while b <= a:\n        if b not in X:\n             yield b\n             X[b * b] = [b]\n        if b in X:\n            for y in X[b]:\n                X.setdefault(y + b, []).append(y)\n            del X[b]\n        b += 1",
+            "Answer": "Python generation of prime numbers "
+        },
+        "2": {
+            "Question": "Explain in one sentence the purpose of this code:\nimport arcpy\nfrom arcpy import env\nfrom pathlib import *\nfrom arcpy.sa import *\nscriptDir = Path.cwd()\ndbDir = scriptDir / 'Mydb.gdb'\nenv.workspace = str(dbDir)\nenv.overwriteOutput = True\nrName = \"myFile\"\n \nslo = Slope(rName)\nflaSlo = Con(slo,1,0,\"Value < 10\")\n \nflaSlo.save(\"Ras_flat\")",
+            "Answer": "Python ArcPy code example. It takes a raster image, creates a slope binary map with 10 as a threshold and then saves it."
+        },
+        "3": {
+            "Question": "Explain in one sentence the purpose of this code: \nclass A():\n    def __init__(self, b):\n        self.c = b\n        self.d = [[0 for f in range(b)] for e in range(b)]\n\n    def g(self, h):\n        print(\"i \\t j from k\")\n        for l in range(self.c):\n            print(l, \"\\t\\t\", h[l])\n\n    def m(self, h, n):\n        o = 1e7\n        for p in range(self.c):\n            if h[p] < o and n[p] == False:\n                o = h[p]\n                q = p\n        return q\n\n    def r(self, s):\n        h = [1e7] * self.c\n        h[s] = 0\n        n = [False] * self.c\n\n        for t in range(self.c):\n            u = self.m(h, n)\n            n[u] = True\n\n            for v in range(self.c):\n                if (self.d[u][v] > 0 and n[v] == False and h[v] > h[u] + self.d[u][v]):\n                    h[v] = h[u] + self.d[u][v]\n        self.g(h)",
+            "Answer": "Python Dijkstra's shortest path algorithm"
+        },
+        "4": {
+            "Question": "Explain in one sentence the purpose of this code:\nunknownfunc <- function(arr) {\n  ri <- sample(seq_along(arr), 1);\n  p <- arr[ri]\n  arr <- arr[-ri]\n  \n  l <- c()\n  r <- c()\n  \n  l<-arr[which(arr <= p)]\n  r<-arr[which(arr > p)]\n  \n  if (length(l) > 1)\n  {\n    l <- unknownfunc(l)\n  }\n  if (length(r) > 1)\n  {\n    r <- unknownfunc(r)\n  }\n  \n  return(c(l, p, r))\n}",
+            "Answer": "QuickSort in R"
+        },
+        "5": {
+            "Question": "Explain in one sentence the purpose of this code:\ndef f1(arg1, arg2):\n    k = (arg1[0][0] - arg1[1][0], arg2[0][0] - arg2[1][0])\n    m = (arg1[0][1] - arg1[1][1], arg2[0][1] - arg2[1][1])\n\n    def det(a, b):\n        return a[0] * b[1] - a[1] * b[0]\n\n    div = det(k, m)\n    if div == 0:\n       raise Exception('no solution')\n\n    d = (det(*arg1), det(*arg2))\n    x = det(d, k) / div\n    y = det(d, m) / div\n    return x, y\n\nres =  f1(((0.5, 0.5), (1.5, 0.5)), ((1, 0), (1, 2)))\nprint(res)",
+            "Answer": "Intersection of two lines in Python"
+        },
+        "6": {
+            "Question": "Explain in one sentence the purpose of the following code:\ndef intersect(line1, line2):\n    A = np.array([line1[:2], line2[:2]])\n    b = np.array([line1[2], line2[2]])\n    x = np.linalg.solve(A, b)\n    return x",
+            "Answer": "This Python code is used to calculate the intersection of two lines (given as equation coefficients)."
+        },
+        "7": {
+            "Question": "Explain in one sentence the purpose of the following code:import networkx as nx\ndef shortest_path(graph, start, end):\n    G = nx.Graph(graph)\n    path = nx.dijkstra_path(G, source=start, target=end)\n    return path",
+            "Answer": "The code utilizes the networkx library to compute the shortest path between two points in a graph using the Dijkstra algorithm."
+        },
+        "8": {
+            "Question": "Explain in one sentence the purpose of the following code:from sympy import symbols, Eq, solve\nx, y = symbols('x y')\nequation1 = Eq(2*x + 3*y, 15)\nequation2 = Eq(x - y, 5)\nresult = solve((equation1,equation2), (x, y))",
+            "Answer": "The code solves a system of two linear equations for the values of x and y using the sympy library."
+        },
+        "9": {
+            "Question": "Explain in one sentence the purpose of the following code:def check_prime(num):\n    if num < 2:\n        return False\n    for i in range(2, int(num**0.5) + 1):\n        if num % i == 0:\n            return False\n    return True",
+            "Answer": "The purpose of this code is to check whether an integer is prime or not."
+        },
+        "10": {
+            "Question": "Explain in one sentence the purpose of the following code:x = np.linspace(0, 10, 100)\ny = np.sin(x)\n\nplt.plot(x, y)\nplt.show()",
+            "Answer": "The code uses matplotlib and numpy libraries to generate a graph of x-values and their sines from 0 to 10 and displays the graph."
+        },
+        "11": {
+            "Question": "Explain in one sentence the purpose of the following code:def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)",
+            "Answer": "This code calculates the factorial of a number through a recursive function."
+        },
+        "12": {
+            "Question": "Explain in one sentence the purpose of the following code:data = np.random.normal(0, 1, 1000)\ncount, bins, ignored = plt.hist(data, 30, density=True, alpha=0.5, color='g')\nmean = 0\nstd_dev = 1\npdf = 1/(std_dev * np.sqrt(2 * np.pi)) * np.exp( - (bins - mean)**2 / (2 * std_dev**2))\nplt.plot(bins, pdf, linewidth=2, color='r')\nplt.show()",
+            "Answer": "This Python code generates 1000 random data that fit a standard normal distribution and plots histograms of these data as well as theoretical normal distribution curves."
+        },
+        "13": {
+            "Question": "Explain in one sentence the purpose of the following code:points = np.random.rand(10, 2)  # Generate 10 random points\nvor = Voronoi(points)\nfig, ax = plt.subplots()\nvoronoi_plot_2d(vor, ax=ax, show_vertices=False, line_colors='orange', line_width=2, line_alpha=0.6, point_size=2)\nplt.show()",
+            "Answer": "This code creates a Voronoi diagram using 10 randomly generated points and displays the diagram in a specific visual style."
+        },
+        "14": {
+            "Question": "Explain in one sentence the purpose of the following code:def matrix_multiplication(A, B):\n    return np.dot(A, B)\n\nA = np.array([[1, 2], [3, 4]])\nB = np.array([[2, 0], [1, 2]])\n\nresult = matrix_multiplication(A, B)\nprint(result)",
+            "Answer": "The code defines a function to perform the multiplication of two matrices and tests the function with sample matrices."
+        },
+        "15": {
+            "Question": "Explain in one sentence the purpose of the following code:generate_series <- function(x, n) {\n  return(x^n - 1)\n}\ns <- seq(1, 10)\nresult <- sapply(s, generate_series, n=2)\nprint(result)",
+            "Answer": "This R code defines a function that computes the nth power of x minus 1 and applies this function to each element of the sequence 1 through 10."
+        },
+        "16": {
+            "Question": "Explain in one sentence the purpose of the following code:data = pd.read_csv('data.csv')\nfiltered_data = data[(data['Age'] > 20) & (data['Age'] < 50) & (data['Income'] > 50000)]\nfiltered_data.to_csv('filtered_data.csv')",
+            "Answer": "This code reads a CSV file into a DataFrame, filters for records that are between 20 and 50 years old and have an income of more than 50,000, and saves these records to a new CSV file."
+        },
+        "17": {
+            "Question": "Explain in one sentence the purpose of the following code:X = np.array([[1, 2], [5, 8], [1.5, 1.8], [8, 8], [1, 0.6], [9, 11]])\nkmeans = KMeans(n_clusters=2)\nkmeans.fit(X)\ncentroids = kmeans.cluster_centers_\nlabels = kmeans.labels_\n\nprint(centroids)\nprint(labels)",
+            "Answer": "This code uses the KMeans clustering algorithm to divide the provided data points into two clusters and prints the centroid of each cluster and the cluster label of the data point."
+        },
+        "18": {
+            "Question": "Explain in one sentence the purpose of the following code:plot_data <- function(x, y, title) {\n  plot(x, y, main = title, xlab = \"X Axis\", ylab = \"Y Axis\", pch = 19, col = \"blue\")\n  abline(lm(y ~ x), col = \"red\")\n}\n\nx <- 1:10\ny <- x^2\nplot_data(x, y, \"Quadratic Plot\")",
+            "Answer": "This R code defines a function that plots a scatterplot of x and y and adds a fitted line to show the relationship between x and y."
+        },
+        "19": {
+            "Question": "Explain in one sentence the purpose of the following code:def fetch_data(api_url):\n    response = requests.get(api_url)\n    if response.status_code == 200:\n        return response.json()\n    else:\n        return None\n\ndata = fetch_data('https://api.example.com/data')\nif data:\n    print(\"Data fetched successfully.\")\nelse:\n    print(\"Failed to fetch data.\")",
+            "Answer": "This code fetches data from the specified API URL and returns JSON parsed data if successful, otherwise returns None and prints the corresponding success or failure message."
+        },
+        "20": {
+            "Question": "Explain in one sentence the purpose of the following code:def read_csv(file_path):\nwith open(file_path, mode='r', newline='') as file:\nreader = csv.reader(file)\nfor row in reader:\nprint(row)\nread_csv('example.csv')",
+            "Answer": "The code defines a function to read a CSV file and print the contents of each line for data viewing or processing."
+        },
+        "21": {
+            "Question": "Explain in one sentence the purpose of the following code:def read_csv(file_path):\n    from functools import lru_cache\n@lru_cache(maxsize=100)\ndef fibonacci(n):\nif n < 2:\nreturn n\nreturn fibonacci(n-1) + fibonacci(n-2)\nprint(fibonacci(30))",
+            "Answer": "The code computes the nth term of the Fibonacci series using recursion and optimizes repeated computations using LRU caching."
+        },
+        "22": {
+            "Question": "Explain in one sentence the purpose of the following code:\ndef rotate_image(file_path, degrees):\n    img = Image.open(file_path)\n    rotated = img.rotate(degrees)\n    rotated.save(\"rotated_image.jpg\")\n\nrotate_image(\"photo.jpg\", 90)",
+            "Answer": "The code loads an image file, rotates it by a specified number of degrees, and then saves the rotated image."
+        },
+        "23": {
+            "Question": "Explain in one sentence the purpose of the following code:x = np.arange(0, 10, 0.1)\ny1 = np.exp(x)\ny2 = np.log(x + 1)\n\nfig, ax1 = plt.subplots()\n\ncolor = 'tab:red'\nax1.set_xlabel('x')\nax1.set_ylabel('exp', color=color)\nax1.plot(x, y1, color=color)\nax1.tick_params(axis='y', labelcolor=color)\n\nax2 = ax1.twinx()\ncolor = 'tab:blue'\nax2.set_ylabel('log', color=color)\nax2.plot(x, y2, color=color)\nax2.tick_params(axis='y', labelcolor=color)\n\nfig.tight_layout()\nplt.show()",
+            "Answer": "This code uses matplotlib to plot an image of two functions (exponential and logarithmic) in the same coordinate system, distinguishing the two curves with different colors."
+        },
+        "24": {
+            "Question": "Explain in one sentence the purpose of the following code:library(ggplot2)\ndata(mpg)\nggplot(mpg, aes(displ, hwy, color=class)) + geom_point()",
+            "Answer": "This R code uses the ggplot2 library to plot vehicle displacement (displ) versus highway fuel efficiency (hwy) in the mpg dataset and colors the points according to vehicle type (class)."
+        },
+        "25": {
+            "Question": "Explain in one sentence the purpose of the following code:data = np.random.normal(size=1000)\nplt.hist(data, bins=30)\nplt.title('Normal Distribution')\nplt.show()",
+            "Answer": "This code generates 1,000 data points of random numbers that conform to a normal distribution and plots their histograms to show the distribution of the data."
+        },
+        "26": {
+            "Question": "Explain the purpose of this code (in one sentence): from datetime import datetime, timedelta\ndef add_days_to_date(date_str, days): return\n    return (datetime.strptime(date_str, '%Y-%m-%d') + timedelta(days=days)).strftime('%Y-%m-%d')\n\n",
+            "Answer": "The purpose of this code is to add the specified number of days to a given date and return the new date string."
+        },
+        "27": {
+            "Question": "Explain the purpose of this code (in one sentence): import numpy as np\ndef haversine_distance(lat1, lon1, lat2, lon2).\n    R = 6371 # Earth radius in kilometers\n    phi1, phi2 = np.radians(lat1), np.radians(lat2)\n    delta_phi = np.radians(lat2 - lat1)\n    delta_lambda = np.radians(lon2 - lon1)\n    a = np.sin(delta_phi/2)**2 + np.cos(phi1) * np.cos(phi2) * np.sin(delta_lambda/2)**2\n    c = 2 * np.arctan2(np.sqrt(a), np.sqrt(1-a))\n    return R * c",
+            "Answer": "The purpose of this code is to calculate the Haversine distance between two geographic coordinate points, with the result in kilometers."
+        },
+        "28": {
+            "Question": "Explain the purpose of this code (in one sentence): import pyproj\ndef convert_coordinates(x, y, from_crs, to_crs):\n    transformer = pyproj.Transformer.from_crs(from_crs, to_crs, always_xy=True)\n    return transformer.transform(x, y)\n\n",
+            "Answer": "The purpose of this code is to convert geographic coordinates from one coordinate reference system to another."
+        },
+        "29": {
+            "Question": "Explain the purpose of this code (in one sentence): from osgeo import gdal\ndef read_multispectral_image(filepath):\n    return gdal.Open(filepath).ReadAsArray()\n\n",
+            "Answer": "The purpose of this code is to read a multispectral image file and return it as an array."
+        },
+        "30": {
+            "Question": "Explain the purpose of this code (in one sentence): import pandas as pd\nimport statsmodels.api as sm\ndef perform_spatial_regression(X, y):\n    X = sm.add_constant(X)\n    model = sm.OLS(y, X)\n    results = model.fit()\n    return results.summary()\n\n",
+            "Answer": "The purpose of this code is to perform a spatial regression analysis and return a summary of the results of the regression model."
+        },
+        "31": {
+            "Question": "Explain the purpose of this code (in one sentence): from pyproj import Proj, transform\ndef transform_coordinates(x, y).\n    in_proj = Proj(init='epsg:4326')\n    out_proj = Proj(init='epsg:3857')\n    x2, y2 = transform(in_proj, out_proj, x, y)\n    return x2, y2\n\n",
+            "Answer": "The purpose of this code is to convert geographic coordinates from the WGS 84 coordinate system (EPSG:4326) to the Web Mercator projection (EPSG:3857)."
+        },
+        "32": {
+            "Question": "Explain the purpose of this code (in one sentence): import math\ndef calculate_bearing(lat1, lon1, lat2, lon2):\n    startLat = math.radians(lat1)\n    startLong = math.radians(lon1)\n    endLat = math.radians(lat2)\n    endLong = math.radians(lon2)\n    dLong = endLong - startLong\n    dPhi = math.log(math.tan(endLat/2.0 + math.pi/4.0) / math.tan(startLat/2.0 + math.pi/4.0))\n    if abs(dLong) > math.pi.\n        if dLong > 0.0.\n            dLong = -(2.0 * math.pi - dLong)\n        else: dLong = (2.0 * math.pi - dLong)\n            dLong = (2.0 * math.pi + dLong)\n    bearing = (math.degrees(math.atan2(dLong, dPhi)) + 360.0) % 360.0\n    return bearing\n\n",
+            "Answer": "The purpose of this code is to calculate the azimuth from one geographic coordinate point to another, with the result in degrees."
+        },
+        "33": {
+            "Question": "Explain the purpose of this code (in one sentence): import datetime\ndef convert_utc_to_local(utc_datetime, local_timezone):\n    local_datetime = utc_datetime.replace(tzinfo=datetime.timezone.utc).astimezone(local_timezone)\n    return local_datetime\n\n",
+            "Answer": "The purpose of this code is to convert UTC time to local time in the specified time zone."
+        },
+        "34": {
+            "Question": "Explain the purpose of this code (in one sentence): import numpy as np\ndef calculate_distance_matrix(locations).\n    return np.linalg.norm(locations[:, np.newaxis, :] - locations[np.newaxis, :, :], axis=-1)\n\n",
+            "Answer": "The purpose of this code is to compute the Euclidean distance matrix between all points in an array of locations."
+        },
+        "35": {
+            "Question": "Explain the purpose of this code (in one sentence): from scipy.spatial import Voronoi, voronoi_plot_2d\nimport matplotlib.pyplot as plt\ndef plot_voronoi(points).\n    vor = Voronoi(points)\n    voronoi_plot_2d(vor)\n    plt.show()\n\n",
+            "Answer": "The purpose of this code is to generate and plot a Voronoi diagram based on a given set of points."
+        },
+        "36": {
+            "Question": "Explain the purpose of this code (in one sentence): import geopandas as gpd\ndef load_shapefile(filepath):\n    return gpd.read_file(filepath)\n\n",
+            "Answer": "The purpose of this code is to load and return geographic data in Shapefile format located at a given file path."
+        },
+        "37": {
+            "Question": "Explain the purpose of this code (in one sentence): from skimage.io import imread\ndef load_satellite_image(filepath):\n    return imread(filepath)\n",
+            "Answer": "The purpose of this code is to read a satellite image file located at a given file path."
+        },
+        "38": {
+            "Question": "Explain the purpose of this code (in one sentence): from pyproj import Geod\ndef calculate_area_of_polygon(latitudes, longitudes):\n    geod = Geod(ellps='WGS84')\n    area, _ = geod.polygon_area_perimeter(longitudes, latitudes)\n    return abs(area)",
+            "Answer": "The purpose of this code is to calculate the area of a polygon defined by a series of latitude and longitude coordinates, with the result in square meters."
+        },
+        "39": {
+            "Question": "Explain the purpose of this code (in one sentence): from dateutil.parser import parse\ndef parse_date_string(date_string):\n    return parse(date_string)",
+            "Answer": "The purpose of this code is to parse a date string and convert it into a datetime object."
+        },
+        "40": {
+            "Question": "Explain the purpose of this code (in one sentence): import geopy.distance\ndef calculate_geodesic_distance(start_coords, end_coords):\n    return geopy.distance.geodesic(start_coords, end_coords).kilometers\n",
+            "Answer": "The purpose of this code is to calculate the geodesic distance between two georeferenced points, with the result in kilometers."
+        },
+        "41": {
+            "Question": "Explain the purpose of this code (in one sentence): from shapely.geometry import LineString\ndef calculate_line_length(coordinates).\n    line = LineString(coordinates)\n    return line.length\n\n",
+            "Answer": "The purpose of this code is to calculate the length of a line segment defined by a series of coordinate points."
+        },
+        "42": {
+            "Question": "Explain the purpose of this code (within one sentence): import matplotlib.pyplot as plt\nimport numpy as np\ndef plot_heatmap(data, title).\n    plt.imshow(data, cmap='hot', interpolation='nearest')\n    plt.title(title)\n    plt.colorbar()\n    plt.show()\n\n",
+            "Answer": "The purpose of this code is to draw a heat map of the data, showing the heat distribution of the data with color bars."
+        },
+        "43": {
+            "Question": "Explain the purpose of this code (in one sentence): import pandas as pd\ndef convert_timestamps_to_dates(series).\n    return pd.to_datetime(series, unit='s')\n\n",
+            "Answer": "The purpose of this code is to convert a timestamp series to a datetime object, where the timestamp is in seconds."
+        }
+    }
+}
